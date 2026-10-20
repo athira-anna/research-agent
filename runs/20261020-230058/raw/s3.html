@@ -1,0 +1,1332 @@
+<!DOCTYPE html><html lang="en-US" prefix="og: https://ogp.me/ns#"><head><style data-hubspot-styled-components=""></style><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="2.0.5",this.userEvents=["keydown","keyup","mousedown","mouseup","mousemove","mouseover","mouseout","touchmove","touchstart","touchend","touchcancel","wheel","click","dblclick","input"],this.attributeEvents=["onblur","onclick","oncontextmenu","ondblclick","onfocus","onmousedown","onmouseenter","onmouseleave","onmousemove","onmouseout","onmouseover","onmouseup","onmousewheel","onscroll","onsubmit"]}async t(){this.i(),this.o(),/iP(ad|hone)/.test(navigator.userAgent)&&this.h(),this.u(),this.l(this),this.m(),this.k(this),this.p(this),this._(),await Promise.all([this.R(),this.L()]),this.lastBreath=Date.now(),this.S(this),this.P(),this.D(),this.O(),this.M(),await this.C(this.delayedScripts.normal),await this.C(this.delayedScripts.defer),await this.C(this.delayedScripts.async),await this.T(),await this.F(),await this.j(),await this.A(),window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.lastTouchEnd&&await new Promise(t=>setTimeout(t,500-Date.now()+this.lastTouchEnd)),this.I(),this.H(),this.U(),this.W()}i(){this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))},{isRocket:!0})}o(){window.addEventListener("pageshow",t=>{this.persisted=t.persisted,this.realWindowLoadedFired=!0},{isRocket:!0}),window.addEventListener("pagehide",()=>{this.onFirstUserAction=null},{isRocket:!0})}h(){let t;function e(e){t=e}window.addEventListener("touchstart",e,{isRocket:!0}),window.addEventListener("touchend",function i(o){o.changedTouches[0]&&t.changedTouches[0]&&Math.abs(o.changedTouches[0].pageX-t.changedTouches[0].pageX)<10&&Math.abs(o.changedTouches[0].pageY-t.changedTouches[0].pageY)<10&&o.timeStamp-t.timeStamp<200&&(window.removeEventListener("touchstart",e,{isRocket:!0}),window.removeEventListener("touchend",i,{isRocket:!0}),"INPUT"===o.target.tagName&&"text"===o.target.type||(o.target.dispatchEvent(new TouchEvent("touchend",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new MouseEvent("mouseover",{target:o.target,bubbles:!0})),o.target.dispatchEvent(new PointerEvent("click",{target:o.target,bubbles:!0,cancelable:!0,detail:1,clientX:o.changedTouches[0].clientX,clientY:o.changedTouches[0].clientY})),event.preventDefault()))},{isRocket:!0})}q(t){this.userActionTriggered||("mousemove"!==t.type||this.firstMousemoveIgnored?"keyup"===t.type||"mouseover"===t.type||"mouseout"===t.type||(this.userActionTriggered=!0,this.onFirstUserAction&&this.onFirstUserAction()):this.firstMousemoveIgnored=!0),"click"===t.type&&t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),"touchstart"===this.lastEvent&&"touchend"===t.type&&(this.lastTouchEnd=Date.now()),"click"===t.type&&(this.lastTouchEnd=0),this.lastEvent=t.type,t.composedPath&&t.composedPath()[0].getRootNode()instanceof ShadowRoot&&(t.rocketTarget=t.composedPath()[0]),this.savedUserEvents.push(t)}u(){this.savedUserEvents=[],this.userEventHandler=this.q.bind(this),this.userEvents.forEach(t=>window.addEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.addEventListener("visibilitychange",this.userEventHandler,{isRocket:!0})}U(){this.userEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!1,isRocket:!0})),document.removeEventListener("visibilitychange",this.userEventHandler,{isRocket:!0}),this.savedUserEvents.forEach(t=>{(t.rocketTarget||t.target).dispatchEvent(new window[t.constructor.name](t.type,t))})}m(){const t="return false",e=Array.from(this.attributeEvents,t=>"data-rocket-"+t),i="["+this.attributeEvents.join("],[")+"]",o="[data-rocket-"+this.attributeEvents.join("],[data-rocket-")+"]",s=(e,i,o)=>{o&&o!==t&&(e.setAttribute("data-rocket-"+i,o),e["rocket"+i]=new Function("event",o),e.setAttribute(i,t))};new MutationObserver(t=>{for(const n of t)"attributes"===n.type&&(n.attributeName.startsWith("data-rocket-")||this.everythingLoaded?n.attributeName.startsWith("data-rocket-")&&this.everythingLoaded&&this.N(n.target,n.attributeName.substring(12)):s(n.target,n.attributeName,n.target.getAttribute(n.attributeName))),"childList"===n.type&&n.addedNodes.forEach(t=>{if(t.nodeType===Node.ELEMENT_NODE)if(this.everythingLoaded)for(const i of[t,...t.querySelectorAll(o)])for(const t of i.getAttributeNames())e.includes(t)&&this.N(i,t.substring(12));else for(const e of[t,...t.querySelectorAll(i)])for(const t of e.getAttributeNames())this.attributeEvents.includes(t)&&s(e,t,e.getAttribute(t))})}).observe(document,{subtree:!0,childList:!0,attributeFilter:[...this.attributeEvents,...e]})}I(){this.attributeEvents.forEach(t=>{document.querySelectorAll("[data-rocket-"+t+"]").forEach(e=>{this.N(e,t)})})}N(t,e){const i=t.getAttribute("data-rocket-"+e);i&&(t.setAttribute(e,i),t.removeAttribute("data-rocket-"+e))}k(t){Object.defineProperty(HTMLElement.prototype,"onclick",{get(){return this.rocketonclick||null},set(e){this.rocketonclick=e,this.setAttribute(t.everythingLoaded?"onclick":"data-rocket-onclick","this.rocketonclick(event)")}})}S(t){function e(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o,set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}e(document,"onreadystatechange"),e(window,"onload"),e(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}l(t){this.originalAddEventListener=EventTarget.prototype.addEventListener,this.originalRemoveEventListener=EventTarget.prototype.removeEventListener,this.savedEventListeners=[],EventTarget.prototype.addEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalAddEventListener.call(this,e,i,o):(t.savedEventListeners.push({target:this,remove:!1,type:e,func:i,options:o}),"mouseenter"!==e&&"mouseleave"!==e||t.originalAddEventListener.call(this,e,t.savedUserEvents.push,o))},EventTarget.prototype.removeEventListener=function(e,i,o){o&&o.isRocket||!t.B(e,this)&&!t.userEvents.includes(e)||t.B(e,this)&&!t.userActionTriggered||e.startsWith("rocket-")||t.everythingLoaded?t.originalRemoveEventListener.call(this,e,i,o):t.savedEventListeners.push({target:this,remove:!0,type:e,func:i,options:o})}}J(t,e){this.savedEventListeners=this.savedEventListeners.filter(i=>{let o=i.type,s=i.target||window;return e!==o||t!==s||(this.B(o,s)&&(i.type="rocket-"+o),this.$(i),!1)})}H(){EventTarget.prototype.addEventListener=this.originalAddEventListener,EventTarget.prototype.removeEventListener=this.originalRemoveEventListener,this.savedEventListeners.forEach(t=>this.$(t))}$(t){t.remove?this.originalRemoveEventListener.call(t.target,t.type,t.func,t.options):this.originalAddEventListener.call(t.target,t.type,t.func,t.options)}p(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map(t=>"load"===t||t.startsWith("load.")?"rocket-jquery-load":t).join(" ")}function o(o){function s(e){const s=o.fn[e];o.fn[e]=o.fn.init.prototype[e]=function(){return this[0]===window&&t.userActionTriggered&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e})),s.apply(this,arguments),this}}if(o&&o.fn&&!t.allJQueries.includes(o)){const e={DOMContentLoaded:[],"rocket-DOMContentLoaded":[]};for(const t in e)document.addEventListener(t,()=>{e[t].forEach(t=>t())},{isRocket:!0});o.fn.ready=o.fn.init.prototype.ready=function(i){function s(){parseInt(o.fn.jquery)>2?setTimeout(()=>i.bind(document)(o)):i.bind(document)(o)}return"function"==typeof i&&(t.realDomReadyFired?!t.userActionTriggered||t.fauxDomReadyFired?s():e["rocket-DOMContentLoaded"].push(s):e.DOMContentLoaded.push(s)),this},s("on"),s("one"),s("off"),t.allJQueries.push(o)}e=o}t.allJQueries=[],o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}P(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript,o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async R(){return new Promise(t=>{this.userActionTriggered?t():this.onFirstUserAction=t})}async L(){return new Promise(t=>{document.addEventListener("DOMContentLoaded",()=>{this.realDomReadyFired=!0,t()},{isRocket:!0})})}async j(){return this.realWindowLoadedFired?Promise.resolve():new Promise(t=>{window.addEventListener("load",t,{isRocket:!0})})}M(){this.pendingScripts=[];this.scriptsMutationObserver=new MutationObserver(t=>{for(const e of t)e.addedNodes.forEach(t=>{"SCRIPT"!==t.tagName||!t.src||t.noModule||t.isWPRocket||this.pendingScripts.push({script:t,promise:new Promise(e=>{const i=()=>{const i=this.pendingScripts.findIndex(e=>e.script===t);i>=0&&this.pendingScripts.splice(i,1),e()};t.addEventListener("load",i,{isRocket:!0}),t.addEventListener("error",i,{isRocket:!0}),setTimeout(i,1e3)})})})}),this.scriptsMutationObserver.observe(document,{childList:!0,subtree:!0})}async F(){await this.X(),this.pendingScripts.length?(await this.pendingScripts[0].promise,await this.F()):this.scriptsMutationObserver.disconnect()}D(){this.delayedScripts={normal:[],async:[],defer:[]},document.querySelectorAll("script[type$=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _(){await this.L();let t=[];document.querySelectorAll("script[type$=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){i.startsWith("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this.Y(t,"preconnect")}async G(t){if(await this.K(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise(e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.includes("Firefox/")||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))}),t.text&&(i.text=t.text),t.nonce&&(i.nonce=t.nonce),i.hasAttribute("src")?(i.addEventListener("load",o,{isRocket:!0}),i.addEventListener("error",()=>{i.setAttribute("data-rocket-status","failed-network"),e()},{isRocket:!0}),setTimeout(()=>{i.isConnected||e()},1)):(i.text=t.text,o()),i.isWPRocket=!0,t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o,{isRocket:!0}),t.addEventListener("error",i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: CSP fallback activated"),t.removeAttribute("src"),this.G(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())},{isRocket:!0}),s?(t.fetchPriority="high",t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}});t.setAttribute("data-rocket-status","skipped")}async C(t){const e=t.shift();return e?(e.isConnected&&await this.G(e),this.C(t)):Promise.resolve()}O(){this.Y([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}Y(t,e){this.trash=this.trash||[];let i=!0;var o=document.createDocumentFragment();t.forEach(t=>{const s=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(s&&!s.startsWith("data:")){const n=document.createElement("link");n.href=s,n.rel=e,"preconnect"!==e&&(n.as="script",n.fetchPriority=i?"high":"low"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),t.nonce&&(n.nonce=t.nonce),o.appendChild(n),this.trash.push(n),i=!1}}),document.head.appendChild(o)}W(){this.trash.forEach(t=>t.remove())}async T(){try{document.readyState="interactive"}catch(t){}this.fauxDomReadyFired=!0;try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(document,"DOMContentLoaded"),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.K(),this.J(window,"DOMContentLoaded"),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}catch(t){console.error(t)}}async A(){try{document.readyState="complete"}catch(t){}try{await this.K(),this.J(document,"readystatechange"),document.dispatchEvent(new Event("rocket-readystatechange")),await this.K(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.K(),this.J(window,"load"),window.dispatchEvent(new Event("rocket-load")),await this.K(),window.rocketonload&&window.rocketonload(),await this.K(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this.K(),this.J(window,"pageshow");const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.K(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}catch(t){console.error(t)}}async K(){Date.now()-this.lastBreath>45&&(await this.X(),this.lastBreath=Date.now())}async X(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}B(t,e=window){return e===document&&"readystatechange"===t||(e===document&&"DOMContentLoaded"===t||(e===window&&"DOMContentLoaded"===t||(e===window&&"load"===t||e===window&&"pageshow"===t)))}static run(){(new RocketLazyLoadScripts).t()}}RocketLazyLoadScripts.run()})();
+</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://gloat.com/xmlrpc.php">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+
+    <script id="cookie-law-info-gcm-var-js">
+var _ckyGcm = {"status":true,"default_settings":[{"analytics":"granted","advertisement":"denied","functional":"denied","necessary":"granted","ad_user_data":"denied","ad_personalization":"denied","regions":"All"}],"wait_for_update":2000,"url_passthrough":false,"ads_data_redaction":false}</script>
+<script id="cookie-law-info-gcm-js" type="text/javascript" src="https://gloat.com/wp-content/plugins/cookie-law-info/lite/frontend/js/gcm.min.js"></script> <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/e36ed3e9d32a048188eb47c4/script.js"></script><script src="https://cdn-cookieyes.com/client_data/e36ed3e9d32a048188eb47c4/banner.js" async="" id="cookieyes-banner"></script><!-- Google tag (gtag.js) consent mode dataLayer added by Site Kit -->
+<script type="text/rocketlazyloadscript" id="google_gtagjs-js-consent-mode-data-layer">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500});
+window._googlesitekitConsentCategoryMap = {"statistics":["analytics_storage"],"marketing":["ad_storage","ad_user_data","ad_personalization"],"functional":["functionality_storage","security_storage"],"preferences":["personalization_storage"]};
+window._googlesitekitConsents = {"ad_personalization":"denied","ad_storage":"denied","ad_user_data":"denied","analytics_storage":"denied","functionality_storage":"denied","security_storage":"denied","personalization_storage":"denied","region":["AT","BE","BG","CH","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR","HR","HU","IE","IS","IT","LI","LT","LU","LV","MT","NL","NO","PL","PT","RO","SE","SI","SK"],"wait_for_update":500};
+</script>
+<!-- End Google tag (gtag.js) consent mode dataLayer added by Site Kit -->
+
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>AI Labor Market Impact (Updated for Q3 2026) | Gloat</title><link rel="preload" data-smush-preload="" as="image" href="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2020/08/chess.jpg?lossy=1&amp;strip=1&amp;webp=1" fetchpriority="high">
+<link data-rocket-prefetch="" href="https://cdn-cookieyes.com" rel="dns-prefetch">
+<link data-rocket-prefetch="" href="https://b4525229.assetcdn.net" rel="dns-prefetch">
+<link data-rocket-prefetch="" href="https://fonts.googleapis.com" rel="dns-prefetch">
+<link data-rocket-prefetch="" href="https://fast.wistia.com" rel="dns-prefetch">
+<link data-rocket-prefetch="" href="https://browser.sentry-cdn.com" rel="dns-prefetch">
+<link data-rocket-prefetch="" href="" rel="dns-prefetch">
+<link data-rocket-prefetch="" href="https://js.hsforms.net" rel="dns-prefetch">
+<link data-rocket-preload="" as="style" href="https://fonts.googleapis.com/css2?family=Prata&amp;family=Roboto+Mono:wght@300;400;500;700&amp;family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap" rel="preload">
+<link data-rocket-preload="" as="style" href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSource%20Sans%20Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" rel="preload">
+<link href="https://fonts.googleapis.com/css2?family=Prata&amp;family=Roboto+Mono:wght@300;400;500;700&amp;family=Source+Sans+Pro:wght@400;600;700;900&amp;display=swap" media="all" onload="this.media='all'" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSource%20Sans%20Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" media="all" onload="this.media='all'" rel="stylesheet">
+<style id="wpr-usedcss">@font-face{font-family:Prata;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/prata/v22/6xKhdSpbNNCT-sWPCm4.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/robotomono/v31/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/robotomono/v31/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/robotomono/v31/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/robotomono/v31/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}.lazyload,.lazyloading{max-width:100%}img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:0 0!important;padding:0!important}:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:initial}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}:root{--wp--preset--aspect-ratio--square:1;--wp--preset--aspect-ratio--4-3:4/3;--wp--preset--aspect-ratio--3-4:3/4;--wp--preset--aspect-ratio--3-2:3/2;--wp--preset--aspect-ratio--2-3:2/3;--wp--preset--aspect-ratio--16-9:16/9;--wp--preset--aspect-ratio--9-16:9/16;--wp--preset--color--black:#000000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#ffffff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgb(6, 147, 227) 0%,rgb(155, 81, 224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122, 220, 180) 0%,rgb(0, 208, 130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgb(252, 185, 0) 0%,rgb(255, 105, 0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgb(255, 105, 0) 0%,rgb(207, 46, 46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238, 238, 238) 0%,rgb(169, 184, 195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74, 234, 220) 0%,rgb(151, 120, 209) 20%,rgb(207, 42, 186) 40%,rgb(238, 44, 130) 60%,rgb(251, 105, 98) 80%,rgb(254, 248, 76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255, 206, 236) 0%,rgb(152, 150, 240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254, 205, 165) 0%,rgb(254, 45, 45) 50%,rgb(107, 0, 62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255, 203, 112) 0%,rgb(199, 81, 192) 50%,rgb(65, 88, 208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255, 245, 203) 0%,rgb(182, 227, 212) 50%,rgb(51, 167, 181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202, 248, 128) 0%,rgb(113, 206, 126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2, 3, 129) 0%,rgb(40, 116, 252) 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, .2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, .4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, .2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgb(255, 255, 255),6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp:6px 6px 0px rgb(0, 0, 0)}:where(body){margin:0}:where(.is-layout-flex){gap:.5em}:where(.is-layout-grid){gap:.5em}body{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}:root :where(.wp-element-button,.wp-block-button__link){background-color:#32373c;border-width:0;color:#fff;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;padding-top:calc(.667em + 2px);padding-right:calc(1.333em + 2px);padding-bottom:calc(.667em + 2px);padding-left:calc(1.333em + 2px);text-decoration:none;text-transform:inherit}.page:has(.uc-grid){overflow:visible!important}.hs-button.primary.large{background:#ff4800!important}.modal-close{color:#aaa;line-height:50px;font-size:80%;position:absolute;right:0;text-align:center;top:0;width:70px;text-decoration:none}.modal-close:hover{color:#000}.modal-close{z-index:99;color:#ccc}.hs-button.primary.large{background:#d52939;border-radius:1px}.hs-button.primary.large:hover{background:#22333b}input[type=email],input[type=number],input[type=password],input[type=reset],input[type=search],input[type=tel],input[type=text],input[type=url],select,textarea{color:#666;padding:.75em;width:100%;height:auto;outline:0;border-width:1px;border-style:solid;border-color:#eaeaea;-webkit-border-radius:2px;border-radius:2px;background:#fafafa;-webkit-box-shadow:none;box-shadow:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-transition:.3s linear;transition:all .3s linear}.hs-input{width:100%}.form-columns-1{margin-bottom:20px}#popup-container{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.5);z-index:999999}#popup-content{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background-color:#fff;padding:20px;width:100%;height:500px;max-width:842px}#close-popup{position:absolute;top:-15px;right:-20px;color:#000}.nav>ul>li::before{height:calc(100vh - 4.8vw)!important;top:4.8vw}:root{--bg:#121225;--bg-mid:#414165;--text:#F1DFDB;--text-dark:#121225;--accent:#FF4848;--accent-warm:#FF4800;--accent-yellow:#D9FF00;--bg-light:#F1DFDB;--bg-card:#E5D3CF;--font-display:'Prata',Georgia,serif;--font-mono:'Roboto Mono','Courier New',monospace;--container-w:1280px;--side-pad:80px;--header-h:150px;--header-h-mob:70px;--t-fast:150ms ease;--t-base:250ms ease;--t-slow:400ms ease}*,::after,::before{box-sizing:border-box;margin:0;padding:0}html{font-size:16px;scroll-behavior:smooth;-webkit-text-size-adjust:100%}body{font-family:var(--font-mono);font-size:16px;line-height:1.6;color:var(--text);background:var(--bg);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}img,svg,video{display:block;max-width:100%}a{color:inherit;text-decoration:none}ol,ul{list-style:none}button{font-family:inherit;cursor:pointer;border:none;background:0 0}h1,h2,h3,h4,h5,h6{font-family:var(--font-display);font-weight:400;line-height:1.15;letter-spacing:0;color:var(--text)}.container{width:100%;max-width:var(--container-w);margin-inline:auto;padding-inline:var(--side-pad)}.btn-demo{display:inline-flex;align-items:center;gap:15px;padding:12px 30px;background:var(--accent);color:#fff;font-family:var(--font-mono);font-size:15px;font-weight:500;line-height:18px;letter-spacing:.45px;border-radius:2px;border:1px solid var(--accent);transition:opacity var(--t-fast),transform var(--t-fast);cursor:pointer;white-space:nowrap}.btn-demo:hover{opacity:.88;transform:translateY(-1px)}.skip-link{position:absolute;top:-100px;left:16px;padding:8px 16px;background:var(--accent);color:#fff;font-family:var(--font-mono);font-size:13px;z-index:9999;transition:top var(--t-fast)}.skip-link:focus{top:16px}.section{position:relative}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}:root{--swiper-theme-color:#007aff}:root{--swiper-navigation-size:44px}*,:after,:before,body,dl,html,ol,ul{padding:0;margin:0}.text,.title{font-family:var(--main-font)}.line{position:relative;z-index:2}.line svg,.text ol li>ul li::before,.text ul li>ol li::after{display:none}.text ol li>ul,.text ol li>ul li,.text ul li>ol{padding-left:.7813vw}.text ol li>ul li::after,.text ul li::after{position:absolute;left:0;width:.5208vw;height:.5208vw;background-color:var(--accent-color)}.article .author .meta_info{-webkit-box-orient:vertical;-webkit-box-direction:normal}body,html{scroll-behavior:smooth}a:active,a:focus{outline:0}a{text-decoration:none}body{-webkit-box-sizing:border-box;box-sizing:border-box}aside,footer,header,nav,section{display:block}input::-ms-clear{display:none}button{cursor:pointer;border:none;background-color:rgba(0,0,0,0)}button::-moz-focus-inner{padding:0;border:0}.single-blog .content ul li{list-style:circle}label,p{margin:0}h1,h2,h3,h4,h5,h6{font-weight:inherit;font-size:inherit;margin:0}input:not([type=checkbox]):not([type=radio]),select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none}.title{font-weight:700}.share_btn{display:-webkit-box;display:-ms-flexbox}.header.white .nav>ul>li>a{color:var(--accent-color)}.title{color:var(--accent-color)}.line svg path{-webkit-transition:.3s}.share_btn{display:flex;gap:.4167vw;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:3.3854vw;margin-bottom:2.6042vw}.share_btn .facebook,.share_btn .twitter{display:-webkit-box;display:-ms-flexbox;-webkit-box-align:center;width:2.3438vw;height:2.3438vw;border-radius:50%}.share_btn a:hover{-webkit-filter:saturate(1.5) brightness(1.2);filter:saturate(1.5) brightness(1.2)}.share_btn .icon svg{width:1.0417vw;height:1.0417vw;max-width:1.0417vw;flex-shrink:0;fill:#fff}.share_btn .facebook{background:#3b5998;display:flex;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.share_btn .twitter{background:#1da1f2;display:flex;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.share_btn .linkedin{background:#0077b5;border-radius:50%;width:2.3438vw;height:2.3438vw;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.title{line-height:1.3;font-size:3.4vw}.line{display:inline-block}.line.show svg path{-webkit-animation:forwards drawLine;animation:forwards drawLine;-webkit-animation-duration:var(--animation-duration, 1.2s);animation-duration:var(--animation-duration, 1.2s)}.line svg{position:absolute;z-index:-1;top:calc(50% + .625vw);left:50%;width:calc(100% + 1.0417vw);height:calc(100% + 1.0417vw);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);overflow:visible}.text blockquote,.text ol li>ul li,.text ul li{z-index:2;position:relative}.page{overflow:hidden}.line svg path{stroke:var(--red-color);stroke-width:1.0417vw;stroke-linecap:round;stroke-linejoin:round;fill:none;opacity:0;stroke-dasharray:0 1500;transition:.3s}@-webkit-keyframes drawLine{0%{stroke-dasharray:0 1500;opacity:1}100%{stroke-dasharray:1500 1500;opacity:1}}@keyframes drawLine{0%{stroke-dasharray:0 1500;opacity:1}100%{stroke-dasharray:1500 1500;opacity:1}}.text{line-height:1.7em;font-size:1.3vw;font-weight:400}.container,.header,.text hr,.text iframe{width:100%}.text{font-family:'Roboto Mono';color:#121225}*{font-family:'Roboto Mono'}.text :not(:last-child,img,ul,ol,li,.wistia_embed *){margin-bottom:1.0417vw}.text h1{font-size:3.125vw}.text h2,.text h3{padding-top:60px;font-size:1.6vw}.text h1,.text h2,.text h3{font-weight:700;line-height:1.3;color:#121225}.text h4,.text h5,.text h6{font-size:1.4583vw;font-weight:600;line-height:1.3}.text p{font-family:var(--second-font)}.text p span{font-family:var(--second-font)}.text a{color:#ff4848;font-family:"Roboto Mono",'Roboto Mono'}.text p,.text ul li{font-family:'Roboto Mono'}.text img{max-width:100%;height:auto;-o-object-fit:contain;object-fit:contain}.text ul li{color:inherit;font-size:inherit;line-height:inherit;padding-left:1.7813vw}.text ol li,.text ol li::before,.text ol li>ul li,.text ul li>ol li,.text ul li>ol li::before{font-family:inherit;color:inherit;font-size:inherit;line-height:inherit}.text ul li::after{content:"";top:.9vw;border-radius:50%}.text ul li>ol{counter-reset:ulNum}.text ul li>ol li::before{counter-increment:ulNum;content:counters(ulNum, ".") ".";padding-right:.1563vw}.text ol{counter-reset:olNum}.text ol li::before{counter-increment:olNum;content:counters(olNum, ".") ".";padding-right:.1563vw}.text ol li>ul li::after{content:"";top:.625vw;border-radius:50%}.text blockquote{line-height:inherit;text-align:center}.text blockquote p:first-child{font-weight:400;font-size:1.9792vw;padding:0 .9375vw;border-left:.2083vw solid #ececec;font-family:Prata}.text blockquote p:last-child{font-weight:600;font-family:Prata;color:#1a1a2d;text-align:left}.text p{margin:0;font-size:1.3vw;line-height:1.7em}.text blockquote::before{content:"\201C";font-family:"Times New Roman",Times,serif;font-weight:900;line-height:1;font-size:7.8125vw;color:#f5b82e;display:block;text-align:left;height:4.6875vw;margin-bottom:1.0417vw}.header .container,.header .nav>ul{display:-webkit-box;display:-ms-flexbox}.text blockquote strong{color:var(--blue)}.text hr{max-width:2.1875vw;border:none;border-top:.5208vw dotted #414165;margin:0 auto}:root{--main-font:"Prata",sans-serif;--second-font:"Roboto Mono",sans-serif;--light-bg-section:#19192c;--light-bg:#e5e5e5;--white:#fff;--accent-color:#f1dfdb;--sub-color:#2A6B7F;--red-color:#D52839;--green:#008f85;--green-2:#32A287;--dark:#244654;--yellow:#F5B82E;--blue:#2a6b7f;--blueRGBA:42,107,127;--black:#000;--dark-gray:#333;--dark-blue:#33475b}.container{max-width:89vw;margin:0 auto;padding:0 1%}.page{position:relative;min-height:64vh}.header.white{background-color:var(--white);-webkit-box-shadow:50px 5px 50px rgba(0,0,0,.1);box-shadow:50px 5px 50px rgba(0,0,0,.1)}.header{-webkit-transition:background-color .3s ease-in-out,-webkit-transform .3s ease-in-out;transition:background-color .3s ease-in-out,transform .3s ease-in-out,-webkit-transform .3s ease-in-out;z-index:222222;position:fixed;left:0;top:0}.header .container{display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.header .nav{width:100%;margin-left:6.25vw;position:relative}.header .nav>ul{display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:1.30208vw}.header .nav>ul>li.parent{position:relative}.header .nav>ul>li::before{position:fixed;content:"";width:225vw;height:calc(100vh - 4.05vw);left:-75vw;background-color:rgba(0,0,0,.5);z-index:-1;bottom:0;opacity:0;-webkit-transition:opacity .3s ease-in-out;transition:opacity .3s ease-in-out;pointer-events:none}.header .nav>ul>li>a{color:#fff;font-size:.98958vw;font-weight:500;-webkit-transition:color .3s ease-in-out,border-color .3s ease-in-out;transition:color .3s ease-in-out,border-color .3s ease-in-out;padding:1.5625vw 0;display:block;border-bottom:.15625vw solid rgba(50,162,136,0)}.footer{position:relative}.footer{padding:.1vw 0 3.64583vw;background:#fff}.footer .title{text-align:center;color:#f1dfdb;font-size:3vw}.footer .col{max-width:100%}.footer .row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:7.8125vw}.article{width:100%;max-width:50vw;margin:0 auto;padding:8.3333vw 0 7.2917vw}.article .heading{margin-bottom:2.6042vw}.article .heading .post_title{font-family:Prata,serif;font-size:2.3958vw;font-weight:700;line-height:1.2;color:#121225;margin-bottom:.4167vw}.article .heading .pre_title{font-family:proxima-nova,"Roboto Mono";font-size:1.4em;line-height:1.3em;letter-spacing:0;color:#121225}.article .author{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:1.0417vw;margin-bottom:1.5625vw}.article .author .avatar{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;gap:.5208vw;-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;overflow:hidden}.article .author .avatar img{width:2.7083vw;height:2.7083vw;border-radius:50%;-o-object-fit:cover;object-fit:cover}.article .author .meta_info{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font-size:2vw}.article .author .meta_info span,.article .author .meta_info time{color:#121225;font-family:"Roboto Mono","Roboto Mono";font-size:16px;font-weight:500;line-height:1.5;letter-spacing:0}.article .thumbnail{margin-bottom:1.5625vw;width:100%;height:auto}.article .thumbnail img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.blog_list .blog_card .thumbnail img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}.blog_list{margin-top:0;padding:2.0833vw 3.125vw}.blog_list .blog_list_container{max-width:83.5vw;display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:auto;margin-left:auto;position:relative}.blog_list .blog_list_row{width:100%;display:grid;grid-template-columns:repeat(2,1fr);grid-gap:2.0833vw 3.75vw}.blog_list .blog_card{width:100%;border-radius:.8333vw;-webkit-box-shadow:0 0 .5208vw 0 transparent;box-shadow:0 0 .5208vw 0 transparent;-webkit-transition:.25s linear;transition:.25s linear;overflow:hidden;border:1px solid #121225}.blog_list .blog_card:hover{-webkit-box-shadow:.1563vw .1563vw .5208vw 0 rgba(0,0,0,.1);box-shadow:.1563vw .1563vw .5208vw 0 rgba(0,0,0,.1)}.blog_list .blog_card .thumbnail{width:100%;height:20vw}.blog_list .blog_card_body{padding:1.8229vw .9375vw .9375vw}.blog_list .blog_list_row h3{color:#121225;font-family:proxima-nova,'Roboto Mono';font-size:1.6vw;font-weight:700;line-height:1.16;margin-bottom:.8333vw}.blog_list .blog_list_row p{color:#121225;font-family:proxima-nova,'Roboto Mono';font-size:1vw;line-height:1.5}.blog_list .blog_list_row .date_time{color:#747d8a;font-family:proxima-nova,'Roboto Mono';font-size:.7292vw;margin-bottom:.4167vw}.blog_list .blog_list_row .blog__read-more{margin-top:.4167vw;font-family:Prata,'Roboto Mono';font-size:.7292vw;font-weight:600;color:#d52839}.company .list{display:-webkit-box;display:-ms-flexbox}.company{padding:3.9583vw 0;background:url('https://gloatcomstg.wpenginepowered.com/wp-content/uploads/Rectangle-4404-1.png');background-size:cover}.company .title{text-align:center;margin:0 auto;max-width:54.6875vw;font-size:50px;color:#fff;line-height:65px}.company .list{display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:100%;padding-top:2.4vw}.events{padding:2.0833vw 0}.banner-section .image img{width:100%;height:100%;object-fit:contain}.list{padding:5.16667vw 0 5.20833vw}@media screen and (max-width:769px){.text,.text h4,.text h5,.text h6{font-size:3.8889vw}.share_btn{gap:2.2222vw;margin-top:8.3333vw;margin-bottom:8.3333vw}.share_btn .icon svg{width:5.5556vw;height:5.5556vw;max-width:5.5556vw;flex-shrink:0}.share_btn .facebook,.share_btn .linkedin,.share_btn .twitter{width:12.5vw;height:12.5vw}.text h1,.text h2{font-size:7vw}.title{font-size:40px!important}.text h3{font-size:6vw}.line svg{top:calc(50% + 2.7778vw);left:50%;width:calc(100% + 3.3333vw);height:calc(100% + 3.3333vw)}.line svg path{stroke-width:4.1667vw}.text p{margin:0;font-size:16px!important;line-height:1.7em}.text :not(:last-child){margin-bottom:4.1667vw}.text h2{padding-top:40px}.text ol li>ul,.text ol li>ul li,.text ul li,.text ul li>ol{padding-left:2.7778vw}.text ul li::after{top:11px;width:6px;height:6px}.text ol li::before,.text ul li>ol li::before{padding-right:.8333vw}.text ol li>ul li::after{top:2vw;width:1.3889vw;height:1.3889vw}.text blockquote p:first-child{font-size:5.8333vw;padding:0 5vw;border-left:1.1111vw solid #1a1a2d}.text blockquote::before{font-size:27.7778vw;height:16.6667vw;margin-bottom:2.7778vw}.text hr{max-width:6.9444vw;border-top:2.7778vw dotted #ccc}.footer .row{-webkit-box-orient:vertical;-webkit-box-direction:normal}.footer{padding:16.6667vw 0}.footer .title{text-align:center;color:#fff;font-size:22px}.footer .row{-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;margin-top:8.3333vw}.blog_list .blog_list_container{max-width:100%}.article .author .meta_info span,.article .author .meta_info time,.blog_list .blog_list_row p{font-size:14px}.article .heading .pre_title{font-size:5vw}.article .author,.article .author .avatar{gap:2.7778vw}.article .author,.article .heading,.article .thumbnail{margin-bottom:8.3333vw}.article{max-width:100%;padding:37.5vw 5.5556vw 13.8889vw}.article .heading .post_title{font-size:8.8889vw;margin-bottom:2.7778vw}.article .author .avatar img{width:14.4444vw;height:14.4444vw}.article .thumbnail{width:100%;height:51.3889vw}.blog_list{padding:5.5556vw}.blog_list .blog_list_row{grid-template-columns:1fr;grid-gap:11.1111vw}.blog_list .blog_card{width:100%;border-radius:2.2222vw;-webkit-box-shadow:0 0 2.7778vw 0 transparent;box-shadow:0 0 2.7778vw 0 transparent}.blog_list .blog_card:hover{-webkit-box-shadow:.8333vw .8333vw 2.7778vw 0 rgba(0,0,0,.1);box-shadow:.8333vw .8333vw 2.7778vw 0 rgba(0,0,0,.1)}.blog_list .blog_card .thumbnail{height:50vw}.blog_list .blog_card_body{padding:9.7222vw 5vw 5vw}.blog_list .blog_list_row h3{font-size:6.6667vw;margin-bottom:4.4444vw}.blog_list .blog_list_row .date_time{font-size:3.8889vw;margin-bottom:2.2222vw}.blog_list .blog_list_row .blog__read-more{margin-top:2.2222vw;font-size:3.8889vw}.company{padding:5.5556vw 0}.company .title{margin:10vw auto 5.5556vw;max-width:100%;font-size:28px!important;line-height:1.3em}.company .list{margin:-2.7778vw -1.3889vw 0}.events{padding:8.3333vw 6.9444vw}.list{padding:8.3333vw 0}}@media (any-hover:hover){.header .nav>ul>li:hover::before{opacity:1}.header .nav>ul>li:hover>a{color:#f89ea1!important;border-bottom:.15625vw solid #f89ea1}}@media screen and (max-width:768px){.header .nav,.header .nav>ul{-webkit-box-orient:vertical;-webkit-box-direction:normal}.header{padding:8.3333vw 0;-webkit-transition:background-color .3s ease-in-out,padding .3s ease-in-out,-webkit-transform .3s ease-in-out;transition:background-color .3s ease-in-out,transform .3s ease-in-out,padding .3s ease-in-out,-webkit-transform .3s ease-in-out}.header .nav{background-color:#fff;position:fixed;top:0;left:0;width:100%;z-index:302222220;margin-left:0;padding:0;height:100vh;overflow-y:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-webkit-transition:-webkit-transform .3s ease-in-out;transition:transform .3s ease-in-out,-webkit-transform .3s ease-in-out;-webkit-transform:translateX(-100%);transform:translateX(-100%);overflow-x:hidden}.header .nav.active{-webkit-transform:translateX(0);transform:translateX(0)}.header .nav>ul{-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;margin-top:0;margin-bottom:9.1667vw;padding:0 8.3333vw}.header .nav>ul>li{margin:0;width:100%;position:relative}.header .nav>ul>li:not(:first-child){border-top:1px solid #e0e0e0}.header .nav>ul>li.active{border-top:none}.header .nav>ul>li:last-child{border-bottom:1px solid #e0e0e0}.header .nav>ul>li::before{display:none}.header .nav>ul>li::after{content:"";position:absolute;background-image:url(https://gloat.com/wp-content/themes/gloat/assets/img/close-red.svg);background-repeat:no-repeat;background-size:cover;width:4.1667vw;height:4.1667vw;-webkit-transform:rotate(45deg);transform:rotate(45deg);right:0;top:6.1111vw}.header .nav>ul>li>a{position:relative;font-size:3.8889vw;color:#f1dfdb;padding:5.5556vw 0}.header .nav>ul>li.active>a::before{content:"";position:absolute;z-index:-1;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%);left:0;width:100%;height:100%;background-color:#f5f6f8;-webkit-box-shadow:-8.3333vw 0 0 #f5f6f8,8.3333vw 0 0 #f5f6f8;box-shadow:-8.3333vw 0 0 #f5f6f8,8.3333vw 0 0 #f5f6f8}.header .nav>ul>li.active::after{width:4.1667vw;height:.5556vw;background-color:#f1dfdb;background-image:none;-webkit-transform:rotate(0);transform:rotate(0);top:7.7778vw}.header .close{position:relative;width:5.5556vw;height:5.5556vw}.header .close img{width:100%;height:100%;-o-object-fit:contain;object-fit:contain}.container{max-width:100%}}.workforce{background-color:#fff}.workforce{padding:110px 0 55px;min-height:670px;margin-top:0}.banner-section .texareal p{font-family:"Roboto Mono",'Roboto Mono';color:#fff}.w-popover-overlay{z-index:333333!important;background-color:rgba(0,0,0,.82)!important}.banner-section .banner_wrapper{max-width:960px;margin:0 auto;width:100%;height:100%;display:flex;align-items:center;min-height:400px;justify-content:center}.banner-section .banner_wrapper .row{display:flex;gap:40px;align-items:center}.banner-section .image{max-width:390px;height:230px}.banner-section .texareal{display:flex;flex-wrap:nowrap;flex-direction:column}.banner-section .texareal h2{color:#fff;font-size:32px;font-weight:700;line-height:1.3em;max-width:512px}.banner-section .texareal p{font-size:20px;line-height:1.4em;max-width:512px}.banner-section .texareal a{font-family:'Roboto Mono';font-size:16px;font-weight:600;line-height:1em;letter-spacing:0;fill:var(--red-color);color:#fff;background-color:#ff4848;border-style:solid;border-width:2px;border-color:#ff4848;border-radius:0;padding:10px 22px 10px 24px;max-width:220px;text-align:center;width:100%;margin-top:32px}.setting{max-width:22px}@media screen and (max-width:769px){#popup-content{height:AUTO}.company .title{font-size:26px!important;max-width:88%}}.single-blog #primary::before{position:fixed;top:0;left:0;right:0;bottom:0;background-image:linear-gradient(rgba(18,18,37,.01) 1px,transparent 1px),linear-gradient(90deg,rgba(18,18,37,.01) 1px,transparent 1px);background-size:24px 24px;pointer-events:none;z-index:0;opacity:.5}.blog_list{background:#f1dfdb}.blog_list::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;background-image:linear-gradient(rgba(18,18,37,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(18,18,37,.07) 1px,transparent 1px);background-size:24px 24px;pointer-events:none;z-index:0;opacity:.5}:is(.page-id-34999,.page-id-35078,.page-id-35018) .author{color:#191326!important}.fa{display:inline-block;font:14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transform:translate(0,0)}.fa-close:before{content:"\f00d"}.header .nav>ul>li>a{font-family:var(--g-font-mono);font-size:15px;letter-spacing:.45px;white-space:nowrap}:root{--g-navy:#121225;--g-navy-85:rgba(18, 18, 37, .85);--g-cream:#f1dfdb;--g-cream-95:rgba(241, 223, 219, .95);--g-cream-93:rgba(241, 223, 219, .93);--g-red:#ff4848;--g-red-85:rgba(255, 72, 72, .85);--g-font-mono:'Roboto Mono',monospace;--g-font-serif:'Prata',serif}.header{background-color:transparent!important;box-shadow:none!important;padding:0;position:fixed;width:100%;top:0;left:0}.header .container{max-width:1220px;margin:25px auto 0;background-color:var(--g-navy-85);border:1px solid var(--g-cream);height:80px;padding:14px 40px;display:flex;align-items:center;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}.header.white .container{background-color:var(--g-navy-85)!important;box-shadow:none!important;border:1px solid var(--g-cream)}.header.white{background-color:transparent!important;box-shadow:none!important}.header .nav{margin-left:auto;width:auto;flex:1;display:flex;align-items:center;justify-content:center}.header .nav>ul{display:flex;align-items:center;gap:40px;justify-content:center}.header .nav>ul>li{margin:0;position:relative}.header .nav>ul>li>a{color:var(--g-cream)!important;font-weight:400;padding:10px 0;border-bottom:none!important;transition:color .2s}.header .nav>ul>li.active>a,.header .nav>ul>li:hover>a{color:var(--g-red)!important;border-bottom:none!important}.header .nav>ul>li:not(.nochild)>a::after{content:'';display:inline-block;width:10px;height:5px;margin-left:6px;background-image:url("data:image/svg+xml,%3Csvg width='10' height='5' viewBox='0 0 10 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 4L9 1' stroke='%23f1dfdb' stroke-width='1.2'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center;vertical-align:middle}.header .nav>ul>li:not(.nochild):hover>a::after{background-image:url("data:image/svg+xml,%3Csvg width='10' height='5' viewBox='0 0 10 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 4L5 1L9 4' stroke='%23f1dfdb' stroke-width='1.2'/%3E%3C/svg%3E")}.header .nav>ul>li::before{display:none!important}@media screen and (max-width:768px){.header .nav>ul{margin-bottom:0!important}.header{padding:0!important}.header .container{max-width:100%;margin:0;height:70px;border:none;border-bottom:1px solid var(--g-cream);padding:0 25px;background-color:var(--g-navy-85);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}.header .nav{background-color:var(--g-cream-93)!important}.header.white .container{background-color:var(--g-navy-85)!important;border:none!important;border-bottom:1px solid var(--g-cream)!important}.header .nav{padding:0;display:flex;flex-direction:column}.nav .close img{filter:brightness(0)}.header .nav>ul{padding:35px 25px!important;gap:0;margin-top:0!important}.header .nav>ul>li{border-top:1px solid rgba(18,18,37,.2)!important}.header .nav>ul>li:first-child{border-top:none!important}.header .nav>ul>li>a{color:var(--g-navy)!important;font-family:var(--g-font-mono)!important;font-size:17px!important;font-weight:400!important;padding:20px 0!important}.header .nav>ul>li:not(.nochild)>a::after{background-image:url("data:image/svg+xml,%3Csvg width='10' height='5' viewBox='0 0 10 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 4L9 1' stroke='%23121225' stroke-width='1.2'/%3E%3C/svg%3E")}.header .nav>ul>li.active::after,.header .nav>ul>li.active>a::before,.header .nav>ul>li:not(.nochild)::after{display:none!important}}.footer{background-color:var(--g-navy)!important;padding:60px 0 40px!important;position:relative;overflow:hidden}.footer .container{max-width:1220px;margin:0 auto;padding:0 40px}.footer .row{display:flex!important;justify-content:space-between!important;margin-top:0!important;gap:40px}@media screen and (max-width:769px){.footer .row{margin-top:0!important}.footer{padding:40px 0 30px!important}.footer .container{padding:0 25px}.footer .row{flex-direction:column!important;align-items:flex-start!important;gap:30px}}*,:after,:before{-webkit-box-sizing:border-box;box-sizing:border-box}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5,}a:not([class]){-webkit-text-decoration-skip:ink;text-decoration-skip-ink:auto}img{max-width:100%;display:block;margin-bottom:20px}button,input,select,textarea{font:inherit}#close{position:relative;top:0;display:flex;justify-content:end;font-size:24px;left:35px;cursor:pointer}.nav-contact,.nav-link{font-size:15px;line-height:18px;letter-spacing:.45px;font-family:var(--font-mono)}.mega-menu__text,.nav-contact,.nav-link{font-family:var(--font-mono)}.mega-menu.is-open,.mobile-nav.is-open{transform:translateY(0)}.mobile-nav__trigger[aria-expanded=true] .mobile-nav__chevron,.nav-link[aria-expanded=true] .nav-chevron{transform:rotate(180deg)}.mega-menu__cell:hover .mega-menu__text,.mobile-nav__sub-link:hover{color:var(--accent)}.mega-menu,.mega-overlay,.mobile-backdrop{opacity:0;pointer-events:none}.site-header{position:fixed;top:0;left:0;right:0;z-index:1000;height:80px;background:var(--bg);transition:background var(--t-base),border-color var(--t-base);max-width:1220px;margin:25px auto 0;border:1px solid #f1dfdb}.nav-link,.site-header__logo{transition:opacity var(--t-fast)}.site-header.is-scrolled{background:rgba(18,18,37,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}.site-header.mega-is-open{background:var(--bg);border-bottom-color:var(--text)}.mobile-toggle,.nav-link{background:0 0;border:none;cursor:pointer}.site-header__inner{max-width:var(--container-w);margin-inline:auto;padding:14px 79px;height:100%;display:flex;align-items:center;gap:68px}.site-header__logo{display:flex;align-items:center;flex-shrink:0;text-decoration:none}.site-header__logo:hover{opacity:.8}.site-logo-svg{display:flex;align-items:center;color:#fff}.site-header__nav{flex:1;display:flex;align-items:center}.nav-list{display:flex;align-items:center;gap:40px;list-style:none}.nav-item{position:static}.mega-menu,.mega-overlay,.mobile-backdrop,.mobile-nav{position:fixed;visibility:hidden}.nav-link{display:inline-flex;align-items:center;gap:6px;font-weight:400;color:var(--text);padding:0;white-space:nowrap}.nav-contact:hover,.nav-link:hover{opacity:.7}.mega-menu.is-open,.mega-overlay.is-visible,.mobile-backdrop.is-visible{opacity:1;pointer-events:auto;visibility:visible}.nav-link[aria-expanded=true]{font-weight:700}.nav-chevron{display:flex;align-items:center;transition:transform var(--t-fast);flex-shrink:0}.nav-chevron svg{width:10px;height:5px;stroke:var(--text);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.site-header__actions{display:flex;align-items:center;gap:16px;flex-shrink:0;margin-left:auto}.nav-contact{font-weight:400;color:var(--text);transition:opacity var(--t-fast)}.mobile-toggle{display:none;align-items:center;justify-content:center;padding:4px;color:var(--text);margin-left:auto}.hamburger{display:flex;flex-direction:column;gap:5px;width:25px}.hamburger-line{display:block;width:100%;height:2px;background:var(--text);transition:transform var(--t-base),opacity var(--t-base);transform-origin:center}.mobile-toggle[aria-expanded=true] .hamburger-line:first-child{transform:translateY(7px) rotate(45deg)}.mobile-toggle[aria-expanded=true] .hamburger-line:nth-child(2){opacity:0;transform:scaleX(0)}.mobile-toggle[aria-expanded=true] .hamburger-line:nth-child(3){transform:translateY(-7px) rotate(-45deg)}.mega-menu{top:106px;z-index:999;background:var(--bg-light);border:1px solid rgba(18,18,37,.15);box-shadow:0 12px 40px rgba(18,18,37,.14);transform:translateY(-6px);transition:opacity .2s,visibility .2s,transform .2s}.mega-menu::before{content:'';position:absolute;top:-20px;left:0;right:0;height:20px}.mega-menu__inner{padding:0}.mega-menu__grid{display:grid;grid-template-columns:repeat(2,272px);width:fit-content}.mega-menu__cell{display:flex;align-items:flex-start;gap:15px;padding:18px 17px;background:var(--bg-light);border:1px solid rgba(18,18,37,.1);text-decoration:none;min-height:77px;transition:background var(--t-fast)}.mega-menu__cell:hover{background:#e8d4cf}.mega-menu__dot{width:7px;height:7px;min-width:7px;background:var(--accent);margin-top:4px;flex-shrink:0}.mega-menu__text{font-size:14px;font-weight:500;line-height:1.4;color:var(--text-dark)}.mega-menu__text small{display:block;font-size:12px;font-weight:300;color:rgba(18,18,37,.5);margin-top:4px;line-height:1.4;font-family:'Roboto Mono'!important}.mega-menu__cell:hover .mega-menu__text small{color:rgba(255,72,72,.65)}.mega-overlay{inset:0;z-index:998}.mobile-nav{top:0;left:0;right:0;bottom:0;z-index:1100;background:var(--bg-light);display:flex;flex-direction:column;overflow:hidden;transform:translateY(-100%);transition:transform var(--t-slow),visibility var(--t-slow)}.mobile-nav.is-open{visibility:visible}.mobile-nav__header{display:flex;align-items:center;justify-content:space-between;background:var(--bg);padding:20px 25px 19px;flex-shrink:0;height:var(--header-h-mob)}.mobile-nav__logo{display:flex;align-items:center;color:#f8fff4}.mobile-nav__close{display:flex;align-items:center;justify-content:center;background:0 0;border:none;cursor:pointer;color:var(--bg);padding:4px}.mobile-nav__link,.mobile-nav__sub-link,.mobile-nav__trigger{font-family:var(--font-mono);color:var(--text-dark);text-decoration:none}.mobile-nav__close svg{width:20px;height:20px;stroke:var(--bg);fill:none;stroke-width:1.5;stroke-linecap:round}.mobile-nav__body{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:35px 25px;display:flex;flex-direction:column;gap:70px}.mobile-nav__list{display:flex;flex-direction:column;gap:35px;list-style:none}.mobile-nav__link,.mobile-nav__trigger{display:flex;align-items:center;gap:15px;font-size:17px;font-weight:400;line-height:20px;background:0 0;border:none;cursor:pointer;width:100%;text-align:left;transition:opacity var(--t-fast)}.mobile-nav__link:hover,.mobile-nav__trigger:hover{opacity:.6}.mobile-nav__chevron{display:flex;margin-left:auto;transition:transform var(--t-fast)}.mobile-nav__chevron svg{width:10px;height:5px;stroke:var(--text-dark);fill:none;stroke-width:1.5;stroke-linecap:round}.mobile-nav__sub{overflow:hidden;max-height:0;transition:max-height var(--t-slow);padding-left:16px}.mobile-nav__sub.is-open{max-height:400px}.mobile-nav__sub-link{display:block;padding:10px 0;font-size:14px;font-weight:300;border-bottom:1px solid rgba(18,18,37,.1);transition:color var(--t-fast)}.mobile-nav__footer{flex-shrink:0;padding:0 25px 35px}.mobile-nav__footer .btn-demo{width:100%;justify-content:center;border-radius:2px}.mobile-backdrop{inset:0;background:rgba(18,18,37,.7);z-index:1099;transition:opacity var(--t-slow),visibility var(--t-slow)}@media (max-width:900px){.site-header{margin:0!important}}.hero-logos__track{display:flex;align-items:center;gap:60px;width:max-content;animation:35s linear infinite logos-scroll}@keyframes logos-scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.platform-slider{padding-left:max(79px,calc((100vw - var(--container-w))/ 2 + 79px));padding-right:0;overflow:hidden;margin-top:62px;margin-bottom:40px;cursor:grab;user-select:none}.platform-slider:active{cursor:grabbing}.platform-card{flex-shrink:0;width:320px;display:flex;flex-direction:column;border:1px solid rgba(18,18,37,.15);background:var(--bg-light);transition:border-color var(--t-fast)}.platform-card:hover{border-color:rgba(18,18,37,.35)}.footer-brand__tagline,.footer-logo__text,.footer-nav__link,.footer-nav__title{font-family:var(--font-mono)}.footer-bottom,.footer-main{max-width:var(--container-w);margin-inline:auto}.site-footer{background:var(--bg);border-top:1px solid rgba(241,223,219,.25)}.footer-main{padding:72px 79px 60px;display:grid;grid-template-columns:220px 1fr;gap:80px;align-items:start}.footer-brand{display:flex;flex-direction:column;gap:24px}.footer-logo{display:inline-flex;align-items:center;text-decoration:none;transition:opacity var(--t-fast)}.footer-logo:hover{opacity:.7}.footer-logo__text{font-size:18px;font-weight:700;line-height:1;color:var(--text);letter-spacing:.02em}.footer-brand__tagline{font-size:12px;font-weight:300;line-height:19px;color:rgba(241,223,219,.55)}.footer-social{display:flex;align-items:center;gap:12px;margin-top:8px}.footer-social__link{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border:1px solid rgba(241,223,219,.2);color:var(--text);opacity:.6;transition:opacity var(--t-fast),border-color var(--t-fast);flex-shrink:0}.footer-legal__link,.footer-nav__link{text-decoration:none;transition:color var(--t-fast)}.footer-social__link:hover{opacity:1;border-color:rgba(241,223,219,.5)}.footer-social__link svg{width:14px;height:14px;fill:currentColor}.footer-nav{display:grid;grid-template-columns:repeat(4,1fr);gap:32px}.footer-nav__col{display:flex;flex-direction:column;gap:20px}.footer-nav__title{font-size:11px;font-weight:700;line-height:16px;color:var(--text);text-transform:uppercase;letter-spacing:.12em;opacity:1;padding-bottom:8px;border-bottom:1px solid rgba(241,223,219,.15)}.footer-nav__links{display:flex;flex-direction:column;gap:2px;list-style:none}.footer-nav__link{font-size:12px;font-weight:300;line-height:22px;color:rgba(241,223,219,.6);padding:2px 0;display:block}.footer-copy,.footer-legal__link{font-family:var(--font-mono);font-size:11px;font-weight:400;line-height:18px;color:rgba(241,223,219,.4)}.footer-nav__link:hover{color:var(--text)}.footer-bottom{border-top:1px solid rgba(241,223,219,.12);padding:20px 79px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap}.footer-legal{display:flex;align-items:center;gap:32px}.footer-legal__link:hover{color:rgba(241,223,219,.85)}@media (max-width:1024px){:root{--header-h:var(--header-h-mob);--side-pad:25px}.mega-menu,.mega-overlay,.site-header__actions,.site-header__nav{display:none}.mobile-toggle{display:flex}.site-header__inner{padding:20px 25px 19px;gap:0;justify-content:space-between}.platform-slider{padding-left:25px}.footer-main{padding:48px 25px 40px;grid-template-columns:1fr;gap:40px}.footer-nav{grid-template-columns:repeat(2,1fr);gap:28px}.footer-bottom{padding:20px 25px;flex-direction:column;align-items:flex-start;gap:12px}.footer-legal{gap:20px;flex-wrap:wrap}}@media (max-width:768px){.platform-card{width:100%}.footer-nav{grid-template-columns:1fr 1fr;gap:28px}}@media (max-width:480px){.footer-nav{grid-template-columns:1fr 1fr}.mega-menu__grid{grid-template-columns:1fr}}@media print{.mega-menu,.mega-overlay,.mobile-backdrop,.mobile-nav,.mobile-toggle,.site-header{display:none!important}body{padding-top:0;background:#fff;color:#000}}.single-blog{--paper:#FAF4F0;--ink:#141428;--body:#35323f;--meta:#7a7486;--coral:#FF4848;--line:rgba(20, 20, 40, .12);--line2:rgba(20, 20, 40, .20)}.single-blog,.single-blog .site-main{background:var(--paper)}.single-blog .article{max-width:720px;width:100%;margin:0 auto;padding:clamp(96px,12vh,140px) clamp(22px,5vw,28px) clamp(64px,9vh,110px);overflow:visible}.single-blog .article .post_title{font-weight:500}.single-blog .article .pre_title{font-size:1em}.single-blog .article .thumbnail{border-radius:0;margin:40px 0}.single-blog .article .thumbnail img{width:100%;height:auto;object-fit:contain;border-radius:6px}.single-blog .article .content .text figure{position:relative;left:50%;transform:translateX(-50%);width:min(94vw,1000px);max-width:min(94vw,1000px);margin:52px 0}.single-blog .article .content .text figure img,.single-blog .article .content .text img{display:block;width:100%;height:auto;border-radius:6px}.single-blog .article .content .text figcaption{margin:14px auto 0;max-width:720px;padding:0 4px;font-family:'Roboto Mono',ui-monospace,monospace;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--meta);text-align:center}.single-blog .article .content,.single-blog .article .content .text{color:var(--body);font-family:'Roboto Mono',ui-monospace,Menlo,monospace;font-size:15.5px;line-height:1.85}.single-blog .article .content .text p{font-family:'Roboto Mono',ui-monospace,Menlo,monospace;font-size:15.5px;line-height:1.85;color:var(--body);margin:0 0 18px}.single-blog .article .content .text h2{font-family:Prata,Georgia,serif;font-weight:400;font-size:clamp(25px, 3.4vw, 36px);line-height:1.2;letter-spacing:-.005em;color:var(--ink);margin:48px 0 20px}.single-blog .article .content .text>p:first-of-type::first-letter{font-family:Prata,Georgia,serif;font-size:3.5em;line-height:.78;float:left;margin:8px 12px 0 0;color:var(--coral)}.single-blog .article .content .text ul{list-style:none!important;margin:8px 0 22px;padding:0;display:grid;gap:14px}.single-blog .article .content .text ul li{list-style:none!important;position:relative;margin:0;padding-left:26px;font-family:'Roboto Mono',ui-monospace,Menlo,monospace;font-size:15px;line-height:1.7;color:var(--body)}.single-blog .article .content .text ul li::before{content:"";position:absolute;left:0;top:12px;width:9px;height:2px;background:var(--coral)}.single-blog .article .content .text ul li strong{color:var(--ink);font-weight:700}.single-blog .article .content .text hr{border:0;height:1px;background:var(--line);margin:52px 0}.single-blog .article .content .text blockquote{position:relative;margin:56px auto;max-width:640px;padding:8px 0;border:0;text-align:center;background:0 0}.single-blog .article .content .text blockquote::before{content:"";display:block;width:40px;height:2px;background:var(--coral);margin:0 auto 22px}.single-blog .article .content .text blockquote p{font-family:Prata,Georgia,serif;font-style:italic;font-size:clamp(24px, 3.5vw, 34px);line-height:1.3;color:var(--ink);margin:0 auto;max-width:24ch}.single-blog .article .content .text blockquote cite{display:block;font-family:'Roboto Mono',ui-monospace,monospace;font-style:normal;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--meta);margin:22px 0 0}.text h3{font-size:21px}@media (max-width:560px){.text h3{font-size:20px}.single-blog .article .content .text figure{margin:36px 0}}.single-blog .article .content .text h2{scroll-margin-top:112px}html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){*{-webkit-animation-duration:0s!important;animation-duration:0s!important;-webkit-animation-iteration-count:1!important;animation-iteration-count:1!important;-webkit-transition-duration:0s!important;transition-duration:0s!important;scroll-behavior:auto!important}*,::after,::before{animation-duration:0s!important;transition-duration:0s!important;animation-iteration-count:1!important;scroll-behavior:auto!important}.hero-logos__track{animation:none}html{scroll-behavior:auto}}.single-blog .article .content .text h2[id]{scroll-margin-top:120px}.single-blog .article .content .text .gtoc-m__list,.single-blog .article .content .text .gtoc__list{list-style:none;margin:0;padding:0;display:grid}.single-blog .article .content .text .gtoc-m__list li,.single-blog .article .content .text .gtoc__list li{list-style:none;margin:0;padding:0}.single-blog .article .content .text .gtoc-m__list li::before,.single-blog .article .content .text .gtoc__list li::before{content:none}.single-blog .article .content .text .gtoc a,.single-blog .article .content .text .gtoc-m a{display:flex;gap:10px;align-items:baseline;text-decoration:none;border:0;background:0 0;font-family:'Roboto Mono',ui-monospace,Menlo,monospace;font-weight:400}.single-blog .article .content .text .gtoc a .n,.single-blog .article .content .text .gtoc-m a .n{flex:0 0 auto;color:var(--coral,#ff4848);font-weight:700;font-size:11px}.single-blog .article .content .text .gtoc{display:none}@media (min-width:1200px){.single-blog .article{position:relative}.single-blog .article .content .text .gtoc{display:block;position:fixed;top:50%;transform:translateY(-50%);left:max(24px,calc((100% - 720px)/ 2 - 236px));width:204px;z-index:5;max-height:76vh;overflow-y:auto}.single-blog .article .content .text .gtoc{opacity:1;visibility:visible;transition:opacity .18s ease,visibility .18s ease}.single-blog .article .content .text .gtoc.is-out{opacity:0;visibility:hidden;pointer-events:none}.single-blog .article .content .text .gtoc .gtoc__title{font-family:'Roboto Mono',ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.2em;line-height:1.4;text-transform:uppercase;color:var(--meta,#7a7486);margin:0 0 14px;padding-left:12px}.single-blog .article .content .text .gtoc .gtoc__list{gap:4px}.single-blog .article .content .text .gtoc a{padding:7px 12px;border-left:2px solid var(--line,rgba(20,20,40,.12));color:var(--meta,#7a7486);font-size:12.5px;line-height:1.4;transition:color .15s ease,border-color .15s ease}.single-blog .article .content .text .gtoc a:hover{color:var(--ink,#141428)}.single-blog .article .content .text .gtoc a.is-active{color:var(--ink,#141428);border-left-color:var(--coral,#ff4848)}.single-blog .article .content .text .gtoc-m{display:none}}.single-blog .article .content .text .gtoc-m{margin:0 0 30px;border:1px solid var(--line,rgba(20,20,40,.12));border-radius:10px;background:rgba(255,255,255,.45);overflow:hidden}.single-blog .article .content .text .gtoc-m .gtoc-m__summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;cursor:pointer;font-family:'Roboto Mono',ui-monospace,Menlo,monospace;font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--meta,#7a7486);list-style:none}.single-blog .article .content .text .gtoc-m .gtoc-m__summary::-webkit-details-marker{display:none}.single-blog .article .content .text .gtoc-m .gtoc-m__summary::after{content:"";flex:0 0 auto;width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translate(-2px,-2px);transition:transform .18s ease}.single-blog .article .content .text .gtoc-m[open] .gtoc-m__summary::after{transform:rotate(-135deg) translate(-2px,-2px)}.single-blog .article .content .text .gtoc-m .gtoc-m__list{padding:2px 16px 14px;gap:2px}.single-blog .article .content .text .gtoc-m a{padding:7px 0;color:var(--body,#35323f);font-size:13px;line-height:1.45}.single-blog .article .content .text .gtoc-m a:hover{color:var(--ink,#141428)}.no-js img.lazyload{display:none}.lazyload,.lazyloading{--smush-placeholder-width:100px;--smush-placeholder-bg-max-width:120px;--smush-placeholder-aspect-ratio:1/1;width:var(--smush-image-width,var(--smush-placeholder-width))!important;aspect-ratio:var(--smush-image-aspect-ratio,var(--smush-placeholder-aspect-ratio))!important}.lazyload,.lazyloading{opacity:0}.lazyloaded{opacity:1;transition:opacity .4s;transition-delay:0s}.blog_list .blog_list_row{grid-template-columns:repeat(3,1fr)}.blog_list>h2{font-size:40px;max-width:83.5vw;margin:0 auto;color:#121326}@media screen and (max-width:769px){.blog_list .blog_list_row{grid-template-columns:repeat(1,1fr)}.banner-section .banner_wrapper .row{flex-wrap:wrap;padding:10px}}</style><link rel="preload" data-rocket-preload="" as="image" href="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2020/08/chess.jpg?lossy=1&amp;strip=1&amp;webp=1" fetchpriority="high">
+<meta name="description" content="Explore how AI affects jobs, skills, and wages across industries. Data-driven analysis of workforce displacement, transformation, and opportunities.">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://gloat.com/blog/ai-labor-market/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI Labor Market Impact (Updated for Q3 2026) | Gloat">
+<meta property="og:description" content="Explore how AI affects jobs, skills, and wages across industries. Data-driven analysis of workforce displacement, transformation, and opportunities.">
+<meta property="og:url" content="https://gloat.com/blog/ai-labor-market/">
+<meta property="og:site_name" content="Gloat">
+<meta property="og:updated_time" content="2026-08-11T16:42:55+00:00">
+<meta property="og:image" content="https://gloat.com/wp-content/uploads/2020/08/chess.jpg">
+<meta property="og:image:secure_url" content="https://gloat.com/wp-content/uploads/2020/08/chess.jpg">
+<meta property="og:image:width" content="640">
+<meta property="og:image:height" content="427">
+<meta property="og:image:alt" content="talent marketplace">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="article:published_time" content="2025-12-09T17:04:45+00:00">
+<meta property="article:modified_time" content="2026-08-11T16:42:55+00:00">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Labor Market Impact (Updated for Q3 2026) | Gloat">
+<meta name="twitter:description" content="Explore how AI affects jobs, skills, and wages across industries. Data-driven analysis of workforce displacement, transformation, and opportunities.">
+<meta name="twitter:site" content="@gloat_com">
+<meta name="twitter:creator" content="@gloat_com">
+<meta name="twitter:image" content="https://gloat.com/wp-content/uploads/2020/08/chess.jpg">
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://gloat.com/#organization","name":"Gloat","url":"https://gloat.com","sameAs":["https://twitter.com/gloat_com"]},{"@type":"WebSite","@id":"https://gloat.com/#website","url":"https://gloat.com","name":"Gloat","publisher":{"@id":"https://gloat.com/#organization"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://gloat.com/wp-content/uploads/2020/08/chess.jpg","url":"https://gloat.com/wp-content/uploads/2020/08/chess.jpg","width":"640","height":"427","caption":"talent marketplace","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://gloat.com/blog/ai-labor-market/#webpage","url":"https://gloat.com/blog/ai-labor-market/","name":"AI Labor Market Impact (Updated for Q3 2026) | Gloat","datePublished":"2025-12-09T17:04:45+00:00","dateModified":"2026-08-11T16:42:55+00:00","isPartOf":{"@id":"https://gloat.com/#website"},"primaryImageOfPage":{"@id":"https://gloat.com/wp-content/uploads/2020/08/chess.jpg"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://gloat.com/blog/ai-labor-market/#author","name":"Nicole Schreiber-Shearer","image":{"@type":"ImageObject","@id":"https://gloat.com/wp-content/uploads/2023/05/nicole-pic-for-blog3-q6vrhglh706o26s50ykya48226ytjhjt9u4un7kwko-96x96.jpg","url":"https://gloat.com/wp-content/uploads/2023/05/nicole-pic-for-blog3-q6vrhglh706o26s50ykya48226ytjhjt9u4un7kwko-96x96.jpg","caption":"Nicole Schreiber-Shearer","inLanguage":"en-US"},"worksFor":{"@id":"https://gloat.com/#organization"}},{"@type":"Article","headline":"AI Labor Market Impact (Updated for Q3 2026) | Gloat","datePublished":"2025-12-09T17:04:45+00:00","dateModified":"2026-08-11T16:42:55+00:00","author":{"@id":"https://gloat.com/blog/ai-labor-market/#author","name":"Nicole Schreiber-Shearer"},"publisher":{"@id":"https://gloat.com/#organization"},"description":"Explore how AI affects jobs, skills, and wages across industries. Data-driven analysis of workforce displacement, transformation, and opportunities.","name":"AI Labor Market Impact (Updated for Q3 2026) | Gloat","@id":"https://gloat.com/blog/ai-labor-market/#richSnippet","isPartOf":{"@id":"https://gloat.com/blog/ai-labor-market/#webpage"},"image":{"@id":"https://gloat.com/wp-content/uploads/2020/08/chess.jpg"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://gloat.com/blog/ai-labor-market/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel="dns-prefetch" href="//js.hs-scripts.com">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//b4525229.assetcdn.net">
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Gloat » Feed" href="https://gloat.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Gloat » Comments Feed" href="https://gloat.com/comments/feed/">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://gloat.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgloat.com%2Fblog%2Fai-labor-market%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://gloat.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgloat.com%2Fblog%2Fai-labor-market%2F&amp;format=xml">
+		<style></style>
+		<style id="wp-img-auto-sizes-contain-inline-css"></style>
+<style id="wp-emoji-styles-inline-css"></style>
+<style id="wp-block-library-inline-css"></style>
+<style id="wp-block-heading-inline-css"></style>
+<style id="wp-block-paragraph-inline-css"></style>
+<style id="wp-block-table-inline-css"></style>
+
+<style id="classic-theme-styles-inline-css"></style>
+
+
+<style id="global-styles-inline-css"></style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="cookie-law-info-wca-js-before">
+const _ckyGsk = true;
+//# sourceURL=cookie-law-info-wca-js-before
+</script>
+<script id="cookie-law-info-wca-js" src="https://gloat.com/wp-content/plugins/cookie-law-info/lite/frontend/js/wca.min.js?ver=3.5.3"></script>
+<script id="jquery-core-js" src="https://gloat.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script type="text/rocketlazyloadscript" id="jquery-migrate-js" data-rocket-src="https://gloat.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://gloat.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://gloat.com/wp-json/wp/v2/blog/35336"><meta name="generator" content="Site Kit by Google 1.183.0">			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v11.3.6-->
+			<script type="text/rocketlazyloadscript" class="hsq-set-content-id" data-content-id="blog-post">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "blog-post"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+			<script src="https://fast.wistia.com/assets/external/E-v1.js" async=""> </script>
+<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "tw7m32qm0o");
+</script>		<script type="text/rocketlazyloadscript">
+			document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+		</script>
+				<style></style>
+		<meta name="generator" content="speculation-rules 1.6.0">
+<link rel="icon" href="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/03/gloat-favicon-1.png?lossy=1&amp;strip=1&amp;webp=1" sizes="32x32">
+<link rel="icon" href="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/03/gloat-favicon-1.png?lossy=1&amp;strip=1&amp;webp=1" sizes="192x192">
+<link rel="apple-touch-icon" href="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/03/gloat-favicon-1.png?lossy=1&amp;strip=1&amp;webp=1">
+<meta name="msapplication-TileImage" content="https://gloat.com/wp-content/uploads/2023/03/gloat-favicon-1.png">
+<style id="wp-custom-css"></style>
+
+    <link rel="preload" as="image" href="https://b4525229.assetcdn.net/4525229/wp-content/uploads/BG-IMAGE-1-scaled-1.webp?lossy=1&amp;strip=1&amp;webp=1" fetchpriority="high">
+
+
+    <!-- Google Tag Manager -->
+
+    <script type="text/rocketlazyloadscript">
+        window.addEventListener('load', function () {
+            requestIdleCallback ? requestIdleCallback(loadGTM) : setTimeout(loadGTM, 2000);
+            function loadGTM() {
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                    var f = d.getElementsByTagName(s)[0], j = d.createElement(s); j.async = true;
+                    j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-PHDDPGF'); // keep your real ID
+            }
+        });
+    </script>
+
+    <!-- <script type="text/rocketlazyloadscript">
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PHDDPGF');
+    </script> -->
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script type="text/rocketlazyloadscript" async="" data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-LHEYL53XWR"></script>
+    <script type="text/rocketlazyloadscript">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-LHEYL53XWR');
+    </script>
+
+
+    <style></style>
+
+<style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.23" data-wpr-features="wpr_remove_unused_css wpr_delay_js wpr_defer_js wpr_minify_js wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_minify_css wpr_cdn wpr_preload_links wpr_desktop"><link href="https://www.googletagmanager.com" rel="preconnect"></head>
+
+<body class="wp-singular blog-template-default single single-blog postid-35336 wp-theme-gloat">
+
+
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- ============================================================
+     SITE HEADER
+     Figma: Frame 87 — 1220x80 bg=#121225 VERTICAL pad=T14B14L79R79
+     Frame 86 inner: HORIZONTAL gap=68
+     border-bottom: 1px solid #F1DFDB
+     ============================================================ -->
+    <header class="site-header" id="site-header" role="banner">
+        <div class="site-header__inner">
+
+            <!-- Logo -->
+            <a href="https://gloat.com/" class="site-header__logo" aria-label="Gloat – Home">
+                                    <span class="site-logo-svg">
+                        <!-- Gloat logo — simplified SVG wordmark matching Figma vectors (all white fills) -->
+                        <svg width="63" height="42" viewBox="0 0 63 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.2987 32.4978V16.5751H11.7349V32.4874" fill="white"></path>
+                            <path d="M11.738 30.8007V33.9825C11.738 35.7376 10.3097 37.1644 8.55611 37.1644H7.74273C5.98764 37.1644 4.56087 35.7361 4.56087 33.9825C4.56087 32.2289 5.98913 30.8007 7.74273 30.8007H11.738ZM16.2988 26.2398H7.74273C3.46692 26.2398 0 29.7067 0 33.9825C0 38.2583 3.46692 41.7253 7.74273 41.7253H8.55611C12.8319 41.7253 16.2988 38.2583 16.2988 33.9825V26.2398Z" fill="white"></path>
+                            <path d="M63.0001 5.97295H55.1782V10.5293H63.0001V5.97295Z" fill="white"></path>
+                            <path d="M53.7291 8.25168H49.1667V16.066H53.7291V8.25168Z" fill="white"></path>
+                            <path d="M53.7291 23.9686C51.2099 23.9686 49.1667 21.9284 49.1667 19.4122V16.5751H53.7291V23.9686Z" fill="white"></path>
+                            <path d="M24.858 19.3405C24.5595 19.4031 24.2461 19.427 23.9237 19.4017C22.2194 19.2673 20.9225 17.8092 20.9225 16.1019V4.55644C20.9225 2.0402 18.8793 4.57764e-05 16.3601 4.57764e-05V16.0705C16.3601 20.3852 19.8942 23.9864 24.2148 23.9685C25.6266 23.9625 26.9519 23.5834 28.0936 22.9238C26.6728 22.103 25.5341 20.8493 24.8595 19.342L24.858 19.3405Z" fill="white"></path>
+                            <path d="M24.858 19.3407C24.5595 19.4033 24.2461 19.4272 23.9237 19.4018C22.2194 19.2675 20.9225 17.8094 20.9225 16.1021V12.9038H16.3601V16.1588H16.3616C16.4094 20.4346 19.9225 23.9866 24.2133 23.9687C25.6251 23.9627 26.9504 23.5836 28.0921 22.924C26.6713 22.1031 25.5326 20.8495 24.858 19.3421V19.3407Z" fill="url(#paint0_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M32.5691 18.4586C31.2961 19.7286 29.2321 19.7286 27.9605 18.4586C26.6875 17.1885 26.6875 15.126 27.9605 13.8559L24.7339 10.6337C21.6789 13.6843 21.6789 18.6302 24.7339 21.6807C27.7889 24.7312 32.7408 24.7312 35.7958 21.6807L32.5691 18.4586Z" fill="white"></path>
+                            <path d="M53.7291 23.9686C51.2099 23.9686 49.1667 21.9284 49.1667 19.4122V16.5751H53.7291V23.9686Z" fill="url(#paint1_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M30.2649 19.4123C28.4651 19.4123 27.0055 17.9557 27.0055 16.1573C27.0055 14.3589 28.4651 12.9023 30.2649 12.9023C32.0648 12.9023 33.5244 14.3589 33.5244 16.1573C33.5244 17.9557 32.0648 19.4123 30.2649 19.4123ZM30.2649 8.34594C25.9444 8.34594 22.4431 11.8427 22.4431 16.1573C22.4431 20.4719 25.9444 23.9687 30.2649 23.9687C34.5855 23.9687 38.0868 20.4719 38.0868 16.1573C38.0868 11.8427 34.584 8.34594 30.2649 8.34594Z" fill="white"></path>
+                            <path d="M45.9073 19.4123C44.1074 19.4123 42.6478 17.9557 42.6478 16.1573C42.6478 14.3589 44.1074 12.9023 45.9073 12.9023C47.7071 12.9023 49.1668 14.3589 49.1668 16.1573C49.1668 17.9557 47.7071 19.4123 45.9073 19.4123ZM45.9073 8.34594C41.5867 8.34594 38.0854 11.8427 38.0854 16.1573C38.0854 20.4719 41.5867 23.9687 45.9073 23.9687C50.2279 23.9687 53.7291 20.4719 53.7291 16.1573C53.7291 11.8427 50.2264 8.34594 45.9073 8.34594Z" fill="white"></path>
+                            <path d="M16.2988 26.3041H11.729V34.0811H16.2988V26.3041Z" fill="url(#paint2_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M16.2987 19.0301H11.7363V27.3444H16.2987V19.0301Z" fill="url(#paint3_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M8.47686 19.4123C6.67699 19.4123 5.21739 17.9557 5.21739 16.1573C5.21739 14.3589 6.67699 12.9023 8.47686 12.9023C10.2767 12.9023 11.7363 14.3589 11.7363 16.1573C11.7363 17.9557 10.2767 19.4123 8.47686 19.4123ZM8.47686 8.34594C4.15627 8.34594 0.655029 11.8427 0.655029 16.1573C0.655029 20.4719 4.15627 23.9687 8.47686 23.9687C12.7975 23.9687 16.2987 20.4719 16.2987 16.1573C16.2987 11.8427 12.7975 8.34594 8.47686 8.34594Z" fill="white"></path>
+                            <path d="M8.47681 8.34568V12.9021C10.2767 12.9021 11.7363 14.3587 11.7363 16.1571C11.7363 16.2406 11.7318 16.3227 11.7258 16.4033C11.7258 16.4182 11.7243 16.4347 11.7228 16.4496C11.7154 16.5287 11.7064 16.6078 11.693 16.6839C11.6915 16.6958 11.6885 16.7078 11.687 16.7197C11.6736 16.8003 11.6572 16.8794 11.6363 16.957C11.6154 17.0376 11.5915 17.1167 11.5646 17.1943C11.5617 17.2033 11.5587 17.2107 11.5557 17.2197C11.5288 17.2988 11.499 17.3749 11.4661 17.451C11.4661 17.451 11.4661 17.451 11.4661 17.4525C11.3617 17.6913 11.2303 17.9137 11.0751 18.1181L14.3137 21.3522C15.5479 19.9717 16.3001 18.151 16.3001 16.1526C16.3001 11.838 12.7989 8.34121 8.4783 8.34121L8.47681 8.34568Z" fill="url(#paint4_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M30.2651 8.34568V12.9021C32.065 12.9021 33.5246 14.3587 33.5246 16.1571C33.5246 16.2406 33.5201 16.3227 33.5142 16.4033C33.5142 16.4182 33.5127 16.4347 33.5112 16.4496C33.5037 16.5287 33.4948 16.6078 33.4813 16.6839C33.4798 16.6958 33.4768 16.7078 33.4754 16.7197C33.4619 16.8003 33.4455 16.8794 33.4246 16.957C33.4037 17.0376 33.3798 17.1167 33.353 17.1943C33.35 17.2033 33.347 17.2107 33.344 17.2197C33.3172 17.2988 33.2873 17.3749 33.2545 17.451C33.2545 17.451 33.2545 17.451 33.2545 17.4525C33.15 17.6913 33.0187 17.9137 32.8635 18.1181L36.102 21.3522C37.3363 19.9717 38.0885 18.151 38.0885 16.1526C38.0885 11.838 34.5872 8.34121 30.2666 8.34121L30.2651 8.34568Z" fill="url(#paint5_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M45.9072 8.34568V12.9021C47.7071 12.9021 49.1667 14.3587 49.1667 16.1571C49.1667 16.2406 49.1622 16.3227 49.1563 16.4033C49.1563 16.4182 49.1548 16.4347 49.1533 16.4496C49.1458 16.5287 49.1369 16.6078 49.1234 16.6839C49.1219 16.6958 49.1189 16.7078 49.1174 16.7197C49.104 16.8003 49.0876 16.8794 49.0667 16.957C49.0458 17.0376 49.0219 17.1167 48.9951 17.1943C48.9921 17.2033 48.9891 17.2107 48.9861 17.2197C48.9592 17.2988 48.9294 17.3749 48.8966 17.451C48.8966 17.451 48.8966 17.451 48.8966 17.4525C48.7921 17.6913 48.6608 17.9137 48.5055 18.1181L51.7441 21.3522C52.9784 19.9717 53.7306 18.151 53.7306 16.1526C53.7306 11.838 50.2293 8.34121 45.9087 8.34121L45.9072 8.34568Z" fill="url(#paint6_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M10.7961 18.4542L14.0228 21.6763L20.9178 14.7888V8.34594L10.7961 18.4542Z" fill="white"></path>
+                            <path d="M16.3631 30.7872H8.73828V26.2398H20.918C20.918 28.7516 18.8779 30.7872 16.3631 30.7872Z" fill="white"></path>
+                            <path d="M35.6661 21.8133L32.4395 18.5926L40.7254 10.3171L42.3388 11.9289L43.9521 13.5392L35.6661 21.8133Z" fill="white"></path>
+                            <path d="M57.8767 8.89032L57.8513 8.86494L48.249 18.4538L51.4742 21.676L57.8767 15.2824V8.89032Z" fill="white"></path>
+                            <path d="M63.0001 5.97295H55.1782V10.5293H63.0001V5.97295Z" fill="url(#paint7_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M57.8767 8.89032L57.8513 8.86494L48.249 18.4538L51.4742 21.676L57.8767 15.2824V8.89032Z" fill="url(#paint8_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                            <path d="M59.7406 16.1571V4.55644C59.7406 2.0402 57.6974 4.57764e-05 55.1782 4.57764e-05V16.3586H55.1797C55.2872 20.5792 58.7466 23.9685 62.9986 23.9685V19.4121C61.1987 19.4121 59.7406 17.9555 59.7406 16.1571Z" fill="white"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_3065_408" x1="16.3586" y1="18.4348" x2="28.0921" y2="18.4348" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.28" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                                    <stop offset="0.41" stop-color="#F2F6ED" stop-opacity="0.54"></stop>
+                                    <stop offset="0.58" stop-color="#E9EBE4" stop-opacity="0.66"></stop>
+                                    <stop offset="0.79" stop-color="#D9D9D5" stop-opacity="0.85"></stop>
+                                    <stop offset="0.94" stop-color="#CDCBCA"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_3065_408" x1="51.4487" y1="17.8287" x2="51.4487" y2="24.3462" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.13" stop-color="#CDCBCA"></stop>
+                                    <stop offset="0.8" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint2_linear_3065_408" x1="14.0139" y1="26.225" x2="14.0139" y2="31.4037" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#F6FAF1" stop-opacity="0"></stop>
+                                    <stop offset="0.53" stop-color="#CDCBCA"></stop>
+                                    <stop offset="1" stop-color="#F6FAF1" stop-opacity="0.6"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint3_linear_3065_408" x1="11.9289" y1="20.424" x2="16.0181" y2="25.8356" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#CDCBCA"></stop>
+                                    <stop offset="0.8" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint4_linear_3065_408" x1="10.3632" y1="11.4917" x2="15.1331" y2="17.6913" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.2" stop-color="#F6FAF1" stop-opacity="0"></stop>
+                                    <stop offset="1" stop-color="#CDCBCA"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint5_linear_3065_408" x1="32.1501" y1="11.4917" x2="36.9199" y2="17.6913" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.2" stop-color="#F6FAF1" stop-opacity="0"></stop>
+                                    <stop offset="0.45" stop-color="#E6E8E2" stop-opacity="0.38"></stop>
+                                    <stop offset="0.88" stop-color="#CDCBCA"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint6_linear_3065_408" x1="47.7937" y1="11.4917" x2="52.5635" y2="17.6913" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.2" stop-color="#F6FAF1" stop-opacity="0"></stop>
+                                    <stop offset="0.28" stop-color="#F2F5ED" stop-opacity="0.09"></stop>
+                                    <stop offset="0.46" stop-color="#E8EAE4" stop-opacity="0.33"></stop>
+                                    <stop offset="0.7" stop-color="#D9D9D5" stop-opacity="0.7"></stop>
+                                    <stop offset="0.88" stop-color="#CDCBCA"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint7_linear_3065_408" x1="55.1782" y1="8.25189" x2="63.0001" y2="8.25189" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#CDCBCA"></stop>
+                                    <stop offset="0.8" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                                </linearGradient>
+                                <linearGradient id="paint8_linear_3065_408" x1="48.249" y1="15.2705" x2="57.8767" y2="15.2705" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0.41" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                                    <stop offset="0.52" stop-color="#F3F7EF" stop-opacity="0.53"></stop>
+                                    <stop offset="0.62" stop-color="#EDF0E9" stop-opacity="0.6"></stop>
+                                    <stop offset="0.73" stop-color="#E3E4DF" stop-opacity="0.73"></stop>
+                                    <stop offset="0.84" stop-color="#D5D4D1" stop-opacity="0.9"></stop>
+                                    <stop offset="0.89" stop-color="#CDCBCA"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+
+                    </span>
+                            </a>
+
+            <!-- Primary Nav (Frame 81: HORIZONTAL gap=40) — ACF-driven -->
+                        <nav class="site-header__nav" id="primary-nav" role="navigation" aria-label="Primary Navigation">
+                <ul class="nav-list" role="list">
+                                                    <li class="nav-item nav-item--has-mega" data-mega="platform">
+                                                                            <button class="nav-link nav-link--trigger" aria-expanded="false" aria-controls="mega-platform" aria-haspopup="true">
+                                            Platform                                            <span class="nav-chevron" aria-hidden="true">
+                                                <svg viewBox="0 0 10 5">
+                                                    <path d="M1 1L5 4.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                                                    </li>
+                                                            <li class="nav-item nav-item--has-mega" data-mega="ai-technology">
+                                                                            <button class="nav-link nav-link--trigger" aria-expanded="false" aria-controls="mega-ai-technology" aria-haspopup="true">
+                                            AI Technology                                            <span class="nav-chevron" aria-hidden="true">
+                                                <svg viewBox="0 0 10 5">
+                                                    <path d="M1 1L5 4.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                                                    </li>
+                                                            <li class="nav-item nav-item--has-mega" data-mega="use-cases">
+                                                                            <a href="https://gloat.com/use-cases-agents/" class="nav-link nav-link--trigger" aria-expanded="false" aria-controls="mega-use-cases" aria-haspopup="true">
+                                            Use cases                                            <span class="nav-chevron" aria-hidden="true">
+                                                <svg viewBox="0 0 10 5">
+                                                    <path d="M1 1L5 4.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                                                    </li>
+                                                            <li class="nav-item">
+                                    <a href="https://gloat.com/agentic-hr-academy/" class="nav-link">Agentic HR</a>
+                                </li>
+                                                            <li class="nav-item nav-item--has-mega" data-mega="company">
+                                                                            <button class="nav-link nav-link--trigger" aria-expanded="false" aria-controls="mega-company" aria-haspopup="true">
+                                            Company                                            <span class="nav-chevron" aria-hidden="true">
+                                                <svg viewBox="0 0 10 5">
+                                                    <path d="M1 1L5 4.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                        </button>
+                                                                    </li>
+                                            </ul>
+            </nav>
+
+            <!-- Right actions (Frame 85: gap=16) — ACF-driven -->
+            <div class="site-header__actions">
+                                <a href="https://gloat.com/talk-to-us/" class="nav-contact">Contact</a>
+                <a href="https://gloat.com/talk-to-us/" class="btn-demo">Get a demo</a>
+            </div>
+
+            <!-- Mobile hamburger -->
+            <button class="mobile-toggle" id="mobile-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">
+                <span class="hamburger" aria-hidden="true">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </span>
+            </button>
+
+        </div><!-- /.site-header__inner -->
+
+        <!-- MEGA MENU PANELS — ACF-driven -->
+                            <div class="mega-menu" id="mega-platform" aria-hidden="true" role="region" aria-label="Platform menu">
+                        <div class="mega-menu__inner">
+                            <div class="mega-menu__grid">
+                                                                    <a href="https://gloat.com/platform/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Overview<br><small>How the platform works</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/platform/gloat-for-microsoft-teams/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Microsoft Teams<br><small>Agentic HR in Teams chat</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/platform/gloat-for-microsoft-copilot/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Microsoft Copilot<br><small>Native Copilot skill</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/platform/gloat-for-successfactors/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">SuccessFactors<br><small>SAP HCM integration</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/platform/gloat-for-workday/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Workday<br><small>Workday HCM integration</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/platform/gloat-for-oracle-hcm/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Oracle HCM<br><small>Oracle Cloud integration</small></span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div><!-- /#mega-platform -->
+                                    <div class="mega-menu" id="mega-ai-technology" aria-hidden="true" role="region" aria-label="AI Technology menu">
+                        <div class="mega-menu__inner">
+                            <div class="mega-menu__grid">
+                                                                    <a href="https://gloat.com/ai-technology/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Overview<br><small>The intelligence layer</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/ai-technology/intelligent-tools/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Intelligent Tools<br><small>14 purpose-built HR capabilities</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/ai-technology/knowledge-graph/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Knowledge Graph<br><small>People, jobs, skills connected</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/ai-technology/governance-engine/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Governance Engine<br><small>Business rules for AI agents</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/ai-technology/retrieval-embedding/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Retrieval &amp; Embedding<br><small>Semantic workforce search</small></span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div><!-- /#mega-ai-technology -->
+                                    <div class="mega-menu" id="mega-use-cases" aria-hidden="true" role="region" aria-label="Use cases menu">
+                        <div class="mega-menu__inner">
+                            <div class="mega-menu__grid">
+                                                                    <a href="https://gloat.com/use-cases-agents/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">All Use Cases<br><small>Explore AI-powered use cases</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/use-cases-agents/#uc-cat-talent-management" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Talent Management<br><small>Career coaching, pathing</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/use-cases-agents/#uc-cat-talent-acquisition" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Talent Acquisition<br><small>Sourcing, referrals</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/use-cases-agents/#uc-cat-skills" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Skills<br><small>Inventory, gap analysis, and matching</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/use-cases-agents/#uc-cat-workforce-planning" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Workforce Planning<br><small>Job design, headcount</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/use-cases-agents/#uc-cat-hr-operations" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">HR Operations<br><small>Service delivery, onboarding, and policy</small></span>
+                                    </a>
+                                                                    <a href="https://gloat.com/use-cases-agents/#uc-cat-learning-development" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Learning &amp; Development<br><small>Upskilling, reskilling, and mentorship</small></span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div><!-- /#mega-use-cases -->
+                                    <div class="mega-menu" id="mega-company" aria-hidden="true" role="region" aria-label="Company menu">
+                        <div class="mega-menu__inner">
+                            <div class="mega-menu__grid">
+                                                                    <a href="https://gloat.com/about-us/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">About us</span>
+                                    </a>
+                                                                    <a href="https://gloat.com/partners/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Partners</span>
+                                    </a>
+                                                                    <a href="https://gloat.com/newsroom/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">News and press</span>
+                                    </a>
+                                                                    <a href="https://gloat.com/careers/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Careers</span>
+                                    </a>
+                                                                    <a href="https://gloat.com/about-us/gloats-commitment-to-ethical-ai/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Ethical AI</span>
+                                    </a>
+                                                                    <a href="https://gloat.com/blog/" class="mega-menu__cell">
+                                        <span class="mega-menu__dot" aria-hidden="true"></span>
+                                        <span class="mega-menu__text">Blog</span>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div><!-- /#mega-company -->
+                
+        <!-- Overlay backdrop -->
+        <div class="mega-overlay" id="mega-overlay" aria-hidden="true"></div>
+    </header>
+
+    <!-- ============================================================
+     MOBILE NAVIGATION
+     Mobile layout: bg=#F1DFDB, VERTICAL pad=T35B35L25R25 gap=70
+     ============================================================ -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Navigation">
+
+        <!-- Mobile header bar (Frame 29433: bg=#121225 pad=T20B19L25R25) -->
+        <div class="mobile-nav__header">
+            <a href="https://gloat.com/" class="mobile-nav__logo">
+
+                <!-- Gloat logo — simplified SVG wordmark matching Figma vectors (all white fills) -->
+                <svg width="63" height="42" viewBox="0 0 63 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.2987 32.4978V16.5751H11.7349V32.4874" fill="white"></path>
+                    <path d="M11.738 30.8007V33.9825C11.738 35.7376 10.3097 37.1644 8.55611 37.1644H7.74273C5.98764 37.1644 4.56087 35.7361 4.56087 33.9825C4.56087 32.2289 5.98913 30.8007 7.74273 30.8007H11.738ZM16.2988 26.2398H7.74273C3.46692 26.2398 0 29.7067 0 33.9825C0 38.2583 3.46692 41.7253 7.74273 41.7253H8.55611C12.8319 41.7253 16.2988 38.2583 16.2988 33.9825V26.2398Z" fill="white"></path>
+                    <path d="M63.0001 5.97295H55.1782V10.5293H63.0001V5.97295Z" fill="white"></path>
+                    <path d="M53.7291 8.25168H49.1667V16.066H53.7291V8.25168Z" fill="white"></path>
+                    <path d="M53.7291 23.9686C51.2099 23.9686 49.1667 21.9284 49.1667 19.4122V16.5751H53.7291V23.9686Z" fill="white"></path>
+                    <path d="M24.858 19.3405C24.5595 19.4031 24.2461 19.427 23.9237 19.4017C22.2194 19.2673 20.9225 17.8092 20.9225 16.1019V4.55644C20.9225 2.0402 18.8793 4.57764e-05 16.3601 4.57764e-05V16.0705C16.3601 20.3852 19.8942 23.9864 24.2148 23.9685C25.6266 23.9625 26.9519 23.5834 28.0936 22.9238C26.6728 22.103 25.5341 20.8493 24.8595 19.342L24.858 19.3405Z" fill="white"></path>
+                    <path d="M24.858 19.3407C24.5595 19.4033 24.2461 19.4272 23.9237 19.4018C22.2194 19.2675 20.9225 17.8094 20.9225 16.1021V12.9038H16.3601V16.1588H16.3616C16.4094 20.4346 19.9225 23.9866 24.2133 23.9687C25.6251 23.9627 26.9504 23.5836 28.0921 22.924C26.6713 22.1031 25.5326 20.8495 24.858 19.3421V19.3407Z" fill="url(#paint0_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M32.5691 18.4586C31.2961 19.7286 29.2321 19.7286 27.9605 18.4586C26.6875 17.1885 26.6875 15.126 27.9605 13.8559L24.7339 10.6337C21.6789 13.6843 21.6789 18.6302 24.7339 21.6807C27.7889 24.7312 32.7408 24.7312 35.7958 21.6807L32.5691 18.4586Z" fill="white"></path>
+                    <path d="M53.7291 23.9686C51.2099 23.9686 49.1667 21.9284 49.1667 19.4122V16.5751H53.7291V23.9686Z" fill="url(#paint1_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M30.2649 19.4123C28.4651 19.4123 27.0055 17.9557 27.0055 16.1573C27.0055 14.3589 28.4651 12.9023 30.2649 12.9023C32.0648 12.9023 33.5244 14.3589 33.5244 16.1573C33.5244 17.9557 32.0648 19.4123 30.2649 19.4123ZM30.2649 8.34594C25.9444 8.34594 22.4431 11.8427 22.4431 16.1573C22.4431 20.4719 25.9444 23.9687 30.2649 23.9687C34.5855 23.9687 38.0868 20.4719 38.0868 16.1573C38.0868 11.8427 34.584 8.34594 30.2649 8.34594Z" fill="white"></path>
+                    <path d="M45.9073 19.4123C44.1074 19.4123 42.6478 17.9557 42.6478 16.1573C42.6478 14.3589 44.1074 12.9023 45.9073 12.9023C47.7071 12.9023 49.1668 14.3589 49.1668 16.1573C49.1668 17.9557 47.7071 19.4123 45.9073 19.4123ZM45.9073 8.34594C41.5867 8.34594 38.0854 11.8427 38.0854 16.1573C38.0854 20.4719 41.5867 23.9687 45.9073 23.9687C50.2279 23.9687 53.7291 20.4719 53.7291 16.1573C53.7291 11.8427 50.2264 8.34594 45.9073 8.34594Z" fill="white"></path>
+                    <path d="M16.2988 26.3041H11.729V34.0811H16.2988V26.3041Z" fill="url(#paint2_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M16.2987 19.0301H11.7363V27.3444H16.2987V19.0301Z" fill="url(#paint3_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M8.47686 19.4123C6.67699 19.4123 5.21739 17.9557 5.21739 16.1573C5.21739 14.3589 6.67699 12.9023 8.47686 12.9023C10.2767 12.9023 11.7363 14.3589 11.7363 16.1573C11.7363 17.9557 10.2767 19.4123 8.47686 19.4123ZM8.47686 8.34594C4.15627 8.34594 0.655029 11.8427 0.655029 16.1573C0.655029 20.4719 4.15627 23.9687 8.47686 23.9687C12.7975 23.9687 16.2987 20.4719 16.2987 16.1573C16.2987 11.8427 12.7975 8.34594 8.47686 8.34594Z" fill="white"></path>
+                    <path d="M8.47681 8.34568V12.9021C10.2767 12.9021 11.7363 14.3587 11.7363 16.1571C11.7363 16.2406 11.7318 16.3227 11.7258 16.4033C11.7258 16.4182 11.7243 16.4347 11.7228 16.4496C11.7154 16.5287 11.7064 16.6078 11.693 16.6839C11.6915 16.6958 11.6885 16.7078 11.687 16.7197C11.6736 16.8003 11.6572 16.8794 11.6363 16.957C11.6154 17.0376 11.5915 17.1167 11.5646 17.1943C11.5617 17.2033 11.5587 17.2107 11.5557 17.2197C11.5288 17.2988 11.499 17.3749 11.4661 17.451C11.4661 17.451 11.4661 17.451 11.4661 17.4525C11.3617 17.6913 11.2303 17.9137 11.0751 18.1181L14.3137 21.3522C15.5479 19.9717 16.3001 18.151 16.3001 16.1526C16.3001 11.838 12.7989 8.34121 8.4783 8.34121L8.47681 8.34568Z" fill="url(#paint4_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M30.2651 8.34568V12.9021C32.065 12.9021 33.5246 14.3587 33.5246 16.1571C33.5246 16.2406 33.5201 16.3227 33.5142 16.4033C33.5142 16.4182 33.5127 16.4347 33.5112 16.4496C33.5037 16.5287 33.4948 16.6078 33.4813 16.6839C33.4798 16.6958 33.4768 16.7078 33.4754 16.7197C33.4619 16.8003 33.4455 16.8794 33.4246 16.957C33.4037 17.0376 33.3798 17.1167 33.353 17.1943C33.35 17.2033 33.347 17.2107 33.344 17.2197C33.3172 17.2988 33.2873 17.3749 33.2545 17.451C33.2545 17.451 33.2545 17.451 33.2545 17.4525C33.15 17.6913 33.0187 17.9137 32.8635 18.1181L36.102 21.3522C37.3363 19.9717 38.0885 18.151 38.0885 16.1526C38.0885 11.838 34.5872 8.34121 30.2666 8.34121L30.2651 8.34568Z" fill="url(#paint5_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M45.9072 8.34568V12.9021C47.7071 12.9021 49.1667 14.3587 49.1667 16.1571C49.1667 16.2406 49.1622 16.3227 49.1563 16.4033C49.1563 16.4182 49.1548 16.4347 49.1533 16.4496C49.1458 16.5287 49.1369 16.6078 49.1234 16.6839C49.1219 16.6958 49.1189 16.7078 49.1174 16.7197C49.104 16.8003 49.0876 16.8794 49.0667 16.957C49.0458 17.0376 49.0219 17.1167 48.9951 17.1943C48.9921 17.2033 48.9891 17.2107 48.9861 17.2197C48.9592 17.2988 48.9294 17.3749 48.8966 17.451C48.8966 17.451 48.8966 17.451 48.8966 17.4525C48.7921 17.6913 48.6608 17.9137 48.5055 18.1181L51.7441 21.3522C52.9784 19.9717 53.7306 18.151 53.7306 16.1526C53.7306 11.838 50.2293 8.34121 45.9087 8.34121L45.9072 8.34568Z" fill="url(#paint6_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M10.7961 18.4542L14.0228 21.6763L20.9178 14.7888V8.34594L10.7961 18.4542Z" fill="white"></path>
+                    <path d="M16.3631 30.7872H8.73828V26.2398H20.918C20.918 28.7516 18.8779 30.7872 16.3631 30.7872Z" fill="white"></path>
+                    <path d="M35.6661 21.8133L32.4395 18.5926L40.7254 10.3171L42.3388 11.9289L43.9521 13.5392L35.6661 21.8133Z" fill="white"></path>
+                    <path d="M57.8767 8.89032L57.8513 8.86494L48.249 18.4538L51.4742 21.676L57.8767 15.2824V8.89032Z" fill="white"></path>
+                    <path d="M63.0001 5.97295H55.1782V10.5293H63.0001V5.97295Z" fill="url(#paint7_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M57.8767 8.89032L57.8513 8.86494L48.249 18.4538L51.4742 21.676L57.8767 15.2824V8.89032Z" fill="url(#paint8_linear_3065_408)" style="mix-blend-mode:multiply"></path>
+                    <path d="M59.7406 16.1571V4.55644C59.7406 2.0402 57.6974 4.57764e-05 55.1782 4.57764e-05V16.3586H55.1797C55.2872 20.5792 58.7466 23.9685 62.9986 23.9685V19.4121C61.1987 19.4121 59.7406 17.9555 59.7406 16.1571Z" fill="white"></path>
+                    <defs>
+                        <linearGradient id="paint0_linear_3065_408" x1="16.3586" y1="18.4348" x2="28.0921" y2="18.4348" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.28" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                            <stop offset="0.41" stop-color="#F2F6ED" stop-opacity="0.54"></stop>
+                            <stop offset="0.58" stop-color="#E9EBE4" stop-opacity="0.66"></stop>
+                            <stop offset="0.79" stop-color="#D9D9D5" stop-opacity="0.85"></stop>
+                            <stop offset="0.94" stop-color="#CDCBCA"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_3065_408" x1="51.4487" y1="17.8287" x2="51.4487" y2="24.3462" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.13" stop-color="#CDCBCA"></stop>
+                            <stop offset="0.8" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_3065_408" x1="14.0139" y1="26.225" x2="14.0139" y2="31.4037" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F6FAF1" stop-opacity="0"></stop>
+                            <stop offset="0.53" stop-color="#CDCBCA"></stop>
+                            <stop offset="1" stop-color="#F6FAF1" stop-opacity="0.6"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_3065_408" x1="11.9289" y1="20.424" x2="16.0181" y2="25.8356" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#CDCBCA"></stop>
+                            <stop offset="0.8" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint4_linear_3065_408" x1="10.3632" y1="11.4917" x2="15.1331" y2="17.6913" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.2" stop-color="#F6FAF1" stop-opacity="0"></stop>
+                            <stop offset="1" stop-color="#CDCBCA"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint5_linear_3065_408" x1="32.1501" y1="11.4917" x2="36.9199" y2="17.6913" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.2" stop-color="#F6FAF1" stop-opacity="0"></stop>
+                            <stop offset="0.45" stop-color="#E6E8E2" stop-opacity="0.38"></stop>
+                            <stop offset="0.88" stop-color="#CDCBCA"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint6_linear_3065_408" x1="47.7937" y1="11.4917" x2="52.5635" y2="17.6913" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.2" stop-color="#F6FAF1" stop-opacity="0"></stop>
+                            <stop offset="0.28" stop-color="#F2F5ED" stop-opacity="0.09"></stop>
+                            <stop offset="0.46" stop-color="#E8EAE4" stop-opacity="0.33"></stop>
+                            <stop offset="0.7" stop-color="#D9D9D5" stop-opacity="0.7"></stop>
+                            <stop offset="0.88" stop-color="#CDCBCA"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint7_linear_3065_408" x1="55.1782" y1="8.25189" x2="63.0001" y2="8.25189" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#CDCBCA"></stop>
+                            <stop offset="0.8" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                        </linearGradient>
+                        <linearGradient id="paint8_linear_3065_408" x1="48.249" y1="15.2705" x2="57.8767" y2="15.2705" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.41" stop-color="#F6FAF1" stop-opacity="0.5"></stop>
+                            <stop offset="0.52" stop-color="#F3F7EF" stop-opacity="0.53"></stop>
+                            <stop offset="0.62" stop-color="#EDF0E9" stop-opacity="0.6"></stop>
+                            <stop offset="0.73" stop-color="#E3E4DF" stop-opacity="0.73"></stop>
+                            <stop offset="0.84" stop-color="#D5D4D1" stop-opacity="0.9"></stop>
+                            <stop offset="0.89" stop-color="#CDCBCA"></stop>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+            <button class="mobile-nav__close" id="mobile-nav-close" aria-label="Close navigation">
+                <svg viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M15 5L5 15M5 5l10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Nav body (Frame 29461: VERTICAL gap=35 on F1DFDB bg) — ACF-driven -->
+        <div class="mobile-nav__body">
+            <ul class="mobile-nav__list" role="list">
+                                            <li class="mobile-nav__item">
+                                <button class="mobile-nav__trigger" aria-expanded="false">
+                                    Platform                                    <span class="mobile-nav__chevron" aria-hidden="true">
+                                        <svg viewBox="0 0 10 5">
+                                            <path d="M1 1L5 4.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                                <div class="mobile-nav__sub" aria-hidden="true">
+                                                                            <a href="https://gloat.com/platform/" class="mobile-nav__sub-link">Overview</a>
+                                                                            <a href="https://gloat.com/platform/gloat-for-microsoft-teams/" class="mobile-nav__sub-link">Microsoft Teams</a>
+                                                                            <a href="https://gloat.com/platform/gloat-for-microsoft-copilot/" class="mobile-nav__sub-link">Microsoft Copilot</a>
+                                                                            <a href="https://gloat.com/platform/gloat-for-successfactors/" class="mobile-nav__sub-link">SuccessFactors</a>
+                                                                            <a href="https://gloat.com/platform/gloat-for-workday/" class="mobile-nav__sub-link">Workday</a>
+                                                                            <a href="https://gloat.com/platform/gloat-for-oracle-hcm/" class="mobile-nav__sub-link">Oracle HCM</a>
+                                                                    </div>
+                            </li>
+                                                    <li class="mobile-nav__item">
+                                <button class="mobile-nav__trigger" aria-expanded="false">
+                                    AI Technology                                    <span class="mobile-nav__chevron" aria-hidden="true">
+                                        <svg viewBox="0 0 10 5">
+                                            <path d="M1 1L5 4.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                                <div class="mobile-nav__sub" aria-hidden="true">
+                                                                            <a href="https://gloat.com/ai-technology/" class="mobile-nav__sub-link">Overview</a>
+                                                                            <a href="https://gloat.com/ai-technology/intelligent-tools/" class="mobile-nav__sub-link">Intelligent Tools</a>
+                                                                            <a href="https://gloat.com/ai-technology/knowledge-graph/" class="mobile-nav__sub-link">Knowledge Graph</a>
+                                                                            <a href="https://gloat.com/ai-technology/governance-engine/" class="mobile-nav__sub-link">Governance Engine</a>
+                                                                            <a href="https://gloat.com/ai-technology/retrieval-embedding/" class="mobile-nav__sub-link">Retrieval &amp; Embedding</a>
+                                                                    </div>
+                            </li>
+                                                    <li class="mobile-nav__item">
+                                <button class="mobile-nav__trigger" aria-expanded="false">
+                                    Use cases                                    <span class="mobile-nav__chevron" aria-hidden="true">
+                                        <svg viewBox="0 0 10 5">
+                                            <path d="M1 1L5 4.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                                <div class="mobile-nav__sub" aria-hidden="true">
+                                                                            <a href="https://gloat.com/use-cases-agents/" class="mobile-nav__sub-link">All Use Cases</a>
+                                                                            <a href="https://gloat.com/use-cases-agents/#uc-cat-talent-management" class="mobile-nav__sub-link">Talent Management</a>
+                                                                            <a href="https://gloat.com/use-cases-agents/#uc-cat-talent-acquisition" class="mobile-nav__sub-link">Talent Acquisition</a>
+                                                                            <a href="https://gloat.com/use-cases-agents/#uc-cat-skills" class="mobile-nav__sub-link">Skills</a>
+                                                                            <a href="https://gloat.com/use-cases-agents/#uc-cat-workforce-planning" class="mobile-nav__sub-link">Workforce Planning</a>
+                                                                            <a href="https://gloat.com/use-cases-agents/#uc-cat-hr-operations" class="mobile-nav__sub-link">HR Operations</a>
+                                                                            <a href="https://gloat.com/use-cases-agents/#uc-cat-learning-development" class="mobile-nav__sub-link">Learning &amp; Development</a>
+                                                                    </div>
+                            </li>
+                                                    <li class="mobile-nav__item">
+                                <a href="https://gloat.com/agentic-hr-academy/" class="mobile-nav__link">Agentic HR</a>
+                            </li>
+                                                    <li class="mobile-nav__item">
+                                <button class="mobile-nav__trigger" aria-expanded="false">
+                                    Company                                    <span class="mobile-nav__chevron" aria-hidden="true">
+                                        <svg viewBox="0 0 10 5">
+                                            <path d="M1 1L5 4.5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                                <div class="mobile-nav__sub" aria-hidden="true">
+                                                                            <a href="https://gloat.com/about-us/" class="mobile-nav__sub-link">About us</a>
+                                                                            <a href="https://gloat.com/partners/" class="mobile-nav__sub-link">Partners</a>
+                                                                            <a href="https://gloat.com/newsroom/" class="mobile-nav__sub-link">News and press</a>
+                                                                            <a href="https://gloat.com/careers/" class="mobile-nav__sub-link">Careers</a>
+                                                                            <a href="https://gloat.com/about-us/gloats-commitment-to-ethical-ai/" class="mobile-nav__sub-link">Ethical AI</a>
+                                                                            <a href="https://gloat.com/blog/" class="mobile-nav__sub-link">Blog</a>
+                                                                    </div>
+                            </li>
+                        
+                <li class="mobile-nav__item">
+                    <a href="https://gloat.com/talk-to-us/" class="mobile-nav__link">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile CTA (Frame 85: bg=#FF4848 r=2) — ACF-driven -->
+        <div class="mobile-nav__footer">
+            <a href="https://gloat.com/talk-to-us/" class="btn-demo">Get a demo</a>
+        </div>
+
+    </div><!-- /#mobile-nav -->
+
+    <div class="mobile-backdrop" id="mobile-backdrop" aria-hidden="true"></div>
+
+    <div class="mobile-backdrop" id="mobile-backdrop" aria-hidden="true"></div>
+<main id="primary" class="site-main">
+
+    <article class="article">
+
+    <div class="heading">
+        <h1 class="post_title">
+            AI Labor Market Impact: Understanding Workforce Transformation in 2026        </h1>
+                            <h2 class="pre_title">
+                Your strategic guide to navigating AI's impact on hiring, skills, and organizational transformation            </h2>
+        
+        <!--  -->
+    </div>
+
+            <div class="author">
+            <div class="avatar">
+                <img alt="Avatar photo" data-src="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/05/nicole-pic-for-blog3-q6vrhglh706o26s50ykya48226ytjhjt9u4un7kwko-96x96.jpg?lossy=1&amp;strip=1&amp;webp=1" data-srcset="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/05/nicole-pic-for-blog3-q6vrhglh706o26s50ykya48226ytjhjt9u4un7kwko.jpg?lossy=1&amp;strip=1&amp;webp=1 2x" class="avatar avatar-96 photo lazyloaded" height="96" width="96" decoding="async" src="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/05/nicole-pic-for-blog3-q6vrhglh706o26s50ykya48226ytjhjt9u4un7kwko-96x96.jpg?lossy=1&amp;strip=1&amp;webp=1" style="--smush-placeholder-width: 96px; --smush-placeholder-aspect-ratio: 96/96;" srcset="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/05/nicole-pic-for-blog3-q6vrhglh706o26s50ykya48226ytjhjt9u4un7kwko.jpg?lossy=1&amp;strip=1&amp;webp=1 2x">            </div>
+            <div class="meta_info">
+                <span>By
+                    Nicole Schreiber-Shearer,                    Future of Work Specialist at Gloat                </span>
+                <time>
+             Last Updated - August 11, 2026                </time>
+            </div>
+        </div>
+    
+            <div class="thumbnail">
+
+            <img src="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2020/08/chess.jpg?lossy=1&amp;strip=1&amp;webp=1" alt="Trulli" style="width:100%" fetchpriority="high">
+
+        </div>
+    
+    <div class="content">
+        <div class="text">
+            
+            <nav class="gtoc" aria-label="Table of contents"><p class="gtoc__title">Contents</p><ol class="gtoc__list"><li><a href="#current-state-of-ai-in-the-labor-market-updated-for-q3-2026"><span class="n">01</span> Current State of AI in the Labor Market (Updated for Q3 2026)</a></li><li><a href="#what-industries-are-being-affected-by-ai"><span class="n">02</span> What Industries Are Being Affected By AI?</a></li><li><a href="#understanding-ai-exposure-in-jobs"><span class="n">03</span> Understanding AI Exposure In Jobs</a></li><li><a href="#timeline-and-pace-of-change"><span class="n">04</span> Timeline and Pace of Change</a></li><li><a href="#employer-response-and-workforce-strategy"><span class="n">05</span> Employer Response And Workforce Strategy</a></li><li><a href="#worker-adaptation-strategies"><span class="n">06</span> Worker Adaptation Strategies</a></li><li><a href="#turn-workforce-uncertainty-into-strategic-advantage"><span class="n">07</span> Turn Workforce Uncertainty Into Strategic Advantage</a></li></ol></nav><details class="gtoc-m"><summary class="gtoc-m__summary">Contents</summary><ol class="gtoc-m__list"><li><a href="#current-state-of-ai-in-the-labor-market-updated-for-q3-2026"><span class="n">01</span> Current State of AI in the Labor Market (Updated for Q3 2026)</a></li><li><a href="#what-industries-are-being-affected-by-ai"><span class="n">02</span> What Industries Are Being Affected By AI?</a></li><li><a href="#understanding-ai-exposure-in-jobs"><span class="n">03</span> Understanding AI Exposure In Jobs</a></li><li><a href="#timeline-and-pace-of-change"><span class="n">04</span> Timeline and Pace of Change</a></li><li><a href="#employer-response-and-workforce-strategy"><span class="n">05</span> Employer Response And Workforce Strategy</a></li><li><a href="#worker-adaptation-strategies"><span class="n">06</span> Worker Adaptation Strategies</a></li><li><a href="#turn-workforce-uncertainty-into-strategic-advantage"><span class="n">07</span> Turn Workforce Uncertainty Into Strategic Advantage</a></li></ol></details>
+<p class="wp-block-paragraph">How is AI reshaping work? It’s the question that’s keeping CHROs up at night—and for good reason. AI is impacting the labor market by automating routine tasks, displacing some traditional roles, and simultaneously creating unprecedented demand for new positions in data science, AI ethics, and automation oversight. Sectors like manufacturing, customer service, and transportation face significant disruption, while technology, healthcare, and education are seeing explosive growth in AI-assisted roles.</p>
+
+
+
+<p class="wp-block-paragraph">But here’s what the headlines miss: this isn’t a simple story of job destruction. The<a href="https://www.weforum.org/press/2025/01/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces/" rel="nofollow noopener" target="_blank"> World Economic Forum</a> projects 170 million new jobs will emerge by 2030, while 92 million will be displaced, equaling a net gain of 78 million positions. The real challenge isn’t whether your workforce will survive AI; it’s whether your organization can transform fast enough to capture its value.</p>
+
+
+
+<h2 class="wp-block-heading" id="current-state-of-ai-in-the-labor-market-updated-for-q3-2026">Current State of AI in the Labor Market (Updated for Q3 2026)</h2>
+
+
+
+<h3 class="wp-block-heading">AI Adoption Rates Across Industries</h3>
+
+
+
+<p class="wp-block-paragraph">Let’s cut through the noise with some hard numbers. McKinsey’s <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" rel="nofollow noopener" target="_blank">State of AI survey</a> found that 88 percent of organizations now use AI in at least one business function, up from 78 percent a year earlier, yet only about a third have scaled it across the enterprise. A separate McKinsey report, <a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work" rel="nofollow noopener" target="_blank">Superagency in the Workplace</a>, sharpens the point: while 92 percent of companies plan to increase AI investment over the next three years, only 1 percent describe themselves as mature, meaning AI is fully integrated into workflows and driving real business outcomes.</p>
+
+
+
+<p class="wp-block-paragraph">The adoption curve isn’t uniform. Technology and financial services are leading the charge, while construction and hospitality lag behind. <a href="https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html" rel="nofollow noopener" target="_blank">PwC’s 2026 Global AI Jobs Barometer</a>, built on close to a billion job ads, found every industry it analysed is now increasing its use of AI, including slower movers like mining and agriculture.</p>
+
+
+
+<h3 class="wp-block-heading">Employment Impact Statistics</h3>
+
+
+
+<p class="wp-block-paragraph">The employment picture is more nuanced than doomsday predictions suggest.<a href="https://www.pwc.com/gx/en/news-room/press-releases/2025/ai-linked-to-a-fourfold-increase-in-productivity-growth.html" rel="nofollow noopener" target="_blank"> PwC’s research</a> shows that job numbers are actually rising in virtually every type of AI-exposed occupation, even those considered highly automatable. Between 2019-2024, occupations with lower AI exposure saw 65% job growth, while more exposed occupations still achieved 38% growth.</p>
+
+
+
+<p class="wp-block-paragraph">Displacement is real at the same time. <a href="https://hai.stanford.edu/ai-index/2026-ai-index-report/economy" rel="nofollow noopener" target="_blank">Stanford’s 2026 AI Index</a> found that about a third of surveyed employers expect workforce reductions in the year ahead, concentrated in service operations, supply chain, and software engineering. Both things are true together. AI is lifting demand for people who can work with it and thinning demand for people who cannot.</p>
+
+
+
+<h3 class="wp-block-heading">Productivity Gains vs. Job Displacement Reality</h3>
+
+
+
+<p class="wp-block-paragraph">Here’s where it gets interesting. Since generative AI proliferated in 2022, productivity growth has nearly quadrupled in AI-exposed industries—rising from 7% (2018-2022) to 27% (2018-2024), according to PwC. Industries most exposed to AI are now seeing 3x higher revenue growth per employee than least-exposed sectors.</p>
+
+
+
+<p class="wp-block-paragraph">The wage implications are equally striking. Jobs requiring AI skills now command a 56% wage premium, up from just 25% the previous year. But<a href="https://www.gartner.com/en/newsroom/press-releases/2025-03-25-gartner-says-cfos-should-reset-expectations-about-ais-impact-on-workforce-productivity-and-headcount" rel="nofollow noopener" target="_blank"> Gartner cautions</a> that many organizations struggle to translate AI investments into material productivity improvements, creating what some describe as the “AI productivity paradox.”</p>
+
+
+
+<h2 class="wp-block-heading" id="what-industries-are-being-affected-by-ai">What Industries Are Being Affected By AI?</h2>
+
+
+
+<p class="wp-block-paragraph">Industries are being affected by AI across various sectors, including finance, healthcare, tech, retail, construction, and manufacturing. Rather than speculating, let’s look at what the data shows about industry-specific transformation and job implications:</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Industry</strong></td><td><strong>AI Exposure Level</strong></td><td><strong>Employment Outlook</strong></td></tr><tr><td><strong>Financial Services</strong></td><td>Very High – leading productivity gains</td><td>Shift toward analysts and AI oversight</td></tr><tr><td><strong>Technology</strong></td><td>Very High – 10x AI skill demand increase</td><td>Growth in AI-native roles; entry-level pressure</td></tr><tr><td><strong>Manufacturing</strong></td><td>High – physical automation accelerating</td><td>2M jobs impacted; shift to oversight roles</td></tr><tr><td><strong>Healthcare</strong></td><td>Moderate – augmentation focus</td><td>Strong growth; Mayo expanded radiology 50%+</td></tr><tr><td><strong>Retail</strong></td><td>High – customer-facing automation</td><td>65% of roles face automation by 2025</td></tr><tr><td><strong>Construction</strong></td><td>Low – lagging in adoption</td><td>Job growth expected; skilled labor shortage</td></tr></tbody></table></figure>
+
+
+
+<p class="wp-block-paragraph"><strong><em>Source: Compiled from <a href="https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2025/report.pdf" rel="nofollow noopener" target="_blank">PwC 2025 AI Jobs Barometer</a>, <a href="https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai" data-type="link" data-id="https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai" rel="nofollow noopener" target="_blank">McKinsey Global Institute</a>, and <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" data-type="link" data-id="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" rel="nofollow noopener" target="_blank">World Economic Forum Future of Jobs Report 2025</a></em></strong></p>
+
+
+
+<h2 class="wp-block-heading" id="understanding-ai-exposure-in-jobs">Understanding AI Exposure In Jobs</h2>
+
+
+
+<h3 class="wp-block-heading">Task-Level Vs. Job-Level Automation</h3>
+
+
+
+<p class="wp-block-paragraph">AI automates tasks, not jobs.<a href="https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai" rel="nofollow noopener" target="_blank"> McKinsey’s latest analysis</a> frames impact in terms of “technical automation potential” rather than jobs lost. While AI and robotics could theoretically automate 57% of U.S. work hours, this measures task potential, not inevitable job elimination. Most roles will evolve rather than disappear, with tasks redistributed between humans and AI systems.</p>
+
+
+
+<h3 class="wp-block-heading">High-Risk Occupations And Exposure Metrics</h3>
+
+
+
+<p class="wp-block-paragraph">McKinsey identifies that roles with the highest automation potential make up roughly 40% of total U.S. jobs. These concentrate in legal and administrative services, along with physically demanding roles like drivers and machine operators. However, even these positions will likely evolve rather than vanish—humans remain essential to guide, supervise, and verify AI outputs.</p>
+
+
+
+<h3 class="wp-block-heading">Cognitive Work And Non-Routine Tasks</h3>
+
+
+
+<p class="wp-block-paragraph">Generative AI has shifted the exposure calculus. Unlike previous automation waves that primarily affected manual labor, AI now impacts knowledge work directly. Skills like summarization, information retrieval, and translation are becoming less critical as AI masters these tasks. Yet<a href="https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/articles/generative-ai-and-the-future-of-work.html" rel="nofollow noopener" target="_blank"> Deloitte’s research</a> confirms that emotional intelligence, critical thinking, leadership, and complex problem-solving remain distinctly human advantages.</p>
+
+
+
+<h3 class="wp-block-heading">Income Level And Education Correlations</h3>
+
+
+
+<p class="wp-block-paragraph">Contrary to earlier assumptions, AI exposure isn’t concentrated among low-wage workers. Better-paid, better-educated workers actually face the greatest exposure to generative AI, though this exposure often means augmentation rather than replacement. The college wage premium has flattened since around 2010, while posted salaries for knowledge jobs have plateaued since mid-2024. The message is clear: education alone no longer guarantees insulation from AI’s effects.</p>
+
+
+
+<h2 class="wp-block-heading" id="timeline-and-pace-of-change">Timeline and Pace of Change</h2>
+
+
+
+<h3 class="wp-block-heading">Short-Term Labor Market Effects (1-3 Years)</h3>
+
+
+
+<p class="wp-block-paragraph">In the immediate term, expect AI to operate within boundaries.<a href="https://www.gartner.com/en/newsroom/press-releases/2024-10-03-gartner-says-generative-ai-will-require-80-percent-of-engineering-workforce-to-upskill-through-2027" rel="nofollow noopener" target="_blank"> Gartner predicts</a> AI’s impact on global jobs will be neutral through 2026. AI tools will generate modest productivity increases by augmenting existing work patterns, with benefits most significant for senior professionals in organizations with mature practices. Meanwhile, <a href="https://www.gartner.com/en/newsroom/press-releases/2024-10-03-gartner-says-generative-ai-will-require-80-percent-of-engineering-workforce-to-upskill-through-2027" rel="nofollow noopener" target="_blank">75% of knowledge workers</a> are already using AI tools, often without formal company deployment.</p>
+
+
+
+<h3 class="wp-block-heading">Medium-Term Workforce Transformation (3-7 Years)</h3>
+
+
+
+<p class="wp-block-paragraph">By 2027-2030, the emergence of AI agents will push boundaries significantly. According to<a href="https://www.deloitte.com/us/en/services/consulting/blogs/ai-adoption-challenges-ai-trends.html" rel="nofollow noopener" target="_blank"> Deloitte</a>, 1 in 4 companies currently using generative AI will launch agentic AI pilots by 2025, with adoption reaching 50% by 2027. This marks the emergence of AI-native work patterns where most routine cognitive tasks become AI-generated rather than human-authored. Gartner projects that by 2028, AI will create more jobs than it destroys.</p>
+
+
+
+<h3 class="wp-block-heading">Long-Term Structural Changes (7+ Years)</h3>
+
+
+
+<p class="wp-block-paragraph">Looking toward 2030 and beyond,<a href="https://www.gartner.com/en/newsroom/press-releases/2025-11-10-gartner-survey-finds-artificial-intelligence-will-touch-all-information-technology-work-by-2030" rel="nofollow noopener" target="_blank"> Gartner survey data</a> suggests that 0% of IT work will be done by humans without AI, 75% will be done by humans augmented with AI, and 25% will be done by AI alone. The World Economic Forum projects that 39% of key job skills will change by 2030, requiring fundamental workforce transformation at every level.</p>
+
+
+
+<h2 class="wp-block-heading" id="employer-response-and-workforce-strategy">Employer Response And Workforce Strategy</h2>
+
+
+
+<h3 class="wp-block-heading">Hiring And Recruitment Changes</h3>
+
+
+
+<p class="wp-block-paragraph">Employers are fundamentally rethinking who they hire and why.<a href="https://www2.deloitte.com/us/en/insights/focus/cognitive-technologies/ai-adoption-in-the-workforce.html" rel="nofollow noopener" target="_blank"> Deloitte research</a> reveals that leaders are 3.1x more likely to prefer replacing employees with new AI-ready talent versus retraining existing workforce. Jobs requiring AI skills are growing 7.5% even as total job postings fell 11.3% last year. New roles are emerging rapidly: agent product managers, AI evaluation writers, and “human in the loop” validators to guide machine output.</p>
+
+
+
+<h3 class="wp-block-heading">Internal Reskilling And Upskilling Programs</h3>
+
+
+
+<p class="wp-block-paragraph">Despite stated intentions, follow-through on reskilling remains a challenge. While 77% of companies say they intend to launch upskilling initiatives and 85% of employers plan to prioritize workforce upskilling according to WEF data, participation in adult-learning programs is flat or falling in many countries.<a href="https://www.gartner.com/en/newsroom/press-releases/2024-10-03-gartner-says-generative-ai-will-require-80-percent-of-engineering-workforce-to-upskill-through-2027" rel="nofollow noopener" target="_blank"> Gartner’s prediction</a> that 80% of the engineering workforce will need upskilling by 2027 underscores the urgency.</p>
+
+
+
+<h2 class="wp-block-heading" id="worker-adaptation-strategies">Worker Adaptation Strategies</h2>
+
+
+
+<h3 class="wp-block-heading">Career Pivoting And Transition Pathways</h3>
+
+
+
+<p class="wp-block-paragraph">For individual workers, the path forward requires strategic positioning. McKinsey’s analysis shows that more than <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" rel="nofollow noopener" target="_blank">70% of skills sought by employers today</a> are used in both automatable and non-automatable work—suggesting most skills remain relevant, but how and where they’re applied will evolve. The WEF identifies the fastest-rising competencies as AI and big data skills, followed by networks, cybersecurity, and technological literacy. But don’t overlook human capabilities: creative thinking, resilience, flexibility, and curiosity are all gaining importance alongside technical skills.</p>
+
+
+
+<h3 class="wp-block-heading">Leveraging AI Tools For Productivity</h3>
+
+
+
+<p class="wp-block-paragraph">The workers who thrive will be those who embrace AI as a force multiplier.<a href="https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2025/why-you-need-employee-value-proposition-for-age-of-ai.html" rel="nofollow noopener" target="_blank"> Deloitte’s 2025 Global Human Capital Trends survey</a> finds that 70% of workers are open to offloading work to AI to free up time and boost creativity. Organizations that prioritize developing human capabilities alongside AI skills are nearly twice as likely to have workers who feel their work is meaningful and twice as likely to achieve better financial results.</p>
+
+
+
+<h2 class="wp-block-heading" id="turn-workforce-uncertainty-into-strategic-advantage">Turn Workforce Uncertainty Into Strategic Advantage</h2>
+
+
+
+<p class="wp-block-paragraph">The bottom line? AI transformation isn’t something that will happen to your workforce; it’s something you can shape. But shaping it requires visibility you likely don’t have today. Which roles face the highest automation potential? Where will AI investments deliver the greatest ROI? What reskilling pathways will your people actually need? Without task-level intelligence about how work gets done across your organization, you’re navigating this transformation blind.</p>
+
+
+
+<p class="wp-block-paragraph">This is exactly the challenge <a href="https://resources.gloat.com/generative-ai-roi/">Gloat Signal</a> was built to solve. Signal maps the work actually happening across your organization—breaking it down to tasks and the skills required to complete them—then quantifies AI’s potential impact with precision. Instead of guessing which processes to automate, you get concrete data on high-ROI opportunities based on scale and cost. Instead of vague promises about efficiency gains, you get specific financial projections for AI investments. And instead of reactive workforce planning, you can visualize which roles will retire, evolve, or grow and create pathways to redeploy talent before disruption hits.</p>
+
+
+
+<p class="wp-block-paragraph">The organizations that succeed won’t be those with the most AI tools. They’ll be the ones who build the strategic foundations to translate AI investment into genuine human and business value, starting with a clear, data-backed understanding of where AI can make the biggest difference.</p>
+
+
+
+<p class="wp-block-paragraph">The future of work isn’t about humans versus AI. It’s about humans with AI—and the organizations that get this equation right will define the next era of enterprise success.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Ready to see where AI can deliver the greatest impact for your workforce? <a href="https://resources.gloat.com/generative-ai-roi/">Try Gloat Signal </a>and turn workforce transformation from a looming challenge into your competitive advantage.</p>
+        </div>
+    </div>
+
+    <div data-wpr-lazyrender="1" class="share_btn">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://gloat.com/blog/ai-labor-market/&amp;quote=AI Labor Market Impact: Understanding Workforce Transformation in 2026" class="icon facebook" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path>
+            </svg>
+        </a>
+
+        <a href="https://twitter.com/intent/tweet?url=https://gloat.com/blog/ai-labor-market/&amp;text=AI Labor Market Impact: Understanding Workforce Transformation in 2026&amp;hashtags=gloat" class="icon twitter" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+            </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://gloat.com/blog/ai-labor-market/&amp;title=AI Labor Market Impact: Understanding Workforce Transformation in 2026&amp;summary=" class="icon linkedin" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+            </svg>
+        </a>
+    </div>
+
+
+
+
+
+
+    <div data-wpr-lazyrender="1" class="relate_blogs">
+        <div class="conciblog"></div>
+    </div>
+
+
+</article>
+
+<!-- <section class="yellow_banner">
+    <a href="https://open.spotify.com/episode/4dpwRS8olZYbua6aHlGsMl?si=ukA1YWrMRfKhg25zGxOJNA">
+        <div class="text_area">
+            <div class="texts">
+                <img data-src="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/08/fire.png?lossy=1&strip=1&webp=1" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 80px; --smush-placeholder-aspect-ratio: 80/100;">
+                <h2>
+                    Patricia Frost unpacks Seagate’s AI transformation in this can’t-miss podcast                </h2>
+            </div>
+            <div class="read_more">
+                Listen now! →
+            </div>
+        </div>
+    </a>
+</section> -->
+
+    <section data-wpr-lazyrender="1" class="banner-section" style="background: #414165">
+        <div class="banner_wrapper">
+            <div class="row">
+                <div class="image">
+                    <img data-src="https://b4525229.assetcdn.net/4525229/wp-content/uploads/3D-Logo-Magic-3-1.png?lossy=1&amp;strip=1&amp;webp=1" alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 900px; --smush-placeholder-aspect-ratio: 900/752;">
+                </div>
+                <div class="texareal">
+                    <h2>
+                        Master Agentic HR in 4 tracks                    </h2>
+                    <p>
+                        58 articles across 4 tracks. From foundations to implementation. Start anywhere, but we recommend the path below.                    </p>
+                    <a href="https://gloat.com/agentic-hr-academy/">
+                        Learn more                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+<style></style>
+
+
+<section data-wpr-lazyrender="1" class="blog_list">
+    <h2>Related</h2>
+
+    <div class="blog_list_container">
+
+        <div class="blog_list_row">
+            <div class="blog_card">
+    <a href="https://gloat.com/blog/continuous-performance-management/">
+
+        <div class="thumbnail">
+            <img data-src="https://b4525229.assetcdn.net/4525229/wp-content/uploads/cpm_thumb.jpg?lossy=1&amp;strip=1&amp;webp=1" alt="Continuous Performance Management: Why More Check-Ins Address Only One of Three Problems" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 1200px; --smush-placeholder-aspect-ratio: 1200/628;">
+        </div>
+        
+        <div class="blog_card_body">
+
+            <h3>Continuous Performance Management: Why More Check-Ins Address Only One of Three Problems</h3>
+            <div class="date_time">
+                October 19, 2026            </div>
+            <p></p><p>A practical guide to continuous performance management: what it has to fix beyond frequency, how to budget manager time, and four design moves built on new Gartner and Gallup research.</p>
+<p></p>
+            <div class="blog__read-more"> Read more </div>
+
+        </div>
+
+    </a>
+
+</div><div class="blog_card">
+    <a href="https://gloat.com/blog/what-is-the-ai-productivity-gap/">
+
+        <div class="thumbnail">
+            <img data-src="https://b4525229.assetcdn.net/4525229/wp-content/uploads/2023/04/Shutterstock_2094650710-2.png?lossy=1&amp;strip=1&amp;webp=1" alt="What is the AI Productivity Gap?" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 1200px; --smush-placeholder-aspect-ratio: 1200/628;">
+        </div>
+        
+        <div class="blog_card_body">
+
+            <h3>What is the AI Productivity Gap?</h3>
+            <div class="date_time">
+                October 9, 2026            </div>
+            <p></p><p>Why most AI investments fail to deliver real business value</p>
+<p></p>
+            <div class="blog__read-more"> Read more </div>
+
+        </div>
+
+    </a>
+
+</div><div class="blog_card">
+    <a href="https://gloat.com/blog/does-ai-increase-productivity/">
+
+        <div class="thumbnail">
+            <img data-src="https://b4525229.assetcdn.net/4525229/wp-content/uploads/emerging-skills-future-of-work.jpg?lossy=1&amp;strip=1&amp;webp=1" alt="Does AI Increase Productivity? Unpacking the Impact of Artificial Intelligence" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 1200px; --smush-placeholder-aspect-ratio: 1200/797;">
+        </div>
+        
+        <div class="blog_card_body">
+
+            <h3>Does AI Increase Productivity? Unpacking the Impact of Artificial Intelligence</h3>
+            <div class="date_time">
+                October 9, 2026            </div>
+            <p></p><p>Learn how to do more with less by orchestrating human AI collaborations</p>
+<p></p>
+            <div class="blog__read-more"> Read more </div>
+
+        </div>
+
+    </a>
+
+</div>        </div>
+    </div>
+</section>
+
+<!--<div class="banner_section">-->
+<!--    <div class="banner_container">-->
+<!--        <div class="banner_row">-->
+<!--            <div class="banner_image">-->
+<!--                <img data-src="https://resources.gloat.com/wp-content/uploads/The-Ultimate-Guide-to-the-Skills-Based-Organization-mockup-new-new.png"-- src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload">
+<!--                     alt="">-->
+<!--            </div>-->
+<!--            <div class="banner_heading">-->
+<!--                <h3>Turn skills into your competitive advantage</h3>-->
+<!--                <p>Learn what it takes to power your company's skills transformation.</p>-->
+<!--                <div class="banner_section-button">-->
+<!--                    <a href="#n" class="btn btn-red" role="button">-->
+<!--                        Download the guide-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div data-wpr-lazyrender="1" id="header-white"></div>
+</main><!-- #main -->
+
+<!-- ============================================================
+     SITE FOOTER — Figma y=8082–8395
+     bg=#121225, border-top 1px #F1DFDB
+     ============================================================ -->
+<footer data-wpr-lazyrender="1" class="site-footer" role="contentinfo">
+
+    <!-- Footer Main -->
+    <div class="footer-main">
+
+        <!-- Brand / Logo + tagline + social — ACF-driven -->
+        <div class="footer-brand">
+            <a href="https://gloat.com/" class="footer-logo" aria-label="Gloat – Home">
+                <span class="footer-logo__text">Gloat</span>
+            </a>
+
+            <p class="footer-brand__tagline">
+                The AI-native system of <br>
+action for workforce <br>
+orchestration.            </p>
+
+            <!-- Social icons -->
+                        <div class="footer-social">
+                                    <a href="https://www.linkedin.com/company/gloat/" class="footer-social__link" target="_blank" rel="noopener noreferrer" aria-label="Gloat on LinkedIn">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>                    </a>
+                                    <a href="https://x.com/Gloat_com" class="footer-social__link" target="_blank" rel="noopener noreferrer" aria-label="Gloat on X / Twitter">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>                    </a>
+                                    <a href="https://www.youtube.com/@gloatinmotion" class="footer-social__link" target="_blank" rel="noopener noreferrer" aria-label="Gloat on YouTube">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg>                    </a>
+                            </div>
+        </div>
+
+        <!-- Footer Nav Columns — ACF-driven -->
+                <nav class="footer-nav" aria-label="Footer Navigation">
+                            <div class="footer-nav__col">
+                    <h4 class="footer-nav__title">Platform</h4>
+                                            <ul class="footer-nav__links">
+                                                            <li><a href="https://gloat.com/platform/" class="footer-nav__link">Overview</a></li>
+                                                            <li><a href="https://gloat.com/platform/gloat-for-microsoft-teams/" class="footer-nav__link">Microsoft Teams</a></li>
+                                                            <li><a href="https://gloat.com/platform/gloat-for-microsoft-copilot/" class="footer-nav__link">Microsoft Copilot</a></li>
+                                                            <li><a href="https://gloat.com/platform/gloat-for-successfactors/" class="footer-nav__link">SuccessFactors</a></li>
+                                                            <li><a href="https://gloat.com/platform/gloat-for-workday/" class="footer-nav__link">Workday</a></li>
+                                                            <li><a href="https://gloat.com/platform/gloat-for-oracle-hcm/" class="footer-nav__link">Oracle HCM</a></li>
+                                                    </ul>
+                                    </div>
+                            <div class="footer-nav__col">
+                    <h4 class="footer-nav__title">Technology</h4>
+                                            <ul class="footer-nav__links">
+                                                            <li><a href="https://gloat.com/ai-technology/" class="footer-nav__link">Overview</a></li>
+                                                            <li><a href="https://gloat.com/ai-technology/intelligent-tools/" class="footer-nav__link">Intelligent Tools</a></li>
+                                                            <li><a href="https://gloat.com/ai-technology/knowledge-graph/" class="footer-nav__link">Knowledge Graph</a></li>
+                                                            <li><a href="https://gloat.com/ai-technology/governance-engine/" class="footer-nav__link">Governance Engine</a></li>
+                                                            <li><a href="https://gloat.com/ai-technology/retrieval-embedding/" class="footer-nav__link">Retrieval &amp; Embedding</a></li>
+                                                    </ul>
+                                    </div>
+                            <div class="footer-nav__col">
+                    <h4 class="footer-nav__title">Agents</h4>
+                                            <ul class="footer-nav__links">
+                                                            <li><a href="https://gloat.com/use-cases-agents/" class="footer-nav__link">All Use Cases</a></li>
+                                                            <li><a href="https://gloat.com/use-cases-agents/#uc-cat-talent-management" class="footer-nav__link">Talent Management</a></li>
+                                                            <li><a href="https://gloat.com/use-cases-agents/#uc-cat-talent-acquisition" class="footer-nav__link">Talent Acquisition</a></li>
+                                                            <li><a href="https://gloat.com/use-cases-agents/#uc-cat-skills" class="footer-nav__link">Skills</a></li>
+                                                            <li><a href="https://gloat.com/use-cases-agents/#uc-cat-workforce-planning" class="footer-nav__link">Workforce Planning</a></li>
+                                                    </ul>
+                                    </div>
+                            <div class="footer-nav__col">
+                    <h4 class="footer-nav__title">Company</h4>
+                                            <ul class="footer-nav__links">
+                                                            <li><a href="https://gloat.com/about-us/" class="footer-nav__link">About us</a></li>
+                                                            <li><a href="https://gloat.com/agentic-hr-academy/" class="footer-nav__link">Agentic HR</a></li>
+                                                            <li><a href="https://gloat.com/blog/" class="footer-nav__link">Blog</a></li>
+                                                            <li><a href="https://gloat.com/partners/" class="footer-nav__link">Partners</a></li>
+                                                            <li><a href="https://gloat.com/newsroom/" class="footer-nav__link">Newsroom</a></li>
+                                                            <li><a href="https://gloat.com/careers/" class="footer-nav__link">Careers</a></li>
+                                                            <li><a href="https://gloat.com/about-us/gloats-commitment-to-ethical-ai/" class="footer-nav__link">Ethical AI</a></li>
+                                                            <li><a href="https://gloat.com/security-and-compliance/" class="footer-nav__link">Security and Compliance</a></li>
+                                                    </ul>
+                                    </div>
+                    </nav>
+    </div><!-- /.footer-main -->
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+        <p class="footer-copy">
+            © 2026 Gloat. All rights reserved.        </p>
+
+                <nav class="footer-legal" aria-label="Legal Links">
+                            <a href="https://gloat.com/terms-of-service/" class="footer-legal__link">Terms of use</a>
+                            <a href="https://gloat.com/privacy-policy/" class="footer-legal__link">Privacy</a>
+                            <a href="https://gloat.com/cookie-policy/" class="footer-legal__link">Cookies</a>
+                    </nav>
+    </div><!-- /.footer-bottom -->
+
+</footer><!-- /.site-footer -->
+
+
+<!-- <div id="open-modal" class="modal-window">
+    <div>
+        <a href="#" title="Close" class="modal-close"><i class="fa fa-close"></i></a>
+        <div class="demo_modal_wrapper">
+
+            <div class="row">
+                <div class="col-6" id="col1">
+                    <h3>Let's get acquainted
+                    </h3>
+                    <div class="modal_text">This info will help our workforce agility experts personalize your
+                        experience
+                    </div>
+                </div>
+                <div class="col-6" id="col2">
+                    
+						<script>
+							window.hsFormsOnReady = window.hsFormsOnReady || [];
+							window.hsFormsOnReady.push(()=>{
+								hbspt.forms.create({
+									portalId: 2534609,
+									formId: "4be5ba45-296c-42e4-92a5-99d825d2f41c",
+									target: "#hbspt-form-1792509345000-1943495245",
+									region: "na1",
+									
+							})});
+						</script>
+						<div class="hbspt-form" id="hbspt-form-1792509345000-1943495245"></div>                </div>
+            </div>
+        </div>
+
+    </div>
+</div> -->
+
+
+
+<div id="popup-container">
+    <div id="popup-content">
+        <a href="#close" id="close-popup" title="Close" class="modal-close"><i class="fa fa-close"></i></a>
+        <div id="video_content">
+            <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+                <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                    <iframe src="" id="iframe" title="Gloat HSBC Video" allow="muted fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="" width="100%" height="100%"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <script type="text/javascript" charset="utf-8" src="//js.hsforms.net/forms/embed/v2.js"
+    data-rocket-status="executed"></script> -->
+
+<script type="text/rocketlazyloadscript" data-rocket-type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        if (window.location.hash === "#open-modal") {
+            window.location.href = "https://gloat.com/talk-to-us/";
+        }
+    });
+</script>
+
+
+<script type="text/rocketlazyloadscript">
+    const images = document.querySelectorAll('.ofer-card-item__img');
+    const options = {
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                observer.unobserve(img);
+            }
+        });
+    }, options);
+
+    images.forEach(function (img) {
+        observer.observe(img);
+    });
+</script>
+
+
+
+    <script type="text/rocketlazyloadscript" data-minify="1" data-rocket-src="https://gloat.com/wp-content/cache/min/1/wp-content/themes/gloat/assets/js/E-v1.js?ver=1791881256" async=""></script>
+
+<script type="speculationrules">
+{"prerender":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/gloat/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prerender, .no-prerender a"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"moderate"}]}
+</script>
+
+    <style></style>
+
+    <script id="force-refresh-js-js-extra">
+var forceRefreshLocalizedData = {"apiEndpoint":"https://gloat.com/wp-json/force-refresh/v1/current-version","postId":"35336","isDebugActive":"","refreshInterval":"120"};
+//# sourceURL=force-refresh-js-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="force-refresh-js-js" data-rocket-src="https://gloat.com/wp-content/cache/min/1/wp-content/plugins/force-refresh/dist/js/force-refresh.js?ver=1791881256" data-rocket-defer="" defer=""></script>
+<script id="leadin-script-loader-js-js-extra">
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"11.3.6"};
+//# sourceURL=leadin-script-loader-js-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="leadin-script-loader-js-js" data-rocket-src="https://gloat.com/wp-content/cache/min/1/2534609.js?ver=1791881257" data-rocket-defer="" defer=""></script>
+<script type="text/rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/inspired/|/gloat-digital-accessibility-statement/|/resources/customer-stories/|/partners/|/product/|/resource-hub/|/resources/gloat-studios/|/partners1/|/tespdf-page/|/landing/|/thank-you-signal/|/plan-your-ai-workforce/|/agentic-hr-readiness/|/webinar-josh-bersin-agentic-hr/|/webinar-josh-bersin-qa/|/ai-plan-lunch-boston/|/ai-plan-lunch-new-york/|/webinar-josh-bersin-sap-successfactors/|/unleash/|/unleash-paris-2026/|/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://gloat.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="smush-detector-js-extra">
+var smush_detector = {"ajax_url":"https://gloat.com/wp-admin/admin-ajax.php","nonce":"20d094306e","is_mobile":"","data_store":{"type":"post-meta","data":{"post_id":35336}},"previous_data_version":"0","previous_data_hash":"2575ceb7ab20e1d5d817586409ded655"};
+//# sourceURL=smush-detector-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="smush-detector-js" data-rocket-src="https://gloat.com/wp-content/plugins/wp-smush-pro/app/assets/js/smush-detector.min.js?ver=4.2.0" data-rocket-defer="" defer=""></script>
+<script type="text/rocketlazyloadscript" id="gloat-script-lottie-js" data-rocket-src="https://gloat.com/wp-content/themes/gloat/assets/js/lottie.min.js?ver=1.0" data-rocket-defer="" defer=""></script>
+<script id="filter-script-js-extra">
+var ajaxurl = "https://gloat.com/wp-admin/admin-ajax.php";
+//# sourceURL=filter-script-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="filter-script-js" data-rocket-src="https://gloat.com/wp-content/themes/gloat/assets/js/scripts.js" data-rocket-defer="" defer=""></script>
+<script id="gloat-mega-nav-js-extra">
+var gloatData = {"ajaxUrl":"https://gloat.com/wp-admin/admin-ajax.php","nonce":"c4ab567e2d"};
+//# sourceURL=gloat-mega-nav-js-extra
+</script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="gloat-mega-nav-js" data-rocket-src="https://gloat.com/wp-content/cache/min/1/wp-content/themes/gloat/assets/js/navigation.js?ver=1791881257" data-rocket-defer="" defer=""></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="gloat-main-js" data-rocket-src="https://gloat.com/wp-content/cache/min/1/wp-content/themes/gloat/assets/js/main-new.js?ver=1791881257" data-rocket-defer="" defer=""></script>
+<script type="text/rocketlazyloadscript" id="googlesitekit-consent-mode-js" data-rocket-src="https://gloat.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-consent-mode-86cb52dcb9f2b27ed244.js" data-rocket-defer="" defer=""></script>
+<script id="smush-lazy-load-js-before">
+var smushLazyLoadOptions = {"autoResizingEnabled":false,"autoResizeOptions":{"precision":5,"skipAutoWidth":true}};
+//# sourceURL=smush-lazy-load-js-before
+</script>
+<script id="smush-lazy-load-js" src="https://gloat.com/wp-content/plugins/wp-smush-pro/app/assets/js/smush-lazy-load.min.js?ver=4.2.0" data-rocket-defer="" defer=""></script>
+<script type="text/rocketlazyloadscript" data-minify="1" id="gloat-blog-toc-js" data-rocket-src="https://gloat.com/wp-content/cache/min/1/wp-content/themes/gloat/assets/js/blog-toc.js?ver=1791881257" data-rocket-defer="" defer=""></script>
+<script id="wp-consent-api-js-extra">
+var consent_api = {"consent_type":"","waitfor_consent_hook":"","cookie_expiration":"30","cookie_prefix":"wp_consent","services":[{"name":"WPMUDEV Dashboard","category":"statistics"}]};
+//# sourceURL=wp-consent-api-js-extra
+</script>
+<script type="text/rocketlazyloadscript" id="wp-consent-api-js" data-rocket-src="https://gloat.com/wp-content/plugins/wp-consent-api/assets/js/wp-consent-api.min.js?ver=2.0.1" data-rocket-defer="" defer=""></script>
+<script id="leadin-forms-v2-js" defer="" src="https://js.hsforms.net/forms/embed/v2.js?ver=11.3.6"></script>
+    <script type="text/rocketlazyloadscript">
+    (function () {
+      var targets = document.querySelectorAll('lottie-player, dotlottie-player');
+      if (!targets.length) return;
+      var loaded = false, load = function () {
+        if (loaded) return; loaded = true;
+        var s = document.createElement('script');
+        s.src = 'https://gloat.com/wp-content/themes/gloat/assets/js/lottie-player.min.js';
+        s.defer = true;
+        document.head.appendChild(s);
+      };
+      var io = new IntersectionObserver(function (es, o) {
+        es.forEach(function (e) { if (e.isIntersecting) { load(); o.disconnect(); } });
+      }, { rootMargin: '300px' });
+      targets.forEach(function (el) { io.observe(el); });
+    })();
+    </script>
+
+<script type="text/rocketlazyloadscript" data-minify="1" data-rocket-src="https://gloat.com/wp-content/cache/min/1/init.v1.js?ver=1791881257" data-rocket-defer="" defer=""></script>
+
+
+
+
+<style id="wistia_22_style" type="text/css" class="wistia_injected_style">
+@font-face {
+font-family: 'WistiaPlayerInterNumbersSemiBold';
+font-feature-settings: 'tnum' 1;
+src: url(data:application/x-font-woff;charset=utf-8;base64,d09GMk9UVE8AAAaMAAwAAAAACgAAAAZBAAMD1wAAAAAAAAAAAAAAAAAAAAAAAAAADYpwGhQbIBwqBmAAgTIBNgIkAzAEBgWDGgcgGykJEZWkARP8KHCbm2tEznyIN98tPTUk9Ig3oiVV3pbDIzXa+f/fZgXpALFTZhBoMVFC9cp036dXvRKVmVnsxe+D+1NDQI5lG7ikZWEINIElTeBIdnxlhauQ5GQtoLHA/wN0riVdSx5xgbxF3KTbgnjVQ4B9P7YqCx7FpEZK+6ilx0AoopUh4aExJEKmkU+0ncdr4iFfKhdSFD9y91LCRaxNbVqvi0dND3rxI7ndUDR7EiwT3bhiua9krFA0oepCy2hCjwmjnjDjKjNTDz2ZuHtN8820Wfw/l8u4w4yV/f8/6uscs5rmiN00LcP4hAofyZUSyS3WinX0RGFFtnGrjj36x6dlNa57+PLTlrUisH2n9orfgd+R34XfDd0NsWDXwfwhvKHpbs3UBni37dBlPvO4KYn/PgylilcgSdw6sjsSSxsRGfIJgqhi14bKZCHcQvjUh/+3HMotTYrGLVYCxyMFjEnYC98yTAp6atAKVxaZ9eu2NMji8WTj4w/Y34elD60PPwb5bEywLqAX/amwmUo6TBCy14N/TL44jb3sE5JdUIPXXI0RBSoGt3BUObn4agKGIxxQhlyQacbstK4fS2mZoBtFNQ1bd+4zND2vQu6anl7gWFOj8MV2DVMtU44xMhpwElrrjA7zO5IqWojd/v1Vso6cqp91zC2YrGhDOy07Iqyza2q9smDIwUYek0AWbCt/8x78QmrzayQ6xtpmqfCYsLfgU9HdeP3UqutZTTNd/9Q8k08XzXzIxSdvLPda8YaeeZnkxUwql0nDKyUYdaWZjGAy7UDLHpVqBVHTxSV0wBy21El9u/491ik2J3YkdiP2LPZL41RBeeNUWtp97Bbn0Ee1g9wr9qqV/X+4R9nlPX03743dylnaXZyNp8v58yLOsFYCbUnCVQzjN+5QhlmKccO7aMkueWJggROd4qnw2x5LydUcg/NRamE3XMlkGovpRWPKWEavP74P2O1RANM/3gIIPJj7TX+lqU2geQuaBx4B/7cWAOx0ucTiEHYJU9y5DBuUMYNIHeHZz9tn+Fw2G5EBTqUlHRfRi4eB5wNlJsRsv5k4b6HyFkhIC6BO4LzPbWhW7rbCcxubeKHOc6UaBKZBMMd4j8XuRUynOCCa4EMfF9grkI1NcTaSAVtk1nrIOwFfeEBlQw4f4phb6zHzBOm0ZZ0dBcaZRVdYIo5xYiyOMEWONwQHmjKGE//VuRBgul1QrpyxmMvF4vGj0xfuuQrNt4tVTsRhEnjY9AuKa1FVLSEneQWzFd5WbO7hasX08ONUOVQgwQuVqACFXkSoIoUgK1hJEkAgbkG5CjqBS5wrRFuY2IfVwhRnLsVyZTZpatveGR4yEbYqbE6J80nM4aa+LD7Oqmr8PdSJFUQVynmgN4lerGQV1+uLdYzdOFWHPW/iK2gIQayhizQ0NMwyvBEBlrDczRfmU40CTtAHqLQGnjQG8MYkxm1MwJuTqjHwVCu9iRJ1C8ojWGHxUYowH0c5X57zpXquvlw0wzHHGMTfufxiJ1psFJTzq6nGeDvHF4LgmHHWCUViZBaInRn+cswnBi460RBPRYg9TRUQ0CZUC5LAT0qLLu50FpdTeBhjGf7/h4dg9hE0uqsBx/saOcYRDIfnOhfzGFBHyizcJK3p2edUjWrC0rn1aGjXtfVUCHMAKKhlxV8eTEIcV2jCOdKiqahv/MisrfRQVnxPJoOU62mR6pu2ZllIzo8zOZqQB7kWJXW2/c0aihata5PcIVJKfFRgHAETmEQVTCELptGMGcyigTnMJ1voUVN6uCZS9pV2hrwl7FYMvBwtUSd7L7E5qP9t7BIPRF7EcmA9ct2nIPHrxgWajtDltbXuBLuaY6qRZGa5ZlX5anfR0lYXaHUzVSFjZa8rfdhZ8rKXFZg21LVL5LFjI5TlDIbwnFGHE2dypHs6Q50N015dpOgLONEUlOqoiQgIaeCsjMq9gITDKwRMieQgKUy9UQY1BTFYZU2KpE2SkILMIjW8IdFwIKmMaK8oClJVssAEtFnz5dQ1s+w6EZoNGtPGQfzx+aoE8ikiP8GCYOWtgB+HBdWDaxACAZInVq14dZI85RRDvZGIghyONw59KV/BBEQ02P1ER8hmNGiURT2hQP8WfAY=);
+}
+</style></body></html>

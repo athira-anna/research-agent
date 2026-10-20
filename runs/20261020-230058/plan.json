@@ -1,0 +1,264 @@
+{
+  "plan_version": 1,
+  "source": "llm",
+  "model": "gemini-flash-lite-latest",
+  "created_at": "2026-10-20T17:31:27+00:00",
+  "topic": "How AI will change the job market from urls :",
+  "topic_key": "how ai will change the job market from urls",
+  "interpretation": "This brief examines the potential transformations, disruptions, and developments driven by artificial intelligence within global labor markets.",
+  "assumptions": [
+    "The analysis applies to the global labor market without restricting focus to a single country.",
+    "The timeframe covers both current structural shifts and long-term projections up to 2030 and beyond."
+  ],
+  "subject_terms": {
+    "core": [
+      "ai",
+      "job market",
+      "employment",
+      "workforce",
+      "will",
+      "change",
+      "job",
+      "market",
+      "urls"
+    ],
+    "synonyms": [
+      "automation",
+      "labor market transformation",
+      "future of work",
+      "artificial intelligence impact on jobs"
+    ]
+  },
+  "metrics": [
+    {
+      "id": "job_displacement_rate",
+      "label": "Job Displacement Rate",
+      "definition": "The percentage of existing jobs that are eliminated or replaced due to artificial intelligence technologies over a given period.",
+      "measure_type": "share",
+      "unit": "percent",
+      "useful_for": "Evaluating the extent of actual job destruction caused directly by AI adoption.",
+      "confusable_with": [
+        "job_exposure_share"
+      ]
+    },
+    {
+      "id": "job_exposure_share",
+      "label": "Job Exposure Share",
+      "definition": "The proportion of occupations or tasks that can be automated or significantly augmented by artificial intelligence capabilities.",
+      "measure_type": "share",
+      "unit": "percent",
+      "useful_for": "Assessing the theoretical susceptibility of different professions to artificial intelligence integration.",
+      "confusable_with": [
+        "job_displacement_rate"
+      ]
+    },
+    {
+      "id": "wage_growth_rate",
+      "label": "Wage Growth Rate",
+      "definition": "The annual percentage change in average compensation for workers in roles affected by artificial intelligence.",
+      "measure_type": "change",
+      "unit": "percent",
+      "useful_for": "Measuring the financial impact of artificial intelligence integration on worker earnings.",
+      "confusable_with": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What proportion of occupations have tasks that are susceptible to automation by artificial intelligence?",
+      "angle": "scale",
+      "kind": "quantitative",
+      "why_it_matters": "Determines the breadth of the workforce that could potentially experience operational changes.",
+      "metric_ids": [
+        "job_exposure_share"
+      ],
+      "facets": [
+        {
+          "dimension": "population",
+          "name": "sector",
+          "examples": [
+            "finance",
+            "healthcare",
+            "manufacturing"
+          ]
+        },
+        {
+          "dimension": "geography",
+          "name": "region",
+          "examples": [
+            "North America",
+            "European Union",
+            "Global"
+          ]
+        }
+      ],
+      "question_terms": [
+        "susceptibility",
+        "tasks",
+        "automation potential"
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "What percentage of the workforce has experienced actual job elimination directly attributable to artificial intelligence adoption?",
+      "angle": "scale",
+      "kind": "quantitative",
+      "why_it_matters": "Distinguishes between theoretical vulnerability and realized employment loss.",
+      "metric_ids": [
+        "job_displacement_rate"
+      ],
+      "facets": [
+        {
+          "dimension": "timeframe",
+          "name": "year",
+          "examples": [
+            "2023",
+            "2024",
+            "2025"
+          ]
+        },
+        {
+          "dimension": "population",
+          "name": "skill level",
+          "examples": [
+            "low-skilled",
+            "high-skilled"
+          ]
+        }
+      ],
+      "question_terms": [
+        "elimination",
+        "realized",
+        "laid off"
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Which underlying technological capabilities and economic incentives are driving the integration of artificial intelligence into business operations?",
+      "angle": "causes",
+      "kind": "qualitative",
+      "why_it_matters": "Identifies the core mechanisms pushing companies to substitute labor with technology.",
+      "metric_ids": [],
+      "facets": [
+        {
+          "dimension": "other",
+          "name": "driver",
+          "examples": [
+            "cost reduction",
+            "productivity gains",
+            "algorithm advancement"
+          ]
+        }
+      ],
+      "question_terms": [
+        "incentives",
+        "capabilities",
+        "drivers"
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Which demographic cohorts and educational brackets face the highest risk of displacement from artificial intelligence?",
+      "angle": "affected_groups",
+      "kind": "qualitative",
+      "why_it_matters": "Highlights equity concerns and helps target social safety nets or educational interventions.",
+      "metric_ids": [],
+      "facets": [
+        {
+          "dimension": "population",
+          "name": "education level",
+          "examples": [
+            "college degree",
+            "high school diploma"
+          ]
+        },
+        {
+          "dimension": "population",
+          "name": "age group",
+          "examples": [
+            "entry-level",
+            "experienced workers"
+          ]
+        }
+      ],
+      "question_terms": [
+        "demographics",
+        "vulnerability",
+        "inequality"
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "How do economic forecasts project net job creation versus job destruction driven by artificial intelligence over the next decade?",
+      "angle": "forecasts",
+      "kind": "quantitative",
+      "why_it_matters": "Provides a long-term outlook on whether technology will create more roles than it destroys.",
+      "metric_ids": [
+        "job_displacement_rate"
+      ],
+      "facets": [
+        {
+          "dimension": "timeframe",
+          "name": "target year",
+          "examples": [
+            "2030",
+            "2035"
+          ]
+        }
+      ],
+      "question_terms": [
+        "projections",
+        "net change",
+        "future outlook"
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "What are the primary methodological disagreements among economists regarding the measurement of artificial intelligence impact on employment?",
+      "angle": "disagreements",
+      "kind": "qualitative",
+      "why_it_matters": "Examines why different research institutes arrive at divergent conclusions about the future of work.",
+      "metric_ids": [],
+      "facets": [
+        {
+          "dimension": "other",
+          "name": "methodology",
+          "examples": [
+            "task-based approach",
+            "occupation-based approach"
+          ]
+        }
+      ],
+      "question_terms": [
+        "methodology",
+        "debate",
+        "discrepancy"
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "What public policy initiatives and corporate programs are being implemented to reskill workers affected by artificial intelligence?",
+      "angle": "responses",
+      "kind": "qualitative",
+      "why_it_matters": "Evaluates mitigation strategies designed to ease workforce transition and prevent long-term structural unemployment.",
+      "metric_ids": [],
+      "facets": [
+        {
+          "dimension": "geography",
+          "name": "jurisdiction",
+          "examples": [
+            "European Union",
+            "United States"
+          ]
+        }
+      ],
+      "question_terms": [
+        "reskilling",
+        "training programs",
+        "policy response",
+        "upskilling"
+      ]
+    }
+  ],
+  "fixes": []
+}

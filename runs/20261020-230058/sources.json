@@ -1,0 +1,2146 @@
+[
+  {
+    "source_id": "s1",
+    "url": "https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start",
+    "url_hash": "19af93ec1d4bb472b04fb8973404b5693e17a62f471343145dd1c305e9b80275",
+    "final_url": "https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start",
+    "raw_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s1.html",
+    "raw_sha256": "3506f9e4bed9015c277f6243babfcf0e701afe160b1659a2d63878ff7b218e93",
+    "fetch": {
+      "status": "ok",
+      "status_detail": null,
+      "method": "browser",
+      "content_type": "html",
+      "from_cache": true,
+      "archive_timestamp": null,
+      "fetched_at": "2026-10-20T16:08:26+00:00",
+      "attempts": [
+        {
+          "method": "cache",
+          "result": "ok",
+          "reason": "cached copy from 2026-10-20T16:08:26+00:00",
+          "seconds": 0.0
+        }
+      ]
+    },
+    "processing": {
+      "status": "ok",
+      "reason": "57 blocks, 19,742 chars"
+    },
+    "usability": {
+      "status": "usable",
+      "reasons": [],
+      "notes": []
+    },
+    "meta": {
+      "title": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+      "site_name": "Yale Insights",
+      "author": "Jeffrey A Sonnenfeld",
+      "published_date": "2026-05-04",
+      "date_confidence": "page_metadata",
+      "language": null
+    },
+    "relevance": {
+      "label": "high",
+      "page_kind": "article",
+      "reason": "The article discusses in detail how artificial intelligence impacts the job market, particularly focusing on entry-level white-collar jobs and recent graduates.",
+      "checked": true
+    },
+    "duplicate": null,
+    "blocks": [
+      {
+        "id": "s1-p001",
+        "kind": "heading",
+        "text": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p002",
+        "kind": "paragraph",
+        "text": "Experts have been predicting that AI will decimate knowledge workers for several years, but the overall unemployment rate in the U.S. remains near historic lows. Yale’s Jeffrey Sonnenfeld and his co-authors say that the impact of AI can be seen among recent college graduates, who are finding it harder and harder to get that first job. With no entry to the workforce, how will younger people develop the skills and wisdom to lead in the future?",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p003",
+        "kind": "paragraph",
+        "text": "This commentary was originally published in Fortune. The views expressed are the author’s own.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p004",
+        "kind": "paragraph",
+        "text": "Two inconsistent phenomena seemingly can be true at the same time: AI is seen as disrupting jobs, and, yet, on the surface, it appears as if less is happening than meets the eye. Where you stand on AI depends on whom you talk to. Schools now feverishly compete to prepare graduates with simplistic educational remedies driven by competitive branding agendas, providing symbolic curriculum overhauls as recruiting and job-placement signals, regardless of whether such courses share a coherent body of core knowledge. With recent New York Federal Reserve Bank research showing that computer science majors now have more trouble finding jobs than humanities majors, the risk of misleading students with false curriculum certainties is genuine.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p005",
+        "kind": "paragraph",
+        "text": "As a core course developer at one of the world’s top three business schools confessed to us:",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p006",
+        "kind": "paragraph",
+        "text": "“Our faculty are passionate, but there are two problems. One is that the AI models are developing so quickly and proliferating across so many uses that it’s hard for teachers to put together courses that aren’t quickly outdated. The second problem is that a growing number of students have experience with these models, in some cases a lot of experience, an amount that far outpaces that of the faculty, so it’s hard to develop course material that adds to what they already know.”",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p007",
+        "kind": "paragraph",
+        "text": "We have been revealing consistencies in the commercial and societal implications of the AI frontier since the November 2022 release of OpenAI’s generative artificial intelligence chatbot, ChatGPT. We have shown how the accelerating AI boom exploded from being a parlor game to a pillar of the economy, with major CEOs ramping up overnight to champion revolutionary changes in their business models and core operations. We have also exposed that the sudden spectrum of pioneers, cheerleaders, skeptics, and doomsayers has created a righteous cacophony of confusion, a gloomy, catastrophic end to humanity or its salvation, depending on the bias and experience of the experts cited. On top of this, unparalleled pools of capital have fed strategically contradictory, dizzying deal-making.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p008",
+        "kind": "paragraph",
+        "text": "The workforce warnings, in particular, are getting louder, with a mix of smart alerts and a cacophony of cliches. Verizon CEO Dan Schulman has bluntly predicted that AI will cause unemployment to rise by up to 30% in the next two to five years. The Boston Consulting Group (BCG) issued a clear-eyed report suggesting that 10%-15% of existing jobs could be eliminated as soon as 2031. Then, of course, Anthropic CEO Dario Amodei has made many headlines forecasting that AI could wipe out half of all entry-level white-collar jobs within five years and push unemployment into double digits.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p009",
+        "kind": "paragraph",
+        "text": "Others see something very different: a productivity boom, not a wave of layoffs. Yet their data tells a similarly contradictory story. A recent Goldman Sachs analysis, for instance, estimates AI is already reducing U.S. employment by roughly 16,000 jobs per month. At the same time, demand is rising in adjacent areas—from data centers to AI development—creating new roles even as others disappear. In a sweeping global study, the National Bureau of Economic Research found that AI has had little to no impact on employment or productivity in almost 90% of firms over the past three years, based on responses from nearly 6,000 C-suite executives.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p010",
+        "kind": "paragraph",
+        "text": "On the surface, the broader labor market also looks fine. Unemployment remains near historic lows, around 4%. But look closer, and the cracks begin to appear: unemployment among recent graduates has climbed to nearly 6%, rising twice as fast as the rest of the workforce since 2022.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p011",
+        "kind": "paragraph",
+        "text": "Both sides are right, and both are missing the point. Technological advancements are only beginning. Agentic AI is the next frontier and the real productivity driver that enterprises desire.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p012",
+        "kind": "paragraph",
+        "text": "The problem is not that the AI jobs debate is exaggerated. It is being framed incorrectly. We keep asking whether AI will trigger mass layoffs, as if disruption must show up all at once. But that is not how this transition unfolds. Across industries, as Agentic AI scales, the changes are already happening—just quietly.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p013",
+        "kind": "paragraph",
+        "text": "Agentic AI Is Steadily Scaling",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p014",
+        "kind": "paragraph",
+        "text": "The nature of work inside firms is also changing. Early generative AI tools accelerated discrete tasks—drafting text, summarizing documents, writing code, or answering customer questions. Agentic AI will go even further.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p015",
+        "kind": "paragraph",
+        "text": "Unlike chatbots that respond to prompts, agents can take on broader objectives. They break work into sub-tasks, invoke tools, move across systems, and revise their approach with limited human input. The shift is no longer just from human work to machine assistance—it is from task automation to workflow automation. Currently, the technology is primarily used for low-risk, highly repeatable tasks, but successful applications to more ambitious use cases are emerging.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p016",
+        "kind": "paragraph",
+        "text": "An analysis from the Yale Chief Executive Leadership Institute tracked how this transition is already underway.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p017",
+        "kind": "paragraph",
+        "text": "Major banks are deploying agentic systems across retail workflows and credit underwriting, including credit-risk memo production, delivering productivity gains of 20% to 60% and reducing turnaround times by roughly 30%.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p018",
+        "kind": "paragraph",
+        "text": "Telecommunications operators are implementing agents for customer service and network remediation, with some deployments reporting a more than 60% reduction in manual network operations through automated provisioning.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p019",
+        "kind": "paragraph",
+        "text": "Manufacturers are using multi-agent systems to reduce R&D cycle times by approximately 50% and increase order intake by 40% in early deployments.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p020",
+        "kind": "paragraph",
+        "text": "Logistics giant C.H. Robinson is handling approximately 29% more Less-Than-Truckload (LTL) volume while employing 30% fewer employees than in early 2019 and roughly half of carrier bookings are now generated by agents.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p021",
+        "kind": "paragraph",
+        "text": "Employers are no longer just looking for workers who can execute tasks. They are looking for those who can exercise reasoning in AI-enabled environments.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p022",
+        "kind": "paragraph",
+        "text": "Real estate is no exception. Morgan Stanley estimates that 37% of industry roles, or about 2.2 million U.S. jobs, face agentic-displacement risk. One firm in the study had already reduced on-property labor hours by 30% and another had lowered headcount by 15% with entry-level positions—data labelers, junior brokers, leasing associates—among the most exposed.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p023",
+        "kind": "paragraph",
+        "text": "The labor impact is not that these functions disappear overnight. It is that more of the work is shifting from execution to supervision, requiring less time to complete a task. Across sectors, the pattern is consistent: routine customer service, heavy document analysis, scheduling, quoting, and first-draft production are increasingly handled by agents, while people move toward exception handling, judgment, escalation, and oversight.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p024",
+        "kind": "paragraph",
+        "text": "That is why the key question is no longer which jobs disappear, but which tasks and workflows are being delegated—and where humans still retain a comparative advantage.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p025",
+        "kind": "paragraph",
+        "text": "Getting More From The Same",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p026",
+        "kind": "paragraph",
+        "text": "The impact of large language models (LLMs) has already begun to appear in the data, though it is not yet decisive.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p027",
+        "kind": "paragraph",
+        "text": "A November 2025 study by Erik Brynjolfsson and researchers at Stanford’s Digital Economy Lab found a 16% decline in early-career employment across the most AI-exposed occupations since late 2022, when OpenAI’s ChatGPT was released. The study estimates that the problem will continue to affect many young professionals as they begin their careers, but the long-term consequences are unclear.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p028",
+        "kind": "paragraph",
+        "text": "Nowhere is this clearer than in entry-level software engineering—though the picture depends on whom you ask. Brynjolfsson discovered that employment among developers aged 22 to 25 has fallen nearly 20% from its late-2022 peak. The online job site Indeed also paints a stark picture: software development job postings have fallen 53% from the same starting point.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p029",
+        "kind": "paragraph",
+        "text": "But BCG found that software engineering headcount across all ages in the technology sector has slowed but still grown, albeit at a much slower annual rate of 2% since the public release of ChatGPT. “AI helps engineers do their jobs more effectively rather than replacing them,” the authors conclude. The 2026 Winter Salary Survey from the National Association of Colleges and Employers reports a complementary finding: starting salaries for computer science majors are expected to increase by almost 7% year-over-year.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p030",
+        "kind": "paragraph",
+        "text": "Similar conflicting patterns are emerging across other technical roles. One respected firm publishes a study forecasting mass firings, while another estimates the net effect is minimal. Given all this noise, the average firm has chosen not to lay off workers on a large scale. Instead, many are silently closing the door to new ones.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p031",
+        "kind": "paragraph",
+        "text": "Some leaders have sought to provide at least some clarity by explicitly committing not to lay off employees. At Davos, ServiceNow CEO Bill McDermott promised not to lay off employees even as his 30,000-employee company adopts Agentic AI and automates certain functions. As McDermott puts it, if he has only hired “nines and tens,” why should he fire instead of retooling them? IT staff members whose roles have been affected by Agentic AI have already transitioned to become managers of these AI agents or moved into other roles after reskilling at the company’s ServiceNow University.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p032",
+        "kind": "paragraph",
+        "text": "Where layoffs do occur, they tend to cluster in the precise functions agents now absorb end-to-end. Salesforce CEO Marc Benioff confirmed that the company cut roughly 4,000 customer-service positions after AI agents began handling about half of customer interactions. IBM eliminated 200 HR roles after its agentic “AskHR” system automated high-volume workflows such as routine employee inquiries and administrative document processing.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p033",
+        "kind": "paragraph",
+        "text": "But these are not broad-based layoffs—rather, they are surgical reductions in the workflows as agentic systems begin to run at scale. A recent McKinseysurvey points to the trajectory: while 43% of companies expect AI not to change the size of their workforce, 32% expect AI to decrease their employee base by at least 3% within the next year. Against a U.S. voluntary turnover rate of 13% per year as of 2025, those headcount targets can largely be met by slowing or freezing the replacement of workers who leave of their own accord.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p034",
+        "kind": "paragraph",
+        "text": "The broader labor market reflects the same pattern. Hiring has slowed to levels last seen in 2010, when unemployment was nearly 10%. Economists have started calling this a “big freeze”: companies are not firing, but they are not hiring either. Employment looks stable. Opportunity is not.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p035",
+        "kind": "paragraph",
+        "text": "This is what AI-driven disruption looks like in practice. Firms are not cutting headcount but are getting more output from the same workforce. As productivity rises, the need for new recruits falls. Existing employees reskill. Advertised roles go unfilled and hiring slows. The impact shows up not as layoffs but as fewer pathways into the workforce.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p036",
+        "kind": "paragraph",
+        "text": "At the same time, firms are reducing their reliance on external labor. The first jobs to disappear are often outsourced—call centers, agencies, and offshore support. That makes the early impact easy to miss. It does not always show up in traditional employment data.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p037",
+        "kind": "paragraph",
+        "text": "Uncertainty is amplifying the trend. Over the past several years, firms have faced a rapid succession of shocks, from inflation and rising interest rates to recurring fears of recession and geopolitical instability. In that environment, companies have become far more cautious about long-term investments in talent. Hiring entry-level workers is, by definition, a bet on the future. New employees take time to train and rarely contribute immediately. When the outlook is unclear, that is the easiest investment to delay.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p038",
+        "kind": "paragraph",
+        "text": "Longer-term structural forces are reinforcing the squeeze. As populations age and workers remain in the labor force longer, career progression has slowed. Older employees are holding on to roles for longer, delaying the upward movement that typically creates space for new entrants. Research on the “age pay gap”—the difference in earnings between workers under 35 and those over 55—finds that it has widened by more than 60% in the United States over the past four decades, reflecting a growing premium on experience.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p039",
+        "kind": "paragraph",
+        "text": "If LLMs have sparked conversations about the consequences of AI on the labor force, agentic systems will catalyze those expected outcomes. The entire labor development pipeline must adjust its approach to educating and training the next generation of workers for the jobs of an AI-enabled future.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p040",
+        "kind": "paragraph",
+        "text": "What Leaders Are Watching",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p041",
+        "kind": "paragraph",
+        "text": "Leaders in higher education are already preparing for that shift. At our Yale Higher Education Summit in January, 100 college and university presidents gathered to discuss the most pressing issues demanding their attention. AI, along with federal intervention, was at the top of the list. In a survey conducted ahead of the event, 41% of those leaders reported being highly concerned about the vulnerability of entry-level white-collar roles. Many at the event also shared concerns about the early signs of disruption caused by the technology.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p042",
+        "kind": "paragraph",
+        "text": "The New York Times published a widely read but troubling story last fall citing a Federal Reserve Bank of New York study that now puts the unemployment rate among recent college graduates (ages 22 to 27) in computer science and computer engineering at 7.0% and 7.8%, respectively, among the highest across all majors and comparable to rates for anthropology, fine arts, and performing arts.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p043",
+        "kind": "paragraph",
+        "text": "According to our survey, there is a clear shift in the skills employers prioritize in the emerging AI era. Critical thinking and complex problem-solving rank as the most sought-after capabilities by a wide margin. Adaptability, creativity, and technical and data analysis follow close behind. Employers are no longer just looking for workers who can execute tasks. They are looking for those who can exercise reasoning in AI-enabled environments. The scaling of Agentic AI technologies will not only amplify the need for those skills but also for the need for project management, domain knowledge, and sound judgment.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p044",
+        "kind": "paragraph",
+        "text": "What is less clear is whether academia is preparing graduates enough to meet that bar. Only 10% of respondents said their graduates were sufficiently or very well prepared for AI-enabled workplaces. Nearly a third said they were somewhat or fully unprepared, while almost 60% fell into an unconvincing in-between.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p045",
+        "kind": "paragraph",
+        "text": "Education is no panacea when it comes to the known tools and techniques to master. Becoming AI savvy is not a product of programs and scholastic credentials. It is a mindset. As Albert Einstein is widely credited with saying, “Wisdom is not a product of schooling but of the lifelong attempt to acquire it.”",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p046",
+        "kind": "paragraph",
+        "text": "The shift is subtle, but its consequences are not. The greatest risk will not be a sudden wave of layoffs. It will be a labor market in which fewer entry-level jobs are created, making it harder for workers to gain experience and advance over time.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p047",
+        "kind": "paragraph",
+        "text": "That concern is reflected in both employer expectations and worker sentiment.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p048",
+        "kind": "paragraph",
+        "text": "Job market confidence has deteriorated sharply, with the share of U.S. workers who say it is a good time to find a job falling from roughly 70% in 2022 to just 28% more recently. The decline is most pronounced among younger workers and the college-educated, who in a reversal of historical patterns are now more pessimistic than those without degrees—(19% of college graduates say it is a “good time” to find a quality job, versus 35% of those without degrees).",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p049",
+        "kind": "paragraph",
+        "text": "The result is a growing sense of stagnation across the workforce. Workers are staying in roles longer, not necessarily because conditions are improving but because alternatives are harder to find. In surveys, a majority report feeling “stuck”—either unable to move up, move laterally, or move on. That lack of mobility further reduces churn, which regularly creates entry-level opportunities.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p050",
+        "kind": "paragraph",
+        "text": "What Leaders Need to Do Now",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p051",
+        "kind": "paragraph",
+        "text": "Like past technological shifts, from the automation of manufacturing to the rise of the Internet economy, the effects of AI are unlikely to arrive all at once. But this transition may move faster than those that came before. Software is embedded across nearly all functions of enterprises and can be deployed instantly, allowing firms to adopt new tools without the long timelines required for physical restructuring. And Agentic AI systems are rapidly improving, and implementation is spreading function by function in a matter of months, not years.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p052",
+        "kind": "paragraph",
+        "text": "If entry-level roles are compressed too aggressively, firms risk weakening their own talent pipelines. At the same time, the jobs that AI creates will not neatly replace the work it automates. Many emerging roles—AI oversight, process redesign, governance, model operations, and data infrastructure—require technical and managerial skills that many displaced workers may not have developed.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p053",
+        "kind": "paragraph",
+        "text": "This creates a broader policy tension. On the one hand, Agentic AI has the potential to significantly increase productivity and economic growth. On the other hand, it will likely reduce labor demand not through sudden disruption but through a steady narrowing of opportunities at the entry level. The biggest impact of Agentic AI on jobs will not be the layoffs we can see. It will be the opportunities that never materialize—the first steps into the workforce that quietly disappear before anyone notices.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p054",
+        "kind": "paragraph",
+        "text": "For leaders, the challenge is not just capturing productivity gains. It is simultaneously preserving the pathways that allow workers to build skills over time. The simplistic admonition that schooling alone can prepare workers with the skills they need is misleading. There are no easy courses or credentials to make someone AI savvy. When Jensen Huang of NVIDIA tells people not to worry about learning coding for software tools, there is a strong signal worth heeding. People did not need to understand bubble memory or VoIP architecture to use a telephone.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p055",
+        "kind": "paragraph",
+        "text": "AI-savvy preparation is more of a mindset and immersion in emerging platforms than mastering a library of analytic tools. John Dewey wrote in his 1916 work Democracy and Education: “Education is not preparation for life—education is life itself.”",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p056",
+        "kind": "paragraph",
+        "text": "This article is part one of a four-part series from the Yale Chief Executive Leadership Institute (CELI) on the state of Agentic AI adoption across industries and sectors. The research is designed to help CEOs understand the current and expected pace at which agentic systems are being deployed—and the strategic decisions that pace forces on them. Over the past six months, CELI researchers analyzed hundreds of company materials and industry analyses and conducted dozens of conversations with senior technology leaders across the U.S. The industries analyzed include Financial Services, Consumer Packaged Goods, Food & Beverage, Healthcare, Insurance, Manufacturing, Professional Services, Real Estate & Housing, Retail, Supply Chain & Logistics, Telecommunications, and Travel & Hospitality, as well as the public sector. The series examines four implications of the findings: labor market effects, data infrastructure readiness, governance and regulatory policy, and customer experience.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s1-p057",
+        "kind": "paragraph",
+        "text": "With research contribution from Dan Kent, Holden Lee, Catherine Dai, Zander Jeinthanuttkanont, Yevheniia Podurets, Jasmine Garry, and Christian Ruiz Angulo.",
+        "section": "The Real Job Destruction from AI Is Hitting Before Careers Can Start",
+        "page": null,
+        "duplicate_of": null
+      }
+    ],
+    "selected_ids": [
+      "s1-p001",
+      "s1-p002",
+      "s1-p003",
+      "s1-p004",
+      "s1-p005",
+      "s1-p006",
+      "s1-p007",
+      "s1-p008",
+      "s1-p009",
+      "s1-p010",
+      "s1-p011",
+      "s1-p012",
+      "s1-p013",
+      "s1-p014",
+      "s1-p015",
+      "s1-p016",
+      "s1-p017",
+      "s1-p018",
+      "s1-p019",
+      "s1-p020",
+      "s1-p021",
+      "s1-p022",
+      "s1-p023",
+      "s1-p024",
+      "s1-p025",
+      "s1-p026",
+      "s1-p027",
+      "s1-p028",
+      "s1-p029",
+      "s1-p030",
+      "s1-p031",
+      "s1-p032",
+      "s1-p033",
+      "s1-p034",
+      "s1-p035",
+      "s1-p036",
+      "s1-p037",
+      "s1-p038",
+      "s1-p039",
+      "s1-p040",
+      "s1-p041",
+      "s1-p042",
+      "s1-p043",
+      "s1-p044",
+      "s1-p045",
+      "s1-p046",
+      "s1-p047",
+      "s1-p048",
+      "s1-p049",
+      "s1-p050",
+      "s1-p051",
+      "s1-p052",
+      "s1-p053",
+      "s1-p054",
+      "s1-p055",
+      "s1-p056",
+      "s1-p057"
+    ],
+    "coverage": 1.0,
+    "stats": {
+      "chars": 19742,
+      "blocks": 57,
+      "pages": null,
+      "by_kind": {
+        "paragraph": 56,
+        "heading": 1,
+        "table": 0,
+        "list": 0,
+        "footnote": 0
+      }
+    },
+    "extraction": {
+      "status": "ok",
+      "model": "gemini-flash-lite-latest",
+      "claims": 15,
+      "dropped": 5,
+      "returned_by_model": 20,
+      "dropped_by_reason": {
+        "over_cap": 5
+      },
+      "support": {
+        "unchecked": 15
+      },
+      "reason": "gemini-flash-latest skipped (unavailable earlier in this run); support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+    }
+  },
+  {
+    "source_id": "s2",
+    "url": "https://www.library.hbs.edu/working-knowledge/enhance-or-eliminate-how-ai-will-likely-change-these-jobs",
+    "url_hash": "9f3be85d2b92d108332decd26602b2bbf2ba29e54eb120ed9816e1a51fa6499d",
+    "final_url": "https://www.library.hbs.edu/working-knowledge/enhance-or-eliminate-how-ai-will-likely-change-these-jobs",
+    "raw_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s2.html",
+    "raw_sha256": "b607a5f9eb6b90ba8448a29308ecc9cb5053bab9b5a458a98fe4e710e52abe43",
+    "fetch": {
+      "status": "ok",
+      "status_detail": null,
+      "method": "http",
+      "content_type": "html",
+      "from_cache": true,
+      "archive_timestamp": null,
+      "fetched_at": "2026-10-20T16:08:23+00:00",
+      "attempts": [
+        {
+          "method": "cache",
+          "result": "ok",
+          "reason": "cached copy from 2026-10-20T16:08:23+00:00",
+          "seconds": 0.0
+        }
+      ]
+    },
+    "processing": {
+      "status": "ok",
+      "reason": "12 blocks, 3,954 chars"
+    },
+    "usability": {
+      "status": "usable",
+      "reasons": [],
+      "notes": []
+    },
+    "meta": {
+      "title": "Enhance or Eliminate? How AI Will Likely Change These Jobs | Working Knowledge",
+      "site_name": "Harvard Business School",
+      "author": "Ana Elena Azpúrua",
+      "published_date": "2026-02-20",
+      "date_confidence": "page_metadata",
+      "language": null
+    },
+    "relevance": {
+      "label": "high",
+      "page_kind": "article",
+      "reason": "The page discusses the impact of generative AI on job postings, labor market shifts, and skill demand.",
+      "checked": true
+    },
+    "duplicate": null,
+    "blocks": [
+      {
+        "id": "s2-p001",
+        "kind": "paragraph",
+        "text": "Will generative AI replace your job or improve it? What has been the impact on the labor market so far?",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p002",
+        "kind": "paragraph",
+        "text": "After the public launch of ChatGPT in November 2022, job postings for occupations that involve lots of structured and repetitive tasks, likely replaceable by generative AI, decreased by 13%. Meanwhile, employer demand for jobs that require more analytical, technical, or creative work—potentially enhanced by artificial intelligence—grew 20%, according to a working paper coauthored by Harvard Business School Professor Suraj Srinivasan.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p003",
+        "kind": "paragraph",
+        "text": "The findings offer early clues for how companies are adopting generative AI, which has sparked a corporate search for efficiency and existential dread among employees. The research team assessed job postings from 2019 through March 2025 using a large dataset that covers nearly all US vacancies.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p004",
+        "kind": "paragraph",
+        "text": "“Rather than solely eliminating jobs, generative AI creates new demand in augmentation-prone roles, suggesting that human-AI collaboration is a key driver of labor market transformation,” says Srinivasan. The largest reductions were in the finance and technology sectors.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p005",
+        "kind": "paragraph",
+        "text": "Srinivasan, the Philip J. Stomberg Professor of Business Administration, collaborated on the working paper “Displacement or Complementarity? The Labor Market Impact of Generative AI” with Wilbur Xinyuan Chen, of the Hong Kong University of Science and Technology, and Saleh Zakerinia of Ohio State University. The paper was first released in December 2024 and was updated in August.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p006",
+        "kind": "paragraph",
+        "text": "Occupations with potential for AI augmentation handle tasks that can be automated using generative AI alongside other tasks that require human involvement. Those most prone to augmentation tend to involve greater use of social and hands-on technical skills. Microbiologists, financial analysts, and clinical neuropsychologists are three examples with high augmentation potential. In finance, as Srinivasan explains, investment managers and analysts use AI-powered tools to process and evaluate market data, but ultimately, their judgment and decision-making remain crucial.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p007",
+        "kind": "paragraph",
+        "text": "The research team used OpenAI’s ChatGPT to categorize over 19,000 job tasks across more than 900 occupations, assessing their potential for automation through generative AI. They also constructed an augmentation score based on the share of exposed and unexposed tasks in each occupation.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p008",
+        "kind": "paragraph",
+        "text": "The number of skills required for roles prone to automation are shrinking, the researchers found. They registered 7% fewer of those skills in job postings and also fewer skills emerging in these occupations. At the same time, they detected more AI-related skills—such as prompt writing or using AI tools—in jobs with high augmentation potential. As workflows transform with the new technology, new skills have also emerged.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p009",
+        "kind": "paragraph",
+        "text": "The researchers note that the study focuses on the short-term impact of generative AI on the US labor market, so the effects on other regions or long-term impacts “remain uncertain as adoption scales.”",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p010",
+        "kind": "paragraph",
+        "text": "How companies integrate generative AI technologies is decisive for job loss or growth, the paper warns. Given that it impacts jobs differently, Srinivasan recommends that companies:",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p011",
+        "kind": "list",
+        "text": "- Invest in reskilling programs to transition workers to roles enhanced by AI. “Retraining is essential for jobs where generative AI is reducing skill diversity. In automation-prone occupations, workers may face displacement unless they develop non-automatable skills, such as judgment and interpersonal communication skills.”\n- Continuous upskilling in generative AI to leverage new tools. “In augmentation-prone occupations, generative AI is broadening skill requirements, increasing the demand for AI literacy, human-AI collaboration, and domain-specific AI applications.”",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s2-p012",
+        "kind": "paragraph",
+        "text": "“Firms should view generative AI as an augmentation tool rather than merely a cost-cutting measure and align workforce training programs accordingly to support both job transitions and evolving skill demands,” says Srinivasan.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      }
+    ],
+    "selected_ids": [
+      "s2-p001",
+      "s2-p002",
+      "s2-p003",
+      "s2-p004",
+      "s2-p005",
+      "s2-p006",
+      "s2-p007",
+      "s2-p008",
+      "s2-p009",
+      "s2-p010",
+      "s2-p011",
+      "s2-p012"
+    ],
+    "coverage": 1.0,
+    "stats": {
+      "chars": 3954,
+      "blocks": 12,
+      "pages": null,
+      "by_kind": {
+        "paragraph": 11,
+        "heading": 0,
+        "table": 0,
+        "list": 1,
+        "footnote": 0
+      }
+    },
+    "extraction": {
+      "status": "ok",
+      "model": "gemini-flash-lite-latest",
+      "claims": 6,
+      "dropped": 0,
+      "returned_by_model": 6,
+      "dropped_by_reason": {},
+      "support": {
+        "full": 6
+      },
+      "reason": "gemini-flash-latest skipped (unavailable earlier in this run)"
+    }
+  },
+  {
+    "source_id": "s3",
+    "url": "https://gloat.com/blog/ai-labor-market/",
+    "url_hash": "b1409abb7f5201e7f56f32e18f02bebfb131e3e907cf42c70b1a3b3664f2e410",
+    "final_url": "https://gloat.com/blog/ai-labor-market/",
+    "raw_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s3.html",
+    "raw_sha256": "2c7fe12a7e95b31407aa38ed7724f6170f8fb9043f3787950cf039a49a0aaf57",
+    "fetch": {
+      "status": "ok",
+      "status_detail": null,
+      "method": "browser",
+      "content_type": "html",
+      "from_cache": true,
+      "archive_timestamp": null,
+      "fetched_at": "2026-10-20T16:08:25+00:00",
+      "attempts": [
+        {
+          "method": "cache",
+          "result": "ok",
+          "reason": "cached copy from 2026-10-20T16:08:25+00:00",
+          "seconds": 0.0
+        }
+      ]
+    },
+    "processing": {
+      "status": "ok",
+      "reason": "50 blocks, 10,665 chars"
+    },
+    "usability": {
+      "status": "usable",
+      "reasons": [],
+      "notes": []
+    },
+    "meta": {
+      "title": "AI Labor Market Impact (Updated for Q3 2026) | Gloat",
+      "site_name": "Gloat",
+      "author": "Nicole Schreiber-Shearer",
+      "published_date": "2025-12-09",
+      "date_confidence": "page_metadata",
+      "language": null
+    },
+    "relevance": {
+      "label": "high",
+      "page_kind": "article",
+      "reason": "The page discusses the impact of artificial intelligence on employment, job creation, automation, and workforce transformation across various industries.",
+      "checked": true
+    },
+    "duplicate": null,
+    "blocks": [
+      {
+        "id": "s3-p001",
+        "kind": "heading",
+        "text": "AI Labor Market Impact: Understanding Workforce Transformation in 2026",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p002",
+        "kind": "heading",
+        "text": "Your strategic guide to navigating AI's impact on hiring, skills, and organizational transformation",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p003",
+        "kind": "paragraph",
+        "text": "How is AI reshaping work? It’s the question that’s keeping CHROs up at night—and for good reason. AI is impacting the labor market by automating routine tasks, displacing some traditional roles, and simultaneously creating unprecedented demand for new positions in data science, AI ethics, and automation oversight. Sectors like manufacturing, customer service, and transportation face significant disruption, while technology, healthcare, and education are seeing explosive growth in AI-assisted roles.",
+        "section": "Your strategic guide to navigating AI's impact on hiring, skills, and organizational transformation",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p004",
+        "kind": "paragraph",
+        "text": "But here’s what the headlines miss: this isn’t a simple story of job destruction. The World Economic Forum projects 170 million new jobs will emerge by 2030, while 92 million will be displaced, equaling a net gain of 78 million positions. The real challenge isn’t whether your workforce will survive AI; it’s whether your organization can transform fast enough to capture its value.",
+        "section": "Your strategic guide to navigating AI's impact on hiring, skills, and organizational transformation",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p005",
+        "kind": "heading",
+        "text": "Current State of AI in the Labor Market (Updated for Q3 2026)",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p006",
+        "kind": "heading",
+        "text": "AI Adoption Rates Across Industries",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p007",
+        "kind": "paragraph",
+        "text": "Let’s cut through the noise with some hard numbers. McKinsey’s State of AI survey found that 88 percent of organizations now use AI in at least one business function, up from 78 percent a year earlier, yet only about a third have scaled it across the enterprise. A separate McKinsey report, Superagency in the Workplace, sharpens the point: while 92 percent of companies plan to increase AI investment over the next three years, only 1 percent describe themselves as mature, meaning AI is fully integrated into workflows and driving real business outcomes.",
+        "section": "AI Adoption Rates Across Industries",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p008",
+        "kind": "paragraph",
+        "text": "The adoption curve isn’t uniform. Technology and financial services are leading the charge, while construction and hospitality lag behind. PwC’s 2026 Global AI Jobs Barometer, built on close to a billion job ads, found every industry it analysed is now increasing its use of AI, including slower movers like mining and agriculture.",
+        "section": "AI Adoption Rates Across Industries",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p009",
+        "kind": "heading",
+        "text": "Employment Impact Statistics",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p010",
+        "kind": "paragraph",
+        "text": "The employment picture is more nuanced than doomsday predictions suggest. PwC’s research shows that job numbers are actually rising in virtually every type of AI-exposed occupation, even those considered highly automatable. Between 2019-2024, occupations with lower AI exposure saw 65% job growth, while more exposed occupations still achieved 38% growth.",
+        "section": "Employment Impact Statistics",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p011",
+        "kind": "paragraph",
+        "text": "Displacement is real at the same time. Stanford’s 2026 AI Index found that about a third of surveyed employers expect workforce reductions in the year ahead, concentrated in service operations, supply chain, and software engineering. Both things are true together. AI is lifting demand for people who can work with it and thinning demand for people who cannot.",
+        "section": "Employment Impact Statistics",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p012",
+        "kind": "heading",
+        "text": "Productivity Gains vs. Job Displacement Reality",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p013",
+        "kind": "paragraph",
+        "text": "Here’s where it gets interesting. Since generative AI proliferated in 2022, productivity growth has nearly quadrupled in AI-exposed industries—rising from 7% (2018-2022) to 27% (2018-2024), according to PwC. Industries most exposed to AI are now seeing 3x higher revenue growth per employee than least-exposed sectors.",
+        "section": "Productivity Gains vs. Job Displacement Reality",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p014",
+        "kind": "paragraph",
+        "text": "The wage implications are equally striking. Jobs requiring AI skills now command a 56% wage premium, up from just 25% the previous year. But Gartner cautions that many organizations struggle to translate AI investments into material productivity improvements, creating what some describe as the “AI productivity paradox.”",
+        "section": "Productivity Gains vs. Job Displacement Reality",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p015",
+        "kind": "heading",
+        "text": "What Industries Are Being Affected By AI?",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p016",
+        "kind": "paragraph",
+        "text": "Industries are being affected by AI across various sectors, including finance, healthcare, tech, retail, construction, and manufacturing. Rather than speculating, let’s look at what the data shows about industry-specific transformation and job implications:",
+        "section": "What Industries Are Being Affected By AI?",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p017",
+        "kind": "table",
+        "text": "| Industry | AI Exposure Level | Employment Outlook |\n|---|---|---|\n| Financial Services | Very High – leading productivity gains | Shift toward analysts and AI oversight |\n| Technology | Very High – 10x AI skill demand increase | Growth in AI-native roles; entry-level pressure |\n| Manufacturing | High – physical automation accelerating | 2M jobs impacted; shift to oversight roles |\n| Healthcare | Moderate – augmentation focus | Strong growth; Mayo expanded radiology 50%+ |\n| Retail | High – customer-facing automation | 65% of roles face automation by 2025 |\n| Construction | Low – lagging in adoption | Job growth expected; skilled labor shortage |",
+        "section": "What Industries Are Being Affected By AI?",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p018",
+        "kind": "paragraph",
+        "text": "Source: Compiled from PwC 2025 AI Jobs Barometer, McKinsey Global Institute, and World Economic Forum Future of Jobs Report 2025",
+        "section": "What Industries Are Being Affected By AI?",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p019",
+        "kind": "heading",
+        "text": "Understanding AI Exposure In Jobs",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p020",
+        "kind": "heading",
+        "text": "Task-Level Vs. Job-Level Automation",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p021",
+        "kind": "paragraph",
+        "text": "AI automates tasks, not jobs. McKinsey’s latest analysis frames impact in terms of “technical automation potential” rather than jobs lost. While AI and robotics could theoretically automate 57% of U.S. work hours, this measures task potential, not inevitable job elimination. Most roles will evolve rather than disappear, with tasks redistributed between humans and AI systems.",
+        "section": "Task-Level Vs. Job-Level Automation",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p022",
+        "kind": "heading",
+        "text": "High-Risk Occupations And Exposure Metrics",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p023",
+        "kind": "paragraph",
+        "text": "McKinsey identifies that roles with the highest automation potential make up roughly 40% of total U.S. jobs. These concentrate in legal and administrative services, along with physically demanding roles like drivers and machine operators. However, even these positions will likely evolve rather than vanish—humans remain essential to guide, supervise, and verify AI outputs.",
+        "section": "High-Risk Occupations And Exposure Metrics",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p024",
+        "kind": "heading",
+        "text": "Cognitive Work And Non-Routine Tasks",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p025",
+        "kind": "paragraph",
+        "text": "Generative AI has shifted the exposure calculus. Unlike previous automation waves that primarily affected manual labor, AI now impacts knowledge work directly. Skills like summarization, information retrieval, and translation are becoming less critical as AI masters these tasks. Yet Deloitte’s research confirms that emotional intelligence, critical thinking, leadership, and complex problem-solving remain distinctly human advantages.",
+        "section": "Cognitive Work And Non-Routine Tasks",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p026",
+        "kind": "heading",
+        "text": "Income Level And Education Correlations",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p027",
+        "kind": "paragraph",
+        "text": "Contrary to earlier assumptions, AI exposure isn’t concentrated among low-wage workers. Better-paid, better-educated workers actually face the greatest exposure to generative AI, though this exposure often means augmentation rather than replacement. The college wage premium has flattened since around 2010, while posted salaries for knowledge jobs have plateaued since mid-2024. The message is clear: education alone no longer guarantees insulation from AI’s effects.",
+        "section": "Income Level And Education Correlations",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p028",
+        "kind": "heading",
+        "text": "Timeline and Pace of Change",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p029",
+        "kind": "heading",
+        "text": "Short-Term Labor Market Effects (1-3 Years)",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p030",
+        "kind": "paragraph",
+        "text": "In the immediate term, expect AI to operate within boundaries. Gartner predicts AI’s impact on global jobs will be neutral through 2026. AI tools will generate modest productivity increases by augmenting existing work patterns, with benefits most significant for senior professionals in organizations with mature practices. Meanwhile, 75% of knowledge workers are already using AI tools, often without formal company deployment.",
+        "section": "Short-Term Labor Market Effects (1-3 Years)",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p031",
+        "kind": "heading",
+        "text": "Medium-Term Workforce Transformation (3-7 Years)",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p032",
+        "kind": "paragraph",
+        "text": "By 2027-2030, the emergence of AI agents will push boundaries significantly. According to Deloitte, 1 in 4 companies currently using generative AI will launch agentic AI pilots by 2025, with adoption reaching 50% by 2027. This marks the emergence of AI-native work patterns where most routine cognitive tasks become AI-generated rather than human-authored. Gartner projects that by 2028, AI will create more jobs than it destroys.",
+        "section": "Medium-Term Workforce Transformation (3-7 Years)",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p033",
+        "kind": "heading",
+        "text": "Long-Term Structural Changes (7+ Years)",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p034",
+        "kind": "paragraph",
+        "text": "Looking toward 2030 and beyond, Gartner survey data suggests that 0% of IT work will be done by humans without AI, 75% will be done by humans augmented with AI, and 25% will be done by AI alone. The World Economic Forum projects that 39% of key job skills will change by 2030, requiring fundamental workforce transformation at every level.",
+        "section": "Long-Term Structural Changes (7+ Years)",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p035",
+        "kind": "heading",
+        "text": "Employer Response And Workforce Strategy",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p036",
+        "kind": "heading",
+        "text": "Hiring And Recruitment Changes",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p037",
+        "kind": "paragraph",
+        "text": "Employers are fundamentally rethinking who they hire and why. Deloitte research reveals that leaders are 3.1x more likely to prefer replacing employees with new AI-ready talent versus retraining existing workforce. Jobs requiring AI skills are growing 7.5% even as total job postings fell 11.3% last year. New roles are emerging rapidly: agent product managers, AI evaluation writers, and “human in the loop” validators to guide machine output.",
+        "section": "Hiring And Recruitment Changes",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p038",
+        "kind": "heading",
+        "text": "Internal Reskilling And Upskilling Programs",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p039",
+        "kind": "paragraph",
+        "text": "Despite stated intentions, follow-through on reskilling remains a challenge. While 77% of companies say they intend to launch upskilling initiatives and 85% of employers plan to prioritize workforce upskilling according to WEF data, participation in adult-learning programs is flat or falling in many countries. Gartner’s prediction that 80% of the engineering workforce will need upskilling by 2027 underscores the urgency.",
+        "section": "Internal Reskilling And Upskilling Programs",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p040",
+        "kind": "heading",
+        "text": "Worker Adaptation Strategies",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p041",
+        "kind": "heading",
+        "text": "Career Pivoting And Transition Pathways",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p042",
+        "kind": "paragraph",
+        "text": "For individual workers, the path forward requires strategic positioning. McKinsey’s analysis shows that more than 70% of skills sought by employers today are used in both automatable and non-automatable work—suggesting most skills remain relevant, but how and where they’re applied will evolve. The WEF identifies the fastest-rising competencies as AI and big data skills, followed by networks, cybersecurity, and technological literacy. But don’t overlook human capabilities: creative thinking, resilience, flexibility, and curiosity are all gaining importance alongside technical skills.",
+        "section": "Career Pivoting And Transition Pathways",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p043",
+        "kind": "heading",
+        "text": "Leveraging AI Tools For Productivity",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p044",
+        "kind": "paragraph",
+        "text": "The workers who thrive will be those who embrace AI as a force multiplier. Deloitte’s 2025 Global Human Capital Trends survey finds that 70% of workers are open to offloading work to AI to free up time and boost creativity. Organizations that prioritize developing human capabilities alongside AI skills are nearly twice as likely to have workers who feel their work is meaningful and twice as likely to achieve better financial results.",
+        "section": "Leveraging AI Tools For Productivity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p045",
+        "kind": "heading",
+        "text": "Turn Workforce Uncertainty Into Strategic Advantage",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p046",
+        "kind": "paragraph",
+        "text": "The bottom line? AI transformation isn’t something that will happen to your workforce; it’s something you can shape. But shaping it requires visibility you likely don’t have today. Which roles face the highest automation potential? Where will AI investments deliver the greatest ROI? What reskilling pathways will your people actually need? Without task-level intelligence about how work gets done across your organization, you’re navigating this transformation blind.",
+        "section": "Turn Workforce Uncertainty Into Strategic Advantage",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p047",
+        "kind": "paragraph",
+        "text": "This is exactly the challenge Gloat Signal was built to solve. Signal maps the work actually happening across your organization—breaking it down to tasks and the skills required to complete them—then quantifies AI’s potential impact with precision. Instead of guessing which processes to automate, you get concrete data on high-ROI opportunities based on scale and cost. Instead of vague promises about efficiency gains, you get specific financial projections for AI investments. And instead of reactive workforce planning, you can visualize which roles will retire, evolve, or grow and create pathways to redeploy talent before disruption hits.",
+        "section": "Turn Workforce Uncertainty Into Strategic Advantage",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p048",
+        "kind": "paragraph",
+        "text": "The organizations that succeed won’t be those with the most AI tools. They’ll be the ones who build the strategic foundations to translate AI investment into genuine human and business value, starting with a clear, data-backed understanding of where AI can make the biggest difference.",
+        "section": "Turn Workforce Uncertainty Into Strategic Advantage",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p049",
+        "kind": "paragraph",
+        "text": "The future of work isn’t about humans versus AI. It’s about humans with AI—and the organizations that get this equation right will define the next era of enterprise success.",
+        "section": "Turn Workforce Uncertainty Into Strategic Advantage",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s3-p050",
+        "kind": "paragraph",
+        "text": "Ready to see where AI can deliver the greatest impact for your workforce? Try Gloat Signal and turn workforce transformation from a looming challenge into your competitive advantage.",
+        "section": "Turn Workforce Uncertainty Into Strategic Advantage",
+        "page": null,
+        "duplicate_of": null
+      }
+    ],
+    "selected_ids": [
+      "s3-p002",
+      "s3-p003",
+      "s3-p004",
+      "s3-p006",
+      "s3-p007",
+      "s3-p008",
+      "s3-p009",
+      "s3-p010",
+      "s3-p011",
+      "s3-p012",
+      "s3-p013",
+      "s3-p014",
+      "s3-p015",
+      "s3-p016",
+      "s3-p017",
+      "s3-p018",
+      "s3-p020",
+      "s3-p021",
+      "s3-p022",
+      "s3-p023",
+      "s3-p024",
+      "s3-p025",
+      "s3-p026",
+      "s3-p027",
+      "s3-p029",
+      "s3-p030",
+      "s3-p031",
+      "s3-p032",
+      "s3-p033",
+      "s3-p034",
+      "s3-p036",
+      "s3-p037",
+      "s3-p038",
+      "s3-p039",
+      "s3-p041",
+      "s3-p042",
+      "s3-p043",
+      "s3-p044",
+      "s3-p045",
+      "s3-p046",
+      "s3-p047",
+      "s3-p048",
+      "s3-p049",
+      "s3-p050"
+    ],
+    "coverage": 1.0,
+    "stats": {
+      "chars": 10665,
+      "blocks": 50,
+      "pages": null,
+      "by_kind": {
+        "paragraph": 26,
+        "heading": 23,
+        "table": 1,
+        "list": 0,
+        "footnote": 0
+      }
+    },
+    "extraction": {
+      "status": "ok",
+      "model": "gemini-flash-lite-latest",
+      "claims": 15,
+      "dropped": 4,
+      "returned_by_model": 19,
+      "dropped_by_reason": {
+        "number_not_in_quote": 2,
+        "over_cap": 2
+      },
+      "support": {
+        "full": 15
+      },
+      "reason": "gemini-flash-latest skipped (unavailable earlier in this run)"
+    }
+  },
+  {
+    "source_id": "s4",
+    "url": "https://www.brookings.edu/articles/measuring-us-workers-capacity-to-adapt-to-ai-driven-job-displacement/",
+    "url_hash": "38c2114626c96e9e4acaae2de7294154348f637efbebf88557e124974131ec52",
+    "final_url": "https://www.brookings.edu/articles/measuring-us-workers-capacity-to-adapt-to-ai-driven-job-displacement/",
+    "raw_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s4.html",
+    "raw_sha256": "dc02020ff0c0f081f3a5af37ed0eb68a93e15d718c7317742e9214c9e2a2318e",
+    "fetch": {
+      "status": "ok",
+      "status_detail": null,
+      "method": "http",
+      "content_type": "html",
+      "from_cache": true,
+      "archive_timestamp": null,
+      "fetched_at": "2026-10-20T16:08:21+00:00",
+      "attempts": [
+        {
+          "method": "cache",
+          "result": "ok",
+          "reason": "cached copy from 2026-10-20T16:08:21+00:00",
+          "seconds": 0.0
+        }
+      ]
+    },
+    "processing": {
+      "status": "ok",
+      "reason": "45 blocks, 21,438 chars"
+    },
+    "usability": {
+      "status": "usable",
+      "reasons": [],
+      "notes": []
+    },
+    "meta": {
+      "title": "Measuring US workers’ capacity to adapt to AI-driven job displacement | Brookings",
+      "site_name": "Brookings",
+      "author": "Janice C Eberly; Jón Steinsson; Aaron Klein; Stijn Van Nieuwerburgh",
+      "published_date": "2026-02-12",
+      "date_confidence": "page_metadata",
+      "language": null
+    },
+    "relevance": {
+      "label": "high",
+      "page_kind": "report_or_paper",
+      "reason": "The page examines how AI exposure affects U.S. workers and analyzes their capacity to adapt to potential job displacement.",
+      "checked": true
+    },
+    "duplicate": null,
+    "blocks": [
+      {
+        "id": "s4-p001",
+        "kind": "heading",
+        "text": "Introduction",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p002",
+        "kind": "paragraph",
+        "text": "Extensive research has investigated the “exposure” of occupations to artificial intelligence (AI). While definitions vary, studies using exposure measures seek to estimate the extent to which AI systems can help complete the work tasks of different jobs. But these measures are not predictions of job displacement. Rather, they provide signals about where AI’s complex labor market effects are most likely to emerge first.",
+        "section": "Introduction",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p003",
+        "kind": "paragraph",
+        "text": "However, most exposure-focused analyses overlook a critical dimension: workers’ ability to adapt if job loss does occur.",
+        "section": "Introduction",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p004",
+        "kind": "paragraph",
+        "text": "Capacity to adapt after job loss is not evenly distributed across the workforce. Financial security, age, skills, union membership, and the state of local labor markets are just some of the many factors that can influence the real-life consequences of job loss. For that reason, forecasts of AI exposure, disruption, and potential work dislocation would benefit from incorporating such factors.",
+        "section": "Introduction",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p005",
+        "kind": "paragraph",
+        "text": "This is the purpose of new research explained here and in a new paper for the National Bureau of Economic Research (NBER) by research colleagues Sam Manning and Tomás Aguirre.",
+        "section": "Introduction",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p006",
+        "kind": "paragraph",
+        "text": "To address the heterogeneity of how AI-induced job loss may impact workers, the new analysis combines estimates of AI exposure with a novel measure of “adaptive capacity” that takes into account workers’ varied individual characteristics. Along these lines, the new work supplements occupation-level exposure analysis with relevant measures of workers’ savings, age, labor market density, and skill transferability in order to assess their varied capacity to weather job displacement and transition to new work. As such, the new approach provides a useful way of distinguishing between highly AI-exposed workers with relatively strong means to adjust to potential AI-driven job loss and those with more limited adaptive capacity.",
+        "section": "Introduction",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p007",
+        "kind": "paragraph",
+        "text": "As such, our analysis finds that overall, there is both broad resilience and concentrated pockets of potential vulnerability in the U.S. labor market when it comes to AI job displacement.",
+        "section": "Introduction",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p008",
+        "kind": "paragraph",
+        "text": "Of the 37.1 million U.S. workers in the top quartile of occupational AI exposure, 26.5 million also have above-median adaptive capacity, meaning they are among those best positioned to make a job transition if displacement occurs. However, the analysis also documents that some 6.1 million workers (4.2% of the workforce in the sample) will likely contend with both high AI exposure and low adaptive capacity. These workers tend to be concentrated in clerical and administrative roles, and about 86% are women (gender shares are calculated using Lightcast data). Geographically, these workers are concentrated in smaller metropolitan areas, particularly university towns and midsized markets in the Mountain West and Midwest.",
+        "section": "Introduction",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p009",
+        "kind": "paragraph",
+        "text": "In short, the new analysis asks: If AI does cause job displacement, who is best positioned to adapt, and who will struggle most? In asking those questions, this analysis intends to help policymakers focused on AI’s labor market impacts better target their attention and resources.",
+        "section": "Introduction",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p010",
+        "kind": "heading",
+        "text": "Background: Why AI exposure alone does not account for workers’ varied ability to adjust to a changing labor market",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p011",
+        "kind": "paragraph",
+        "text": "To identify which workers have the most and least capacity to weather AI-driven job displacement, the inquiry discussed here links analysis that forecasts AI’s labor market impacts with research examining how workers adjust to job displacement. As Manning and Aguirre write in their NBER report, “By bridging the two literatures, we move beyond identifying which jobs face potential AI exposure to understanding which workers might face the greatest or least adjustment costs if disruption leads to displacement.”",
+        "section": "Background: Why AI exposure alone does not account for workers’ varied ability to adjust to a changing labor market",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p012",
+        "kind": "paragraph",
+        "text": "Research examining workers’ exposure to AI has frequently mapped descriptions of worker tasks to AI capabilities in order to estimate the potential for AI-driven disruption in different occupations. Studies by Brynjolfsson and others (2018); Webb (2020); Muro and others (2019); Felten and others (2023); Eloundou and others (2024); Kinder and others (2024); and Hampole and others (2025) all find that higher-income, white collar occupations requiring postsecondary education show the highest exposure to AI capabilities.",
+        "section": "Background: Why AI exposure alone does not account for workers’ varied ability to adjust to a changing labor market",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p013",
+        "kind": "paragraph",
+        "text": "High exposure estimates for highly educated, high-income workers have led many to assume that these workers will bear the greatest burden of AI disruption. Yet such exposure measures fail to capture core non-technological factors that influence which workers would experience the most severe welfare costs if AI were to eventually be a cause of job displacement.",
+        "section": "Background: Why AI exposure alone does not account for workers’ varied ability to adjust to a changing labor market",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p014",
+        "kind": "paragraph",
+        "text": "Along these lines, several factors are known to shape worker vulnerability to harms from job displacement (for more detail see the underlying NBER paper).",
+        "section": "Background: Why AI exposure alone does not account for workers’ varied ability to adjust to a changing labor market",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p015",
+        "kind": "list",
+        "text": "- Liquid financial resources: Workers with greater savings weather economic storms more effectively. Chetty (2008) shows individuals with greater liquid savings are less financially distressed after job loss and take longer to find better-matching jobs, while low-wealth individuals are forced into lower-quality employment.\n- Age: Age significantly influences job displacement costs. Farber (2017) shows that workers aged 55 to 64 who experienced job loss during the Great Recession were about 16 percentage points less likely than those aged 35 to 44 to find employment afterward. Older workers are less likely to retrain, relocate, or switch occupations compared to their younger counterparts, and a range of studies has found that job loss for older workers leads to greater earnings losses and lower reemployment rates.\n- Geographic density: Where a worker lives can affect their displacement experience and recovery prospects. Bleakley and Lin (2012) show that workers in more densely populated areas face lower costs to make work transitions compared to those in low-density areas.\n- Skill transferability: Transferable skills—those that can be applied across many different jobs—offer more occupational mobility than highly specialized skills. Nawakitphaitoon and Ormiston (2016) show that skill transferability is associated with smaller earnings losses following displacement.\n- Other factors such as income, the routine-task intensity of one’s job, and union representation may also influence outcomes, but are excluded from the core capacity analysis due to data limitations or ambiguity about their unique contributions to adaptive capacity.",
+        "section": "Background: Why AI exposure alone does not account for workers’ varied ability to adjust to a changing labor market",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p016",
+        "kind": "paragraph",
+        "text": "In sum, linking exposure measures with these indicators of adaptive capacity provides a more complete picture of who is likely to experience the greatest costs if AI exposure translates into job loss. More specifically, such an approach can suggest, on one hand, how the AI disruptions that may befall higher-income, white collar workers may be partly mitigated by those workers’ savings, skills, and networks; while on the other hand, downside risks for less adaptive workers may be harder to manage.",
+        "section": "Background: Why AI exposure alone does not account for workers’ varied ability to adjust to a changing labor market",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p017",
+        "kind": "heading",
+        "text": "Approach: Measuring adaptive capacity alongside AI exposure",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p018",
+        "kind": "paragraph",
+        "text": "Expanding prior research on AI exposure by complementing Eloundou and others’ occupational exposure estimates with various measures of workers’ adaptive capacity allows for a sharper picture of risk and resilience in the labor market. The aim is to identify which occupations are likely to be impacted by large language models (LLMs) as well as which workers are the most and least able to weather a job transition if one becomes necessary.",
+        "section": "Approach: Measuring adaptive capacity alongside AI exposure",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p019",
+        "kind": "paragraph",
+        "text": "To develop this picture, the NBER report combine six primary datasets to create a composite measure of adaptive capacity by occupation. The Survey of Income and Program Participation (SIPP) provides data on workers’ net liquid wealth; the American Community Survey (ACS) offers age distributions; the Occupational Employment and Wage Statistics (OEWS) program contributes wage and employment figures; Lightcast provides employment shares by county and metro area; Bureau of Labor Statistics employment projections provide estimated employment growth rates by occupation; and O*NET details the range of skills required in each occupation. Together, these sources cover the vast majority of the U.S. workforce. (See the following Appendix and the underlying paper here.)",
+        "section": "Approach: Measuring adaptive capacity alongside AI exposure",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p020",
+        "kind": "paragraph",
+        "text": "From this combined data, the NBER report calculates an occupation-level adaptive capacity index based on four standardized components (net liquid wealth, growth-weighted skill transferability, geographic density, and age), which capture financial, skill-based, geographic, and age-related adjustment capacity. This index is then presented alongside AI exposure measures from Eloundou and others to identify how adaptive capacity varies across highly exposed occupations.",
+        "section": "Approach: Measuring adaptive capacity alongside AI exposure",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p021",
+        "kind": "paragraph",
+        "text": "Importantly, the adaptive capacity index focuses on factors influencing workers’ ability to find new jobs and their earnings after reemployment—not the full range of welfare costs that job displacement can impose, such as job insecurity or the loss of meaning and identity that work provides.",
+        "section": "Approach: Measuring adaptive capacity alongside AI exposure",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p022",
+        "kind": "heading",
+        "text": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p023",
+        "kind": "paragraph",
+        "text": "Combining AI exposure measures with the new adaptive capacity index paints a new picture of AI’s potential impacts on the workforce.",
+        "section": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p024",
+        "kind": "paragraph",
+        "text": "To begin, the analysis here shows that the workers with the highest AI exposure rates possess characteristics that give them higher capacity to navigate job transitions successfully—finding new employment quickly and minimizing earnings losses after job displacement. That is, the most exposed workers may have the most resilience if AI automation or another cause leads to job loss.",
+        "section": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p025",
+        "kind": "paragraph",
+        "text": "Figure 1 shows a large group of 26.5 million workers concentrated to the upper right of the bubble chart. Across this cluster of occupations, many high-exposure occupations such as software developers, financial managers, lawyers, and other professionals benefit from strong pay, financial buffers, diverse skills, and deep professional networks. Given that, these well-positioned workers—who observers often cite as being highly threatened by AI automation—likely possess relatively strong means to adjust to AI-driven dislocation if it were to occur (though of course few such transitions are easy, or come without costs to a worker’s well-being).",
+        "section": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p026",
+        "kind": "paragraph",
+        "text": "By contrast, roughly 6.1 million workers (see Appendix) face both high exposure to LLMs and low adaptive capacity to manage a job transition. Concentrated in jobs located in the lower-right quadrant of Figure 1, these potentially more vulnerable workers are employed in occupations with both top-quartile AI exposure and bottom-quartile adaptive capacity. Many of these workers occupy administrative and clerical jobs where savings are modest, workers’ skill transferability is limited, and reemployment prospects are narrower. As such, if faced with an AI-related job loss, workers in these roles are likely among the most at risk of lower reemployment rates, longer job searches, and more significant relative earnings losses compared to other workers.",
+        "section": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p027",
+        "kind": "paragraph",
+        "text": "Looking more closely, the interplay of adaptive capacity scores with AI exposure scores reveals a positive correlation: As exposure increases, adaptive capacity generally increases as well. This reflects the fact that many highly exposed roles are held by financially secure, skilled, and well-networked workers—often in larger cities—who may have more opportunities to find continued employment. In that fashion, numerous workers in managerial and technical occupations are highly exposed to AI yet are nevertheless relatively well positioned to adapt (see Table 1).",
+        "section": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p028",
+        "kind": "paragraph",
+        "text": "At the same time, it’s clear that the collection of occupations characterized by high AI-exposure levels and low adaptive capacity encompasses numerous routine office jobs, which are often held by workers who may struggle to adapt to disruption (see Table 2). Door-to-door sales workers and news and street vendors show the least adaptive capacity among the occupations in the top quartile of AI exposure, followed by a number of clerking and administrative occupations, such as court, municipal, and license clerks; secretaries and administrative assistants; and payroll and timekeeping clerks. In terms of these occupations’ size, office clerks (2.5 million workers); secretaries and administrative assistants (1.7 million); receptionists and information clerks (965,000); and medical secretaries and administrative assistants (831,000) stand out as some of the largest occupations in the list. The combination of employment size, potentially elevated automation impacts, and precarious worker traits highlights occupations where policymakers may benefit from greater visibility into AI’s workforce effects.",
+        "section": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p029",
+        "kind": "paragraph",
+        "text": "Shifting focus to the geographical incidence of AI exposure and adaptive capacity, the analysis here shows concentrations of highly exposed and highly adaptive workers are greatest in tech hubs such as San Jose, Calif., and Seattle. Conversely, the share of workers in highly exposed but low-adaptive-capacity occupations ranges from 2.4% to 6.9% in the nation’s metro areas, with a national average of 3.9%. The concentration of exposed and vulnerable workers is greatest in smaller metro areas and college towns, particularly in the Mountain West and Midwest—reflecting such areas’ elevated presence of administrative and clerical workers. Key metro areas with elevated shares of potentially vulnerable workers (those with high exposure but low adaptive capacity) include college towns such as Laramie Wyo., Huntsville, Texas, and Stillwater, Okla.; state capitals such as Springfield, Ill., Carson City, Nev., and Frankfort, Ky.; and small towns in New Mexico and Oklahoma.",
+        "section": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p030",
+        "kind": "paragraph",
+        "text": "Overall, the figures, charts, and map here suggest that supplementing AI exposure with measures of worker characteristics yields a different (and potentially more useful) level of insight into potential worker resilience and vulnerability.",
+        "section": "Findings: On average, highly AI-exposed workers appear well-equipped to handle job transitions relative to the rest of the workforce, yet 6.1 million workers still face both high exposure and low adaptive capacity",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p031",
+        "kind": "heading",
+        "text": "Limitations: Significant uncertainty surrounds the question of how AI will impact labor markets, and occupation-level measures cannot tell the whole story",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p032",
+        "kind": "paragraph",
+        "text": "This analysis is not without limitations, and despite the new evidence generated here, there remains significant uncertainty about both the extent to which AI will impact labor markets as well as the differential burdens and opportunities that AI can bring for affected workers. The full NBER paper includes a more complete description of potential limitations. We briefly discuss several here.",
+        "section": "Limitations: Significant uncertainty surrounds the question of how AI will impact labor markets, and occupation-level measures cannot tell the whole story",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p033",
+        "kind": "paragraph",
+        "text": "First, the adaptive capacity index is computed at the occupation level, but the adaptive capacity of different workers within the same occupation can vary substantially. For example, even though computer network architects score highly on the index, a 30-year-old computer network architect with a diverse range of past industry experience living in San Francisco may be better positioned to manage a job transition than a 56-year-old worker who shares the same job title but has worked at one small IT company in a smaller market for their entire career. Similarly, two software developers may have very different levels of liquid savings to help weather an income shock, and two office clerks may work in labor markets that offer very different sets of alternative work opportunities if displaced.",
+        "section": "Limitations: Significant uncertainty surrounds the question of how AI will impact labor markets, and occupation-level measures cannot tell the whole story",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p034",
+        "kind": "paragraph",
+        "text": "Additionally, there are numerous ways one could compose a measure of adaptive capacity to displacement. The approach taken here represents an initial attempt to introduce this concept. However, there are dozens of confounding individual, firm, occupation, and local labor market factors that will ultimately shape a worker’s ability to navigate technological displacement, and that evade measurement in this index. The result that AI exposure is positively correlated with measures of adaptive capacity appears robust across many alternative ways of computing the index, but individual occupation-level results will be more sensitive to different approaches. More data from the U.S. context on other factors and their relative importance for shaping post-displacement outcomes would help expand the utility of any adaptive capacity measure.",
+        "section": "Limitations: Significant uncertainty surrounds the question of how AI will impact labor markets, and occupation-level measures cannot tell the whole story",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p035",
+        "kind": "paragraph",
+        "text": "Finally, the evidence underlying the adaptive capacity estimates here is derived primarily from observed effects in localized displacement events, rather than from large-scale employment shifts across occupations. As a result, the index may be most informative when displacement is relatively isolated—for example, when a worker loses their job but related occupations remain stable. In scenarios in which AI affects clusters of related occupations simultaneously, structural job availability may matter more than individual-level characteristics. Moreover, if AI fundamentally transforms the economy on a scale comparable to the industrial revolution (as some experts have suggested could be possible), it could make entire skill sets redundant across several occupations simultaneously.",
+        "section": "Limitations: Significant uncertainty surrounds the question of how AI will impact labor markets, and occupation-level measures cannot tell the whole story",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p036",
+        "kind": "paragraph",
+        "text": "How the economy will react to structural changes AI may bring is difficult to predict, and any occupation-level adaptive capacity measure could drastically change as AI impacts skill demands and helps create new jobs and industries. The measure discussed here represents one snapshot in time based on available data on the drivers of adaptive capacity.",
+        "section": "Limitations: Significant uncertainty surrounds the question of how AI will impact labor markets, and occupation-level measures cannot tell the whole story",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p037",
+        "kind": "heading",
+        "text": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p038",
+        "kind": "paragraph",
+        "text": "Overall, this analysis offers a more nuanced picture of AI’s possible impacts on workers than AI exposure measures can on their own.",
+        "section": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p039",
+        "kind": "paragraph",
+        "text": "Specifically, the analysis focuses on understanding the degree to which workers in different highly exposed occupations could manage a job transition after involuntary displacement. In doing so, it makes clear the existence of both large zones of strong resilience to job loss across the workforce as well as concentrated pockets of heightened vulnerability if displacement were to occur.",
+        "section": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p040",
+        "kind": "paragraph",
+        "text": "Given this, the report likely has practical use for workforce and employment development practitioners because understanding where workers are most and least resilient to AI-driven labor market change may help inform the optimal use of public funding for workforce adjustment programs.",
+        "section": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p041",
+        "kind": "paragraph",
+        "text": "Such information can also be used to inform efforts to track labor market impacts. For example, policymakers concerned about potential negative impacts from AI-induced displacement may be able to use adaptive capacity measures to target investment in new data collection on groups of workers with lower estimated adaptive capacity. Additionally, such measures could be considered to target and streamline eligibility for particular workforce transition assistance programs.",
+        "section": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p042",
+        "kind": "paragraph",
+        "text": "In sum, as AI continues to spread across the economy, adaptability analysis can provide a starting point for policymakers to better understand who may be most in need of better support to weather job transitions.",
+        "section": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p043",
+        "kind": "list",
+        "text": "- Appendix Complete list of high-vulnerability occupations Geographic distribution of high-vulnerability occupations State-level geographic patterns Data sources The authors combine data from seven sources: Survey of Income and Program Participation (SIPP) 2022-2024 Panels: Detailed information on workers’ income, savings, and demographic characteristics used for constructing occupation-level measures of median net liquid wealth. American Community Survey (ACS) 2024: Microdata on workers’ age distributions across occupations used for calculating the share of workers aged 55 and older. Occupational Employment and Wage Statistics (OEWS) 2024: Occupation-level wage and employment data used for cross-dataset harmonization of weights and income measures. Bureau of Labor Statistics Employment Projections: Data on projected employment growth rates by occupation (2024 to 2034) used to calculate growth-weighted skill transferability. Lightcast 2023: Occupation-level employment data by county and metropolitan statistical area. O*NET Database 30.1 (2025): Skill importance ratings to measure skill transferability across occupations. AI exposure data: Measures of occupational exposure to LLMs from Eloundou et al. (2024), specifically their E1+0.5E2 measure. For smooth data integration, the authors first harmonize occupation codes across datasets to create a common occupational taxonomy. This includes modifications (such as weighted averages, etc.) to group certain occupations differently classified between data sources. More details are available in the full paper. O*NET > SOC > OEWS > Modified SIPP Census > SIPP > Modified SIPP Only occupations meeting strict data quality thresholds (e.g., ≥15 SIPP respondents) are included. The final dataset covers 95.9% of the U.S. workforce (356 occupations) based on OEWS data. See Online Appendix available here for more detail.",
+        "section": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p044",
+        "kind": "list",
+        "text": "- Survey of Income and Program Participation (SIPP) 2022-2024 Panels: Detailed information on workers’ income, savings, and demographic characteristics used for constructing occupation-level measures of median net liquid wealth.\n- American Community Survey (ACS) 2024: Microdata on workers’ age distributions across occupations used for calculating the share of workers aged 55 and older.\n- Occupational Employment and Wage Statistics (OEWS) 2024: Occupation-level wage and employment data used for cross-dataset harmonization of weights and income measures.\n- Bureau of Labor Statistics Employment Projections: Data on projected employment growth rates by occupation (2024 to 2034) used to calculate growth-weighted skill transferability.\n- Lightcast 2023: Occupation-level employment data by county and metropolitan statistical area.\n- O*NET Database 30.1 (2025): Skill importance ratings to measure skill transferability across occupations.\n- AI exposure data: Measures of occupational exposure to LLMs from Eloundou et al. (2024), specifically their E1+0.5E2 measure.\n- O*NET > SOC > OEWS > Modified SIPP\n- Census > SIPP > Modified SIPP",
+        "section": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s4-p045",
+        "kind": "paragraph",
+        "text": "The Brookings Institution is committed to quality, independence, and impact. We are supported by a diverse array of funders. In line with our values and policies, each Brookings publication represents the sole views of its author(s).",
+        "section": "Conclusion: Adaptability analysis can help reveal who may be most in need of support to weather AI-driven job transitions",
+        "page": null,
+        "duplicate_of": null
+      }
+    ],
+    "selected_ids": [
+      "s4-p001",
+      "s4-p002",
+      "s4-p003",
+      "s4-p004",
+      "s4-p005",
+      "s4-p006",
+      "s4-p007",
+      "s4-p008",
+      "s4-p009",
+      "s4-p010",
+      "s4-p011",
+      "s4-p012",
+      "s4-p013",
+      "s4-p014",
+      "s4-p015",
+      "s4-p016",
+      "s4-p017",
+      "s4-p018",
+      "s4-p019",
+      "s4-p020",
+      "s4-p021",
+      "s4-p022",
+      "s4-p023",
+      "s4-p024",
+      "s4-p025",
+      "s4-p026",
+      "s4-p027",
+      "s4-p028",
+      "s4-p029",
+      "s4-p030",
+      "s4-p031",
+      "s4-p032",
+      "s4-p033",
+      "s4-p034",
+      "s4-p035",
+      "s4-p036",
+      "s4-p037",
+      "s4-p038",
+      "s4-p039",
+      "s4-p040",
+      "s4-p041",
+      "s4-p042",
+      "s4-p043",
+      "s4-p044",
+      "s4-p045"
+    ],
+    "coverage": 1.0,
+    "stats": {
+      "chars": 21438,
+      "blocks": 45,
+      "pages": null,
+      "by_kind": {
+        "paragraph": 36,
+        "heading": 6,
+        "table": 0,
+        "list": 3,
+        "footnote": 0
+      }
+    },
+    "extraction": {
+      "status": "ok",
+      "model": "gemini-flash-lite-latest",
+      "claims": 8,
+      "dropped": 0,
+      "returned_by_model": 8,
+      "dropped_by_reason": {},
+      "support": {
+        "full": 8
+      },
+      "reason": "gemini-flash-latest skipped (unavailable earlier in this run)"
+    }
+  },
+  {
+    "source_id": "s5",
+    "url": "https://www.jpmorgan.com/insights/global-research/artificial-intelligence/ai-impact-job-growth",
+    "url_hash": "ff410c481fc628bed111400f9965d7b1916914481a4e6f1e4bbdda6acbbadb06",
+    "final_url": "https://www.jpmorgan.com/insights/global-research/artificial-intelligence/ai-impact-job-growth",
+    "raw_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s5.html",
+    "raw_sha256": "e9c55afedda5f770b032ee59b9421fa9c0ec08f6c9b9d29570186cba0ffce203",
+    "fetch": {
+      "status": "ok",
+      "status_detail": null,
+      "method": "http",
+      "content_type": "html",
+      "from_cache": true,
+      "archive_timestamp": null,
+      "fetched_at": "2026-10-20T16:08:23+00:00",
+      "attempts": [
+        {
+          "method": "cache",
+          "result": "ok",
+          "reason": "cached copy from 2026-10-20T16:08:23+00:00",
+          "seconds": 0.0
+        }
+      ]
+    },
+    "processing": {
+      "status": "ok",
+      "reason": "31 blocks, 9,480 chars"
+    },
+    "usability": {
+      "status": "usable",
+      "reasons": [],
+      "notes": []
+    },
+    "meta": {
+      "title": "AI’s Impact on Job Growth | J.P. Morgan Global Research",
+      "site_name": "J.P. Morgan",
+      "author": null,
+      "published_date": "2025-08-15",
+      "date_confidence": "page_metadata",
+      "language": null
+    },
+    "relevance": {
+      "label": "high",
+      "page_kind": "article",
+      "reason": "The page is a research-backed article directly discussing how artificial intelligence impacts job growth, unemployment, and the labor market.",
+      "checked": true
+    },
+    "duplicate": null,
+    "blocks": [
+      {
+        "id": "s5-p001",
+        "kind": "paragraph",
+        "text": "Generative AI is experiencing rapid uptake across various sectors, with potentially profound impacts on job growth. Indeed, there are signs that the technology is already displacing roles in certain industries.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p002",
+        "kind": "paragraph",
+        "text": "“An increasingly pertinent debate centers on AI’s impact on employment, especially as more companies are reportedly deploying AI models to augment or displace existing workers, particularly with roles that involve routine and repetitive tasks such as data entry and customer service,” said Brenda Duverce, a senior analyst covering OpenAI on J.P. Morgan’s Private Company Research team.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p003",
+        "kind": "paragraph",
+        "text": "How is AI reshaping the way we work, and what are the ramifications for the labor market?",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p004",
+        "kind": "paragraph",
+        "text": "“The discussion about AI taking jobs, or at least good jobs, is generally framed as tomorrow’s problem. However, there are some hints that AI may already be taking ‘knowledge worker’ jobs.”",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p005",
+        "kind": "paragraph",
+        "text": "Michael Feroli",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p006",
+        "kind": "paragraph",
+        "text": "Chief U.S. economist, J.P. Morgan",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p007",
+        "kind": "paragraph",
+        "text": "“The discussion about AI taking jobs, or at least good jobs, is generally framed as tomorrow’s problem. However, there are some hints that AI may already be taking ‘knowledge worker’ jobs,” said Michael Feroli, chief U.S. economist at J.P. Morgan.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p008",
+        "kind": "paragraph",
+        "text": "For starters, the unemployment rate among college graduates has increased, reaching 5.8% in March — the highest in more than four years. “Disturbingly, the unemployment rate has been trending above the aggregate rate, which is highly unusual by historical standards,” noted Murat Tasci, senior U.S. economist at J.P. Morgan. While the trend could be partially due to a secular rise in the relative supply of college graduates and unusually low labor market churn, the effects of AI could also be at play.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p009",
+        "kind": "paragraph",
+        "text": "To investigate the impact of AI on graduate unemployment, the economics team at J.P. Morgan Global Research examined the cross-sectional distribution of unemployment rates by college major, noting that the technology could affect some fields more than others. Overall, anthropology graduates — who are not particularly exposed to AI — have had most difficulty finding jobs. However, other majors exposed to AI, including computer engineering, graphic design, industrial engineering and architecture, have also experienced significant increases in graduate unemployment, highlighting AI’s impact on job growth.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p010",
+        "kind": "paragraph",
+        "text": "“To the extent that exposure to AI displaces some workers with specific majors, new entrants from those majors could be at a greater disadvantage, as experience could offset some of the skills that are now obsolete with AI-performed tasks,” Tasci said.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p011",
+        "kind": "paragraph",
+        "text": "In addition to rising unemployment among college graduates, job growth across several white-collar sectors has been tepid, pointing to AI’s growing role in the workforce.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p012",
+        "kind": "paragraph",
+        "text": "To this end, the economics team compared changes in employment trends with AI exposure across industries, as well as within detailed subsectors of professional employment, using data from the U.S. Census Bureau’s Business Trends and Outlook Survey (BTOS) and Anthropic AI. On the whole, there is a mildly negative correlation between employment trends and AI usage, suggesting that AI may be depressing job growth.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p013",
+        "kind": "paragraph",
+        "text": "This trend is especially evident in certain tech industries, including cloud, web search and computer systems design. After years of steady employment gains, these three industries stopped growing at the end of 2022, just after the release of ChatGPT. “While firms may also have been retrenching after their post-COVID hiring, the rise of large language models (LLMs) produced a product that automated some of their labor via code assistance, while at the same time reshaping their business strategy,” Feroli noted.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p014",
+        "kind": "paragraph",
+        "text": "On the other hand, this trend isn’t as apparent within the professional and business services segment. “The most likely explanation for our non-result across non-tech industries is that AI is simply too recent to have materially changed business practices, even if it were to ultimately prove impactful,” Feroli said. Indeed, BTOS data shows that as of mid-2025, less than 10% of firms in the overall economy indicate they are using AI regularly, with the figure rising to just over 20% in the professional, scientific and technical industries.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p015",
+        "kind": "paragraph",
+        "text": "“All in all, we find little association between various measures of AI intensity and job growth outside of selected tech industries, and conclude that so far AI has not been a major driver of the composition of employment gains, except perhaps in tech,” Feroli added.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p016",
+        "kind": "paragraph",
+        "text": "AI could affect the labor market in the next recession",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p017",
+        "kind": "paragraph",
+        "text": "In addition to its impact on job growth, AI could prolong the recovery of the labor market in the event of a downturn. “We think that during the next recession, the speed and breadth of the adoption of AI tools and applications in the workplace might induce a large-scale displacement for occupations that consist of primarily non-routine cognitive tasks,” Tasci said.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p018",
+        "kind": "paragraph",
+        "text": "Back in the 1980s, middle-skill occupations that rely on routine tasks — such as sales, manufacturing construction and maintenance — started disappearing due to automation. Notably, their decline had a pronounced cyclical behavior. Throughout the downturns over the following decades, it took increasingly longer for these occupations to bounce back from recession-induced job losses, each time resulting in a jobless recovery — an economic situation in which the overall economy improves but payrolls grow only slowly.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p019",
+        "kind": "paragraph",
+        "text": "Today, AI exposes non-routine cognitive occupations — such as scientists, engineers, designers and lawyers — to similar risks. “As the cost of adaptation comes down with the wide dissemination of AI tools and applications, these traditionally high-wage occupations might come under pressure,” Tasci noted.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p020",
+        "kind": "paragraph",
+        "text": "This is compounded by the rising unemployment risk among these occupations, which has now surpassed that of workers from non-routine manual jobs. “Workers who were last employed in non-routine cognitive jobs have always accounted for the smallest share of the unemployed, until recently. This changing pattern might be indicative of rising unemployment risk for these workers going forward,” Tasci said.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p021",
+        "kind": "paragraph",
+        "text": "Taken together, these factors suggest that a jobless recovery could recur in the future. “Overall, a much larger unemployment risk and anemic recovery prospects for workers in non-routine cognitive occupations might cause the next labor market downturn to look pretty dismal,” Tasci added.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p022",
+        "kind": "paragraph",
+        "text": "Related insights",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p023",
+        "kind": "paragraph",
+        "text": "Global Research",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p024",
+        "kind": "paragraph",
+        "text": "Is generative AI a game changer?",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p025",
+        "kind": "paragraph",
+        "text": "February 14, 2024",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p026",
+        "kind": "paragraph",
+        "text": "What are the advantages and disadvantages of generative AI, and where do investment opportunities lie?",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p027",
+        "kind": "paragraph",
+        "text": "9:12 - Global Research",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p028",
+        "kind": "paragraph",
+        "text": "From market outlooks and economic forecasts to commodities deep dives and equity research, J.P. Morgan Global Research provides industry-leading analysis from market experts & analysts.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p029",
+        "kind": "paragraph",
+        "text": "This material (Material) is provided for your information only and does not constitute: (i) an offer to sell, a solicitation of an offer to buy, or a recommendation for any investment product or strategy, or (ii) any investment, legal or tax advice. The information contained herein is as of the date and time referenced in the Material and J.P. Morgan does not undertake any obligation to update such information. J.P. Morgan disclaims any responsibility or liability, whether in contract, tort (including, without limitation, negligence), equity or otherwise, for the quality, accuracy or completeness of the information contained in this Material, and for any reliance on, or uses to which, this Material, is put, and you are solely responsible for any use to which you put such information. Without limiting any of the foregoing, to the fullest extent permitted by applicable law, in no event shall J.P. Morgan have any liability for any special, punitive, indirect, or consequential damages (including lost profits or lost opportunity), in connection with the information contained in this Material, even if notified of the possibility of such damages. Any comments or statements made herein do not necessarily reflect those of J.P. Morgan, its subsidiaries or its affiliates.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p030",
+        "kind": "paragraph",
+        "text": "All materials and information shared with you are, unless otherwise indicated to you, proprietary and confidential to J.P. Morgan. You are hereby notified that any disclosure, dissemination, copying, distribution, or use of the information provided to you, in whole or in part, other than as expressly permitted by J.P. Morgan, is STRICTLY PROHIBITED. You are permitted to disclose the materials and information to your officers and employees on a need to know basis. Should you have any questions regarding this, please contact your usual J.P. Morgan contact. For further information please visit: Sales and Trading Disclaimer.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      },
+      {
+        "id": "s5-p031",
+        "kind": "paragraph",
+        "text": "© 2025 JPMorgan Chase & Co. All rights reserved. J.P. Morgan is a marketing name for businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide. JPMorgan Chase Bank N.A. (member of FDIC), J.P. Morgan Securities LLC (member of FINRA, NYSE and SIPC), J.P. Morgan Securities plc (member of the London Stock Exchange and authorized by the Prudential Regulation Authority (PRA) and regulated by the Financial Conduct Authority and the PRA) and J.P. Morgan SE (authorised by the BaFin and regulated by the BaFin, the German Central Bank and the European Central Bank) are principal subsidiaries of JPMorgan Chase & Co. For legal entity and regulatory disclosures, visit: www.jpmorgan.com/disclosures. For additional regulatory disclosures, please consult: www.jpmorgan.com/disclosures.",
+        "section": null,
+        "page": null,
+        "duplicate_of": null
+      }
+    ],
+    "selected_ids": [
+      "s5-p001",
+      "s5-p002",
+      "s5-p003",
+      "s5-p004",
+      "s5-p005",
+      "s5-p006",
+      "s5-p007",
+      "s5-p008",
+      "s5-p009",
+      "s5-p010",
+      "s5-p011",
+      "s5-p012",
+      "s5-p013",
+      "s5-p014",
+      "s5-p015",
+      "s5-p016",
+      "s5-p017",
+      "s5-p018",
+      "s5-p019",
+      "s5-p020",
+      "s5-p021",
+      "s5-p022",
+      "s5-p023",
+      "s5-p024",
+      "s5-p025",
+      "s5-p026",
+      "s5-p027",
+      "s5-p028",
+      "s5-p029",
+      "s5-p030",
+      "s5-p031"
+    ],
+    "coverage": 1.0,
+    "stats": {
+      "chars": 9480,
+      "blocks": 31,
+      "pages": null,
+      "by_kind": {
+        "paragraph": 31,
+        "heading": 0,
+        "table": 0,
+        "list": 0,
+        "footnote": 0
+      }
+    },
+    "extraction": {
+      "status": "ok",
+      "model": "gemini-flash-lite-latest",
+      "claims": 3,
+      "dropped": 0,
+      "returned_by_model": 3,
+      "dropped_by_reason": {},
+      "support": {
+        "full": 3
+      },
+      "reason": "gemini-flash-latest skipped (unavailable earlier in this run)"
+    }
+  }
+]

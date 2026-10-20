@@ -1,0 +1,950 @@
+{
+  "questions": {
+    "q5": {
+      "status": "fallback",
+      "model": null,
+      "mappings": [],
+      "hierarchy": [],
+      "fixes": [
+        "alignment LLM unavailable (gemini-flash-lite-latest skipped (unavailable earlier in this run); gemini-flash-latest unavailable (gemini-flash-latest); grouped by metric"
+      ],
+      "clusters": [
+        {
+          "cluster_id": "q5-k1",
+          "label": "job_displacement_rate",
+          "claim_ids": [
+            "s1-c001",
+            "s1-c002",
+            "s1-c003"
+          ]
+        },
+        {
+          "cluster_id": "q5-k2",
+          "label": "wage_growth_rate",
+          "claim_ids": [
+            "s1-c016"
+          ]
+        },
+        {
+          "cluster_id": "q5-k3",
+          "label": "32% of companies expect AI to decrease their employee base by at least 3% within the next ",
+          "claim_ids": [
+            "s1-c017"
+          ]
+        },
+        {
+          "cluster_id": "q5-k4",
+          "label": "The World Economic Forum projects 170 million new jobs will emerge by 2030, while 92 milli",
+          "claim_ids": [
+            "s3-c001"
+          ]
+        },
+        {
+          "cluster_id": "q5-k5",
+          "label": "Gartner predicts AI’s impact on global jobs will be neutral through 2026.",
+          "claim_ids": [
+            "s3-c011"
+          ]
+        },
+        {
+          "cluster_id": "q5-k6",
+          "label": "Gartner projects that by 2028, AI will create more jobs than it destroys.",
+          "claim_ids": [
+            "s3-c014"
+          ]
+        },
+        {
+          "cluster_id": "q5-k7",
+          "label": "The World Economic Forum projects that 39% of key job skills will change by 2030, requirin",
+          "claim_ids": [
+            "s3-c016"
+          ]
+        }
+      ]
+    },
+    "q2": {
+      "status": "fallback",
+      "model": null,
+      "mappings": [],
+      "hierarchy": [],
+      "fixes": [
+        "alignment LLM unavailable (gemini-flash-lite-latest skipped (unavailable earlier in this run); gemini-flash-latest unavailable (gemini-flash-latest); grouped by metric"
+      ],
+      "clusters": [
+        {
+          "cluster_id": "q2-k1",
+          "label": "job_displacement_rate",
+          "claim_ids": [
+            "s1-c004",
+            "s1-c012",
+            "s2-c001"
+          ]
+        },
+        {
+          "cluster_id": "q2-k2",
+          "label": "Unemployment among recent graduates has climbed to nearly 6%, rising twice as fast as the ",
+          "claim_ids": [
+            "s1-c006"
+          ]
+        },
+        {
+          "cluster_id": "q2-k3",
+          "label": "C.H. Robinson is handling approximately 29% more Less-Than-Truckload volume while employin",
+          "claim_ids": [
+            "s1-c010"
+          ]
+        }
+      ]
+    },
+    "q1": {
+      "status": "fallback",
+      "model": null,
+      "mappings": [],
+      "hierarchy": [],
+      "fixes": [
+        "alignment LLM unavailable (gemini-flash-lite-latest skipped (unavailable earlier in this run); gemini-flash-latest unavailable (gemini-flash-latest); grouped by metric"
+      ],
+      "clusters": [
+        {
+          "cluster_id": "q1-k1",
+          "label": "The National Bureau of Economic Research found that AI has had little to no impact on empl",
+          "claim_ids": [
+            "s1-c005"
+          ]
+        },
+        {
+          "cluster_id": "q1-k2",
+          "label": "job_exposure_share",
+          "claim_ids": [
+            "s1-c011",
+            "s3-c009",
+            "s3-c010",
+            "s4-c007",
+            "s4-c008"
+          ]
+        },
+        {
+          "cluster_id": "q1-k3",
+          "label": "McKinsey’s analysis shows that more than 70% of skills sought by employers today are used ",
+          "claim_ids": [
+            "s3-c019"
+          ]
+        }
+      ]
+    },
+    "q3": {
+      "status": "fallback",
+      "model": null,
+      "mappings": [],
+      "hierarchy": [],
+      "fixes": [
+        "alignment LLM unavailable (gemini-flash-lite-latest skipped (unavailable earlier in this run); gemini-flash-latest unavailable (gemini-flash-latest); grouped by metric"
+      ],
+      "clusters": [
+        {
+          "cluster_id": "q3-k1",
+          "label": "Major banks deploying agentic systems delivered productivity gains of 20% to 60% and reduc",
+          "claim_ids": [
+            "s1-c007"
+          ]
+        },
+        {
+          "cluster_id": "q3-k2",
+          "label": "Telecommunications operators implementing agents reported a more than 60% reduction in man",
+          "claim_ids": [
+            "s1-c008"
+          ]
+        },
+        {
+          "cluster_id": "q3-k3",
+          "label": "Manufacturers using multi-agent systems reduced R&D cycle times by approximately 50% in ea",
+          "claim_ids": [
+            "s1-c009"
+          ]
+        }
+      ]
+    },
+    "q4": {
+      "status": "fallback",
+      "model": null,
+      "mappings": [],
+      "hierarchy": [],
+      "fixes": [
+        "alignment LLM unavailable (gemini-flash-lite-latest skipped (unavailable earlier in this run); gemini-flash-latest unavailable (gemini-flash-latest); grouped by metric"
+      ],
+      "clusters": [
+        {
+          "cluster_id": "q4-k1",
+          "label": "In a survey, 41% of college and university presidents reported being highly concerned abou",
+          "claim_ids": [
+            "s1-c019"
+          ]
+        },
+        {
+          "cluster_id": "q4-k2",
+          "label": "Of the 37.1 million U.S. workers in the top quartile of occupational AI exposure, 26.5 mil",
+          "claim_ids": [
+            "s4-c001"
+          ]
+        },
+        {
+          "cluster_id": "q4-k3",
+          "label": "6.1 million workers will likely contend with both high AI exposure and low adaptive capaci",
+          "claim_ids": [
+            "s4-c002"
+          ]
+        },
+        {
+          "cluster_id": "q4-k4",
+          "label": "4.2% of the workforce in the sample will likely contend with both high AI exposure and low",
+          "claim_ids": [
+            "s4-c003"
+          ]
+        },
+        {
+          "cluster_id": "q4-k5",
+          "label": "About 86% of workers facing high AI exposure and low adaptive capacity are women.",
+          "claim_ids": [
+            "s4-c004"
+          ]
+        },
+        {
+          "cluster_id": "q4-k6",
+          "label": "Workers aged 55 to 64 who experienced job loss during the Great Recession were about 16 pe",
+          "claim_ids": [
+            "s4-c005"
+          ]
+        },
+        {
+          "cluster_id": "q4-k7",
+          "label": "Roughly 6.1 million workers face both high exposure to LLMs and low adaptive capacity to m",
+          "claim_ids": [
+            "s4-c006"
+          ]
+        }
+      ]
+    },
+    "other": {
+      "status": "fallback",
+      "model": null,
+      "mappings": [],
+      "hierarchy": [],
+      "fixes": [
+        "alignment LLM unavailable (gemini-flash-lite-latest skipped (unavailable earlier in this run); gemini-flash-latest unavailable (gemini-flash-latest); grouped by metric"
+      ],
+      "clusters": [
+        {
+          "cluster_id": "other-k1",
+          "label": "Employer demand for jobs that require more analytical, technical, or creative work grew 20",
+          "claim_ids": [
+            "s2-c002"
+          ]
+        },
+        {
+          "cluster_id": "other-k2",
+          "label": "The research team assessed job postings from 2019 through March 2025 using a large dataset",
+          "claim_ids": [
+            "s2-c003"
+          ]
+        },
+        {
+          "cluster_id": "other-k3",
+          "label": "The largest reductions were in the finance and technology sectors.",
+          "claim_ids": [
+            "s2-c004"
+          ]
+        },
+        {
+          "cluster_id": "other-k4",
+          "label": "The researchers registered 7% fewer skills in job postings for roles prone to automation.",
+          "claim_ids": [
+            "s2-c005"
+          ]
+        },
+        {
+          "cluster_id": "other-k5",
+          "label": "The research team used OpenAI’s ChatGPT to categorize over 19,000 job tasks across more th",
+          "claim_ids": [
+            "s2-c006"
+          ]
+        },
+        {
+          "cluster_id": "other-k6",
+          "label": "McKinsey’s State of AI survey found that 88 percent of organizations now use AI in at leas",
+          "claim_ids": [
+            "s3-c002"
+          ]
+        },
+        {
+          "cluster_id": "other-k7",
+          "label": "Between 2019-2024, occupations with lower AI exposure saw 65% job growth, while more expos",
+          "claim_ids": [
+            "s3-c005"
+          ]
+        },
+        {
+          "cluster_id": "other-k8",
+          "label": "wage_growth_rate",
+          "claim_ids": [
+            "s3-c008"
+          ]
+        },
+        {
+          "cluster_id": "other-k9",
+          "label": "Meanwhile, 75% of knowledge workers are already using AI tools, often without formal compa",
+          "claim_ids": [
+            "s3-c012"
+          ]
+        },
+        {
+          "cluster_id": "other-k10",
+          "label": "According to Deloitte, 1 in 4 companies currently using generative AI will launch agentic ",
+          "claim_ids": [
+            "s3-c013"
+          ]
+        },
+        {
+          "cluster_id": "other-k11",
+          "label": "Looking toward 2030 and beyond, Gartner survey data suggests that 0% of IT work will be do",
+          "claim_ids": [
+            "s3-c015"
+          ]
+        },
+        {
+          "cluster_id": "other-k12",
+          "label": "Jobs requiring AI skills are growing 7.5% even as total job postings fell 11.3% last year.",
+          "claim_ids": [
+            "s3-c017"
+          ]
+        },
+        {
+          "cluster_id": "other-k13",
+          "label": "The unemployment rate among college graduates has increased, reaching 5.8% in March.",
+          "claim_ids": [
+            "s5-c001"
+          ]
+        },
+        {
+          "cluster_id": "other-k14",
+          "label": "Less than 10% of firms in the overall economy indicate they are using AI regularly.",
+          "claim_ids": [
+            "s5-c002"
+          ]
+        },
+        {
+          "cluster_id": "other-k15",
+          "label": "Just over 20% of firms in the professional, scientific and technical industries indicate t",
+          "claim_ids": [
+            "s5-c003"
+          ]
+        }
+      ]
+    },
+    "q7": {
+      "status": "single",
+      "model": null,
+      "mappings": [],
+      "hierarchy": [],
+      "fixes": [],
+      "clusters": [
+        {
+          "cluster_id": "q7-k1",
+          "label": "While 77% of companies say they intend to launch upskilling initiatives and 85% of employe",
+          "claim_ids": [
+            "s3-c018"
+          ]
+        }
+      ]
+    }
+  },
+  "claims": {
+    "s1-c001": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": null,
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "org:dan schulman",
+      "label": "Dan Schulman"
+    },
+    "s1-c002": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": null,
+        "geography": null,
+        "timeframe": [
+          2031,
+          2031
+        ]
+      },
+      "origin": "org:boston consulting",
+      "label": "Boston Consulting Group"
+    },
+    "s1-c003": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": "entry-level white-collar",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "org:dario amodei",
+      "label": "Dario Amodei"
+    },
+    "s1-c016": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": "computer science majors",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "org:national association of colleges and employers",
+      "label": "National Association of Colleges and Employers"
+    },
+    "s1-c017": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": "companies",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "org:mckinsey",
+      "label": "McKinsey survey"
+    },
+    "s3-c001": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": null,
+        "geography": null,
+        "timeframe": [
+          2030,
+          2030
+        ]
+      },
+      "origin": "org:world economic forum",
+      "label": "World Economic Forum"
+    },
+    "s3-c011": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": "global jobs",
+        "geography": null,
+        "timeframe": [
+          2026,
+          2026
+        ]
+      },
+      "origin": "org:gartner",
+      "label": "Gartner"
+    },
+    "s3-c014": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": null,
+        "geography": null,
+        "timeframe": [
+          2028,
+          2028
+        ]
+      },
+      "origin": "org:gartner",
+      "label": "Gartner"
+    },
+    "s3-c016": {
+      "question_id": "q5",
+      "canonical_scope": {
+        "population": null,
+        "geography": null,
+        "timeframe": [
+          2030,
+          2030
+        ]
+      },
+      "origin": "org:world economic forum",
+      "label": "World Economic Forum"
+    },
+    "s1-c004": {
+      "question_id": "q2",
+      "canonical_scope": {
+        "population": null,
+        "geography": "US",
+        "timeframe": null
+      },
+      "origin": "org:goldman sachs",
+      "label": "Goldman Sachs"
+    },
+    "s1-c006": {
+      "question_id": "q2",
+      "canonical_scope": {
+        "population": "recent graduates",
+        "geography": null,
+        "timeframe": [
+          2022,
+          2022
+        ]
+      },
+      "origin": "source:s1",
+      "label": "source s1"
+    },
+    "s1-c010": {
+      "question_id": "q2",
+      "canonical_scope": {
+        "population": "Logistics giant C.H. Robinson",
+        "geography": null,
+        "timeframe": [
+          2019,
+          2019
+        ]
+      },
+      "origin": "source:s1",
+      "label": "source s1"
+    },
+    "s1-c012": {
+      "question_id": "q2",
+      "canonical_scope": {
+        "population": "early-career",
+        "geography": null,
+        "timeframe": [
+          2022,
+          2025
+        ]
+      },
+      "origin": "org:erik brynjolfsson and researchers at stanford s digital economy lab",
+      "label": "Erik Brynjolfsson and researchers at Stanford’s Digital Economy Lab"
+    },
+    "s2-c001": {
+      "question_id": "q2",
+      "canonical_scope": {
+        "population": "occupations that involve lots of structured and repetitive tasks",
+        "geography": null,
+        "timeframe": [
+          2022,
+          2022
+        ]
+      },
+      "origin": "org:suraj srinivasan",
+      "label": "Suraj Srinivasan"
+    },
+    "s1-c005": {
+      "question_id": "q1",
+      "canonical_scope": {
+        "population": "C-suite executives",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "org:national bureau of economic",
+      "label": "National Bureau of Economic Research"
+    },
+    "s1-c011": {
+      "question_id": "q1",
+      "canonical_scope": {
+        "population": "real estate",
+        "geography": "US",
+        "timeframe": null
+      },
+      "origin": "org:morgan stanley",
+      "label": "Morgan Stanley"
+    },
+    "s3-c009": {
+      "question_id": "q1",
+      "canonical_scope": {
+        "population": null,
+        "geography": "US",
+        "timeframe": null
+      },
+      "origin": "org:mckinsey",
+      "label": "McKinsey survey"
+    },
+    "s3-c010": {
+      "question_id": "q1",
+      "canonical_scope": {
+        "population": "roles with the highest automation potential",
+        "geography": "US",
+        "timeframe": null
+      },
+      "origin": "org:mckinsey",
+      "label": "McKinsey survey"
+    },
+    "s3-c019": {
+      "question_id": "q1",
+      "canonical_scope": {
+        "population": null,
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "org:mckinsey",
+      "label": "McKinsey survey"
+    },
+    "s4-c007": {
+      "question_id": "q1",
+      "canonical_scope": {
+        "population": "workers",
+        "geography": "nation's metro areas",
+        "timeframe": null
+      },
+      "origin": "source:s4",
+      "label": "source s4"
+    },
+    "s4-c008": {
+      "question_id": "q1",
+      "canonical_scope": {
+        "population": "workers",
+        "geography": "nation's metro areas",
+        "timeframe": null
+      },
+      "origin": "source:s4",
+      "label": "source s4"
+    },
+    "s1-c007": {
+      "question_id": "q3",
+      "canonical_scope": {
+        "population": "Major banks",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s1",
+      "label": "source s1"
+    },
+    "s1-c008": {
+      "question_id": "q3",
+      "canonical_scope": {
+        "population": "Telecommunications operators",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s1",
+      "label": "source s1"
+    },
+    "s1-c009": {
+      "question_id": "q3",
+      "canonical_scope": {
+        "population": "Manufacturers",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s1",
+      "label": "source s1"
+    },
+    "s1-c019": {
+      "question_id": "q4",
+      "canonical_scope": {
+        "population": "college and university presidents",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s1",
+      "label": "source s1"
+    },
+    "s4-c001": {
+      "question_id": "q4",
+      "canonical_scope": {
+        "population": "U.S. workers in the top quartile of occupational AI exposure",
+        "geography": "US",
+        "timeframe": null
+      },
+      "origin": "source:s4",
+      "label": "source s4"
+    },
+    "s4-c002": {
+      "question_id": "q4",
+      "canonical_scope": {
+        "population": "workforce in the sample",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s4",
+      "label": "source s4"
+    },
+    "s4-c003": {
+      "question_id": "q4",
+      "canonical_scope": {
+        "population": "workforce in the sample",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s4",
+      "label": "source s4"
+    },
+    "s4-c004": {
+      "question_id": "q4",
+      "canonical_scope": {
+        "population": "workers who will likely contend with both high AI exposure and low adaptive capacity",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s4",
+      "label": "source s4"
+    },
+    "s4-c005": {
+      "question_id": "q4",
+      "canonical_scope": {
+        "population": "workers aged 55 to 64 compared to those aged 35 to 44",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "org:farber",
+      "label": "Farber (2017)"
+    },
+    "s4-c006": {
+      "question_id": "q4",
+      "canonical_scope": {
+        "population": "workers",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s4",
+      "label": "source s4"
+    },
+    "s2-c002": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "jobs that require more analytical, technical, or creative work",
+        "geography": null,
+        "timeframe": [
+          2022,
+          2022
+        ]
+      },
+      "origin": "org:suraj srinivasan",
+      "label": "Suraj Srinivasan"
+    },
+    "s2-c003": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": null,
+        "geography": "US",
+        "timeframe": [
+          2019,
+          2025
+        ]
+      },
+      "origin": "source:s2",
+      "label": "source s2"
+    },
+    "s2-c004": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "finance and technology sectors",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s2",
+      "label": "source s2"
+    },
+    "s2-c005": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "roles prone to automation",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s2",
+      "label": "source s2"
+    },
+    "s2-c006": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "more than 900 occupations",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s2",
+      "label": "source s2"
+    },
+    "s3-c002": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "organizations",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "org:mckinsey",
+      "label": "McKinsey survey"
+    },
+    "s3-c005": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "occupations with lower AI exposure",
+        "geography": null,
+        "timeframe": [
+          2019,
+          2024
+        ]
+      },
+      "origin": "org:pwc",
+      "label": "PwC"
+    },
+    "s3-c008": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "Jobs requiring AI skills",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s3",
+      "label": "source s3"
+    },
+    "s3-c012": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "knowledge workers",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s3",
+      "label": "source s3"
+    },
+    "s3-c013": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "companies currently using generative AI",
+        "geography": null,
+        "timeframe": [
+          2025,
+          2025
+        ]
+      },
+      "origin": "org:deloitte",
+      "label": "Deloitte"
+    },
+    "s3-c015": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": null,
+        "geography": null,
+        "timeframe": [
+          2030,
+          2030
+        ]
+      },
+      "origin": "org:gartner",
+      "label": "Gartner"
+    },
+    "s3-c017": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": null,
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s3",
+      "label": "source s3"
+    },
+    "s5-c001": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "college graduates",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s5",
+      "label": "source s5"
+    },
+    "s5-c002": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "firms",
+        "geography": "overall economy",
+        "timeframe": [
+          2025,
+          2025
+        ]
+      },
+      "origin": "org:btos",
+      "label": "BTOS"
+    },
+    "s5-c003": {
+      "question_id": "other",
+      "canonical_scope": {
+        "population": "firms",
+        "geography": null,
+        "timeframe": [
+          2025,
+          2025
+        ]
+      },
+      "origin": "org:btos",
+      "label": "BTOS"
+    },
+    "s3-c018": {
+      "question_id": "q7",
+      "canonical_scope": {
+        "population": "companies",
+        "geography": null,
+        "timeframe": null
+      },
+      "origin": "source:s3",
+      "label": "source s3"
+    }
+  },
+  "geo_hierarchy": [
+    [
+      "Australia",
+      "OECD countries"
+    ],
+    [
+      "Canada",
+      "OECD countries"
+    ],
+    [
+      "EU",
+      "global"
+    ],
+    [
+      "France",
+      "EU"
+    ],
+    [
+      "France",
+      "OECD countries"
+    ],
+    [
+      "Germany",
+      "EU"
+    ],
+    [
+      "Germany",
+      "OECD countries"
+    ],
+    [
+      "Israel",
+      "OECD countries"
+    ],
+    [
+      "Italy",
+      "EU"
+    ],
+    [
+      "Japan",
+      "OECD countries"
+    ],
+    [
+      "OECD countries",
+      "global"
+    ],
+    [
+      "South Korea",
+      "OECD countries"
+    ],
+    [
+      "Spain",
+      "EU"
+    ],
+    [
+      "UK",
+      "OECD countries"
+    ],
+    [
+      "UK",
+      "global"
+    ],
+    [
+      "US",
+      "OECD countries"
+    ],
+    [
+      "US",
+      "global"
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "topic": "Employment effects of raising the minimum wage",
+  "urls": [
+    "https://www.npr.org/2019/07/08/739607964/-15-minimum-wage-would-boost-17-million-workers-cut-1-3-million-jobs-cbo-says",
+    "https://reason.com/2019/07/08/cbo-says-15-federal-minimum-wage-will-cost-1-3-million-jobs/",
+    "https://www.epi.org/blog/most-minimum-wage-studies-have-found-little-or-no-job-loss/",
+    "https://news.wisc.edu/studies-find-no-job-losses-from-higher-minimum-wages",
+    "https://www.cbo.gov/publication/55410"
+  ],
+  "_notes": "Known disagreement (CBO median job-loss estimate vs reviews finding little or no job loss). NPR and Reason both relay the CBO report (one origin). cbo.gov is behind a DataDome bot wall (graceful-failure case). EPI needs the headless browser."
+}

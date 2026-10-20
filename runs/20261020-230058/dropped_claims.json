@@ -1,0 +1,460 @@
+[
+  {
+    "source_id": "s1",
+    "reason": "over_cap",
+    "detail": "",
+    "claim": {
+      "statement": "Employment among developers aged 22 to 25 has fallen nearly 20% from its late-2022 peak.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "nearly 20%",
+        "low": 20.0,
+        "high": 20.0,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "job_displacement_rate",
+        "of_what": "employment among developers aged 22 to 25",
+        "baseline": {
+          "number": 2022.0,
+          "period": "late-2022"
+        },
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "developers aged 22 to 25",
+        "geography": "",
+        "timeframe": {
+          "raw": "from its late-2022 peak",
+          "start": 2022,
+          "end": null
+        },
+        "metric": "employment"
+      },
+      "evidence": {
+        "block_id": "s1-p028",
+        "quote": "Brynjolfsson discovered that employment among developers aged 22 to 25 has fallen nearly 20% from its late-2022 peak.",
+        "attributed_to": "Brynjolfsson"
+      },
+      "claim_id": "s1-c013",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": [
+        "value_kind relative_change → unknown (the quote doesn't say points or relative)"
+      ]
+    }
+  },
+  {
+    "source_id": "s1",
+    "reason": "over_cap",
+    "detail": "",
+    "claim": {
+      "statement": "Software development job postings have fallen 53% from the same starting point.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "53%",
+        "low": 53.0,
+        "high": 53.0,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "other",
+        "of_what": "software development job postings",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "software development",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "job postings"
+      },
+      "evidence": {
+        "block_id": "s1-p028",
+        "quote": "The online job site Indeed also paints a stark picture: software development job postings have fallen 53% from the same starting point.",
+        "attributed_to": "Indeed"
+      },
+      "claim_id": "s1-c014",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": [
+        "value_kind relative_change → unknown (the quote doesn't say points or relative)"
+      ]
+    }
+  },
+  {
+    "source_id": "s1",
+    "reason": "over_cap",
+    "detail": "",
+    "claim": {
+      "statement": "Software engineering headcount across all ages in the technology sector has grown at an annual rate of 2% since the public release of ChatGPT.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "2%",
+        "low": 2.0,
+        "high": 2.0,
+        "unit": "percent",
+        "value_kind": "relative_change",
+        "metric_id": "other",
+        "of_what": "software engineering headcount",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "software engineering across all ages in the technology sector",
+        "geography": "",
+        "timeframe": {
+          "raw": "since the public release of ChatGPT",
+          "start": null,
+          "end": null
+        },
+        "metric": "headcount"
+      },
+      "evidence": {
+        "block_id": "s1-p029",
+        "quote": "But BCG found that software engineering headcount across all ages in the technology sector has slowed but still grown, albeit at a much slower annual rate of 2% since the public release of ChatGPT.",
+        "attributed_to": "BCG"
+      },
+      "claim_id": "s1-c015",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    }
+  },
+  {
+    "source_id": "s1",
+    "reason": "over_cap",
+    "detail": "",
+    "claim": {
+      "statement": "The U.S. voluntary turnover rate was 13% per year as of 2025.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "13%",
+        "low": 13.0,
+        "high": 13.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "voluntary turnover",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "",
+        "geography": "U.S.",
+        "timeframe": {
+          "raw": "as of 2025",
+          "start": 2025,
+          "end": 2025
+        },
+        "metric": "voluntary turnover rate"
+      },
+      "evidence": {
+        "block_id": "s1-p033",
+        "quote": "Against a U.S. voluntary turnover rate of 13% per year as of 2025, those headcount targets can largely be met by slowing or freezing the replacement of workers who leave of their own accord.",
+        "attributed_to": ""
+      },
+      "claim_id": "s1-c018",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    }
+  },
+  {
+    "source_id": "s1",
+    "reason": "over_cap",
+    "detail": "",
+    "claim": {
+      "statement": "A Federal Reserve Bank of New York study puts the unemployment rate among recent college graduates aged 22 to 27 in computer science and computer engineering at 7.0% and 7.8% respectively.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "7.0%",
+        "low": 7.0,
+        "high": 7.8,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "recent college graduates aged 22 to 27 in computer science and computer engineering",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "recent college graduates (ages 22 to 27) in computer science and computer engineering",
+        "geography": "",
+        "timeframe": {
+          "raw": "last fall",
+          "start": null,
+          "end": null
+        },
+        "metric": "unemployment rate"
+      },
+      "evidence": {
+        "block_id": "s1-p042",
+        "quote": "The New York Times published a widely read but troubling story last fall citing a Federal Reserve Bank of New York study that now puts the unemployment rate among recent college graduates (ages 22 to 27) in computer science and computer engineering at 7.0% and 7.8%, respectively",
+        "attributed_to": "Federal Reserve Bank of New York"
+      },
+      "claim_id": "s1-c020",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    }
+  },
+  {
+    "source_id": "s3",
+    "reason": "number_not_in_quote",
+    "detail": "level 0.33 percent vs quote",
+    "claim": {
+      "statement": "only about a third have scaled it across the enterprise.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "a third",
+        "low": 0.33,
+        "high": 0.33,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "organizations",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "organizations",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p007",
+        "quote": "only about a third have scaled it across the enterprise.",
+        "attributed_to": "McKinsey"
+      },
+      "claim_id": "s3-c003",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "not_in_quote",
+      "support": {},
+      "fixes": []
+    }
+  },
+  {
+    "source_id": "s3",
+    "reason": "number_not_in_quote",
+    "detail": "level 0.33 percent vs quote",
+    "claim": {
+      "statement": "Stanford’s 2026 AI Index found that about a third of surveyed employers expect workforce reductions in the year ahead, concentrated in service operations, supply chain, and software engineering.",
+      "question_id": "q2",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "a third",
+        "low": 0.33,
+        "high": 0.33,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "job_displacement_rate",
+        "of_what": "surveyed employers",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "surveyed employers",
+        "geography": "",
+        "timeframe": {
+          "raw": "in the year ahead",
+          "start": null,
+          "end": null
+        },
+        "metric": "workforce reductions"
+      },
+      "evidence": {
+        "block_id": "s3-p011",
+        "quote": "Stanford’s 2026 AI Index found that about a third of surveyed employers expect workforce reductions in the year ahead, concentrated in service operations, supply chain, and software engineering.",
+        "attributed_to": "Stanford"
+      },
+      "claim_id": "s3-c006",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "not_in_quote",
+      "support": {},
+      "fixes": []
+    }
+  },
+  {
+    "source_id": "s3",
+    "reason": "over_cap",
+    "detail": "",
+    "claim": {
+      "statement": "while 92 percent of companies plan to increase AI investment over the next three years, only 1 percent describe themselves as mature, meaning AI is fully integrated into workflows and driving real business outcomes.",
+      "question_id": "other",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "92 percent",
+        "low": 92.0,
+        "high": 92.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "companies",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "companies",
+        "geography": "",
+        "timeframe": {
+          "raw": "over the next three years",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p007",
+        "quote": "while 92 percent of companies plan to increase AI investment over the next three years, only 1 percent describe themselves as mature, meaning AI is fully integrated into workflows and driving real business outcomes.",
+        "attributed_to": "McKinsey"
+      },
+      "claim_id": "s3-c004",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches the 92 percent figure, the 1 percent maturity figure, and the timeframe described.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    }
+  },
+  {
+    "source_id": "s3",
+    "reason": "over_cap",
+    "detail": "",
+    "claim": {
+      "statement": "Since generative AI proliferated in 2022, productivity growth has nearly quadrupled in AI-exposed industries—rising from 7% (2018-2022) to 27% (2018-2024), according to PwC.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "rising from 7% (2018-2022) to 27% (2018-2024)",
+        "low": 27.0,
+        "high": 27.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "productivity growth",
+        "baseline": {
+          "number": 7.0,
+          "period": "2018-2022"
+        },
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "AI-exposed industries",
+        "geography": "",
+        "timeframe": {
+          "raw": "2018-2024",
+          "start": 2018,
+          "end": 2024
+        },
+        "metric": "productivity growth"
+      },
+      "evidence": {
+        "block_id": "s3-p013",
+        "quote": "Since generative AI proliferated in 2022, productivity growth has nearly quadrupled in AI-exposed industries—rising from 7% (2018-2022) to 27% (2018-2024), according to PwC.",
+        "attributed_to": "PwC"
+      },
+      "claim_id": "s3-c007",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote supports the rise from 7% to 27% in productivity growth attributed to PwC.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "source_id": "s1",
+    "url": "https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start",
+    "url_hash": "19af93ec1d4bb472b04fb8973404b5693e17a62f471343145dd1c305e9b80275",
+    "final_url": "https://insights.som.yale.edu/insights/the-real-job-destruction-from-ai-is-hitting-before-careers-can-start",
+    "status": "ok",
+    "status_detail": null,
+    "method": "browser",
+    "content_type": "html",
+    "content_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s1.html",
+    "text_preview_chars": 19887,
+    "archive_timestamp": null,
+    "from_cache": true,
+    "attempts": [
+      {
+        "method": "cache",
+        "result": "ok",
+        "reason": "cached copy from 2026-10-20T16:08:26+00:00",
+        "seconds": 0.0
+      }
+    ],
+    "fetched_at": "2026-10-20T16:08:26+00:00"
+  },
+  {
+    "source_id": "s2",
+    "url": "https://www.library.hbs.edu/working-knowledge/enhance-or-eliminate-how-ai-will-likely-change-these-jobs",
+    "url_hash": "9f3be85d2b92d108332decd26602b2bbf2ba29e54eb120ed9816e1a51fa6499d",
+    "final_url": "https://www.library.hbs.edu/working-knowledge/enhance-or-eliminate-how-ai-will-likely-change-these-jobs",
+    "status": "ok",
+    "status_detail": null,
+    "method": "http",
+    "content_type": "html",
+    "content_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s2.html",
+    "text_preview_chars": 3965,
+    "archive_timestamp": null,
+    "from_cache": true,
+    "attempts": [
+      {
+        "method": "cache",
+        "result": "ok",
+        "reason": "cached copy from 2026-10-20T16:08:23+00:00",
+        "seconds": 0.0
+      }
+    ],
+    "fetched_at": "2026-10-20T16:08:23+00:00"
+  },
+  {
+    "source_id": "s3",
+    "url": "https://gloat.com/blog/ai-labor-market/",
+    "url_hash": "b1409abb7f5201e7f56f32e18f02bebfb131e3e907cf42c70b1a3b3664f2e410",
+    "final_url": "https://gloat.com/blog/ai-labor-market/",
+    "status": "ok",
+    "status_detail": null,
+    "method": "browser",
+    "content_type": "html",
+    "content_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s3.html",
+    "text_preview_chars": 11697,
+    "archive_timestamp": null,
+    "from_cache": true,
+    "attempts": [
+      {
+        "method": "cache",
+        "result": "ok",
+        "reason": "cached copy from 2026-10-20T16:08:25+00:00",
+        "seconds": 0.0
+      }
+    ],
+    "fetched_at": "2026-10-20T16:08:25+00:00"
+  },
+  {
+    "source_id": "s4",
+    "url": "https://www.brookings.edu/articles/measuring-us-workers-capacity-to-adapt-to-ai-driven-job-displacement/",
+    "url_hash": "38c2114626c96e9e4acaae2de7294154348f637efbebf88557e124974131ec52",
+    "final_url": "https://www.brookings.edu/articles/measuring-us-workers-capacity-to-adapt-to-ai-driven-job-displacement/",
+    "status": "ok",
+    "status_detail": null,
+    "method": "http",
+    "content_type": "html",
+    "content_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s4.html",
+    "text_preview_chars": 21053,
+    "archive_timestamp": null,
+    "from_cache": true,
+    "attempts": [
+      {
+        "method": "cache",
+        "result": "ok",
+        "reason": "cached copy from 2026-10-20T16:08:21+00:00",
+        "seconds": 0.0
+      }
+    ],
+    "fetched_at": "2026-10-20T16:08:21+00:00"
+  },
+  {
+    "source_id": "s5",
+    "url": "https://www.jpmorgan.com/insights/global-research/artificial-intelligence/ai-impact-job-growth",
+    "url_hash": "ff410c481fc628bed111400f9965d7b1916914481a4e6f1e4bbdda6acbbadb06",
+    "final_url": "https://www.jpmorgan.com/insights/global-research/artificial-intelligence/ai-impact-job-growth",
+    "status": "ok",
+    "status_detail": null,
+    "method": "http",
+    "content_type": "html",
+    "content_path": "/Users/athira.sebastian/personal-project/summary generator/runs/20261020-230058/raw/s5.html",
+    "text_preview_chars": 9510,
+    "archive_timestamp": null,
+    "from_cache": true,
+    "attempts": [
+      {
+        "method": "cache",
+        "result": "ok",
+        "reason": "cached copy from 2026-10-20T16:08:23+00:00",
+        "seconds": 0.0
+      }
+    ],
+    "fetched_at": "2026-10-20T16:08:23+00:00"
+  }
+]

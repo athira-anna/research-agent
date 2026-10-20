@@ -1,0 +1,2187 @@
+{
+  "topic": "How AI will change the job market from urls :",
+  "topic_key": "how ai will change the job market from urls",
+  "claims": [
+    {
+      "statement": "Verizon CEO Dan Schulman predicted that AI will cause unemployment to rise by up to 30% in the next two to five years.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": {
+        "cause": "AI",
+        "effect": "unemployment to rise by up to 30%"
+      },
+      "value": {
+        "raw": "30%",
+        "low": 30.0,
+        "high": 30.0,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "job_displacement_rate",
+        "of_what": "unemployment",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "",
+        "geography": "",
+        "timeframe": {
+          "raw": "in the next two to five years",
+          "start": null,
+          "end": null
+        },
+        "metric": "unemployment"
+      },
+      "evidence": {
+        "block_id": "s1-p008",
+        "quote": "Verizon CEO Dan Schulman has bluntly predicted that AI will cause unemployment to rise by up to 30% in the next two to five years.",
+        "attributed_to": "Dan Schulman"
+      },
+      "claim_id": "s1-c001",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": [
+        "value_kind relative_change → unknown (the quote doesn't say points or relative)"
+      ]
+    },
+    {
+      "statement": "The Boston Consulting Group reported that 10%-15% of existing jobs could be eliminated as soon as 2031.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "10%-15%",
+        "low": 10.0,
+        "high": 15.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "job_displacement_rate",
+        "of_what": "existing jobs",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "",
+        "geography": "",
+        "timeframe": {
+          "raw": "as soon as 2031",
+          "start": null,
+          "end": 2031
+        },
+        "metric": "existing jobs"
+      },
+      "evidence": {
+        "block_id": "s1-p008",
+        "quote": "The Boston Consulting Group (BCG) issued a clear-eyed report suggesting that 10%-15% of existing jobs could be eliminated as soon as 2031.",
+        "attributed_to": "Boston Consulting Group"
+      },
+      "claim_id": "s1-c002",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Anthropic CEO Dario Amodei forecast that AI could wipe out half of all entry-level white-collar jobs within five years.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "half",
+        "low": 50.0,
+        "high": 50.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "job_displacement_rate",
+        "of_what": "entry-level white-collar jobs",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "entry-level white-collar",
+        "geography": "",
+        "timeframe": {
+          "raw": "within five years",
+          "start": null,
+          "end": null
+        },
+        "metric": "entry-level white-collar jobs"
+      },
+      "evidence": {
+        "block_id": "s1-p008",
+        "quote": "Anthropic CEO Dario Amodei has made many headlines forecasting that AI could wipe out half of all entry-level white-collar jobs within five years and push unemployment into double digits.",
+        "attributed_to": "Dario Amodei"
+      },
+      "claim_id": "s1-c003",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "A Goldman Sachs analysis estimates AI is already reducing U.S. employment by roughly 16,000 jobs per month.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "16,000",
+        "low": 16000.0,
+        "high": 16000.0,
+        "unit": "count",
+        "value_kind": "level",
+        "metric_id": "job_displacement_rate",
+        "of_what": "U.S. employment",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "",
+        "geography": "U.S.",
+        "timeframe": {
+          "raw": "per month",
+          "start": null,
+          "end": null
+        },
+        "metric": "employment"
+      },
+      "evidence": {
+        "block_id": "s1-p009",
+        "quote": "A recent Goldman Sachs analysis, for instance, estimates AI is already reducing U.S. employment by roughly 16,000 jobs per month.",
+        "attributed_to": "Goldman Sachs"
+      },
+      "claim_id": "s1-c004",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "The National Bureau of Economic Research found that AI has had little to no impact on employment or productivity in almost 90% of firms over the past three years.",
+      "question_id": "q1",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "almost 90%",
+        "low": 90.0,
+        "high": 90.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "firms",
+        "baseline": null,
+        "direction": "none"
+      },
+      "scope": {
+        "population": "C-suite executives",
+        "geography": "",
+        "timeframe": {
+          "raw": "over the past three years",
+          "start": null,
+          "end": null
+        },
+        "metric": "impact on employment or productivity"
+      },
+      "evidence": {
+        "block_id": "s1-p009",
+        "quote": "In a sweeping global study, the National Bureau of Economic Research found that AI has had little to no impact on employment or productivity in almost 90% of firms over the past three years, based on responses from nearly 6,000 C-suite executives.",
+        "attributed_to": "National Bureau of Economic Research"
+      },
+      "claim_id": "s1-c005",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Unemployment among recent graduates has climbed to nearly 6%, rising twice as fast as the rest of the workforce since 2022.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "nearly 6%",
+        "low": 6.0,
+        "high": 6.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "recent graduates",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "recent graduates",
+        "geography": "",
+        "timeframe": {
+          "raw": "since 2022",
+          "start": 2022,
+          "end": null
+        },
+        "metric": "unemployment"
+      },
+      "evidence": {
+        "block_id": "s1-p010",
+        "quote": "unemployment among recent graduates has climbed to nearly 6%, rising twice as fast as the rest of the workforce since 2022.",
+        "attributed_to": ""
+      },
+      "claim_id": "s1-c006",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Major banks deploying agentic systems delivered productivity gains of 20% to 60% and reduced turnaround times by roughly 30%.",
+      "question_id": "q3",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "20% to 60%",
+        "low": 20.0,
+        "high": 60.0,
+        "unit": "percent",
+        "value_kind": "relative_change",
+        "metric_id": "other",
+        "of_what": "productivity",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "Major banks",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "productivity"
+      },
+      "evidence": {
+        "block_id": "s1-p017",
+        "quote": "Major banks are deploying agentic systems across retail workflows and credit underwriting, including credit-risk memo production, delivering productivity gains of 20% to 60% and reducing turnaround times by roughly 30%.",
+        "attributed_to": ""
+      },
+      "claim_id": "s1-c007",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Telecommunications operators implementing agents reported a more than 60% reduction in manual network operations through automated provisioning.",
+      "question_id": "q3",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "60%",
+        "low": 60.0,
+        "high": 60.0,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "other",
+        "of_what": "manual network operations",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "Telecommunications operators",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "manual network operations"
+      },
+      "evidence": {
+        "block_id": "s1-p018",
+        "quote": "Telecommunications operators are implementing agents for customer service and network remediation, with some deployments reporting a more than 60% reduction in manual network operations through automated provisioning.",
+        "attributed_to": ""
+      },
+      "claim_id": "s1-c008",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": [
+        "value_kind relative_change → unknown (the quote doesn't say points or relative)"
+      ]
+    },
+    {
+      "statement": "Manufacturers using multi-agent systems reduced R&D cycle times by approximately 50% in early deployments.",
+      "question_id": "q3",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "50%",
+        "low": 50.0,
+        "high": 50.0,
+        "unit": "percent",
+        "value_kind": "relative_change",
+        "metric_id": "other",
+        "of_what": "R&D cycle times",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "Manufacturers",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "R&D cycle times"
+      },
+      "evidence": {
+        "block_id": "s1-p019",
+        "quote": "Manufacturers are using multi-agent systems to reduce R&D cycle times by approximately 50% and increase order intake by 40% in early deployments.",
+        "attributed_to": ""
+      },
+      "claim_id": "s1-c009",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "C.H. Robinson is handling approximately 29% more Less-Than-Truckload volume while employing 30% fewer employees than in early 2019.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "29%",
+        "low": 29.0,
+        "high": 29.0,
+        "unit": "percent",
+        "value_kind": "relative_change",
+        "metric_id": "other",
+        "of_what": "Less-Than-Truckload volume",
+        "baseline": {
+          "number": 2019.0,
+          "period": "early 2019"
+        },
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "Logistics giant C.H. Robinson",
+        "geography": "",
+        "timeframe": {
+          "raw": "than in early 2019",
+          "start": 2019,
+          "end": null
+        },
+        "metric": "Less-Than-Truckload volume"
+      },
+      "evidence": {
+        "block_id": "s1-p020",
+        "quote": "Logistics giant C.H. Robinson is handling approximately 29% more Less-Than-Truckload (LTL) volume while employing 30% fewer employees than in early 2019 and roughly half of carrier bookings are now generated by agents.",
+        "attributed_to": ""
+      },
+      "claim_id": "s1-c010",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Morgan Stanley estimates that 37% of industry roles, or about 2.2 million U.S. jobs, face agentic-displacement risk in real estate.",
+      "question_id": "q1",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "37%",
+        "low": 37.0,
+        "high": 37.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "job_exposure_share",
+        "of_what": "industry roles",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "real estate",
+        "geography": "U.S.",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "agentic-displacement risk"
+      },
+      "evidence": {
+        "block_id": "s1-p022",
+        "quote": "Real estate is no exception. Morgan Stanley estimates that 37% of industry roles, or about 2.2 million U.S. jobs, face agentic-displacement risk.",
+        "attributed_to": "Morgan Stanley"
+      },
+      "claim_id": "s1-c011",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "A November 2025 study by Erik Brynjolfsson and researchers found a 16% decline in early-career employment across the most AI-exposed occupations since late 2022.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "16%",
+        "low": 16.0,
+        "high": 16.0,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "job_displacement_rate",
+        "of_what": "early-career employment",
+        "baseline": {
+          "number": 2022.0,
+          "period": "late 2022"
+        },
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "early-career",
+        "geography": "",
+        "timeframe": {
+          "raw": "since late 2022",
+          "start": 2022,
+          "end": 2025
+        },
+        "metric": "early-career employment"
+      },
+      "evidence": {
+        "block_id": "s1-p027",
+        "quote": "A November 2025 study by Erik Brynjolfsson and researchers at Stanford’s Digital Economy Lab found a 16% decline in early-career employment across the most AI-exposed occupations since late 2022, when OpenAI’s ChatGPT was released.",
+        "attributed_to": "Erik Brynjolfsson and researchers at Stanford’s Digital Economy Lab"
+      },
+      "claim_id": "s1-c012",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": [
+        "value_kind relative_change → unknown (the quote doesn't say points or relative)"
+      ]
+    },
+    {
+      "statement": "Starting salaries for computer science majors are expected to increase by almost 7% year-over-year.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "almost 7%",
+        "low": 7.0,
+        "high": 7.0,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "wage_growth_rate",
+        "of_what": "starting salaries for computer science majors",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "computer science majors",
+        "geography": "",
+        "timeframe": {
+          "raw": "year-over-year",
+          "start": null,
+          "end": null
+        },
+        "metric": "starting salaries"
+      },
+      "evidence": {
+        "block_id": "s1-p029",
+        "quote": "The 2026 Winter Salary Survey from the National Association of Colleges and Employers reports a complementary finding: starting salaries for computer science majors are expected to increase by almost 7% year-over-year.",
+        "attributed_to": "National Association of Colleges and Employers"
+      },
+      "claim_id": "s1-c016",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": [
+        "value_kind relative_change → unknown (the quote doesn't say points or relative)"
+      ]
+    },
+    {
+      "statement": "32% of companies expect AI to decrease their employee base by at least 3% within the next year.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "32%",
+        "low": 32.0,
+        "high": 32.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "companies",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "companies",
+        "geography": "",
+        "timeframe": {
+          "raw": "within the next year",
+          "start": null,
+          "end": null
+        },
+        "metric": "employee base"
+      },
+      "evidence": {
+        "block_id": "s1-p033",
+        "quote": "while 43% of companies expect AI not to change the size of their workforce, 32% expect AI to decrease their employee base by at least 3% within the next year.",
+        "attributed_to": "McKinsey survey"
+      },
+      "claim_id": "s1-c017",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": [
+        "metric_id job_displacement_rate → other (number counts organisations, metric counts workers)"
+      ]
+    },
+    {
+      "statement": "In a survey, 41% of college and university presidents reported being highly concerned about the vulnerability of entry-level white-collar roles.",
+      "question_id": "q4",
+      "modality": "opinion",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "41%",
+        "low": 41.0,
+        "high": 41.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "college and university presidents",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "college and university presidents",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "concern about vulnerability of entry-level white-collar roles"
+      },
+      "evidence": {
+        "block_id": "s1-p041",
+        "quote": "In a survey conducted ahead of the event, 41% of those leaders reported being highly concerned about the vulnerability of entry-level white-collar roles.",
+        "attributed_to": ""
+      },
+      "claim_id": "s1-c019",
+      "source_id": "s1",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "unchecked",
+        "reason": "support check unavailable (gemini-flash-lite-latest unavailable (gemini-flash-lite-latest: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'm); claims kept as unchecked"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Job postings for occupations that involve lots of structured and repetitive tasks decreased by 13% after the public launch of ChatGPT in November 2022.",
+      "question_id": "q2",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "decreased by 13%",
+        "low": 13.0,
+        "high": 13.0,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "job_displacement_rate",
+        "of_what": "job postings for occupations that involve lots of structured and repetitive tasks",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "occupations that involve lots of structured and repetitive tasks",
+        "geography": "",
+        "timeframe": {
+          "raw": "After the public launch of ChatGPT in November 2022",
+          "start": 2022,
+          "end": null
+        },
+        "metric": "job postings"
+      },
+      "evidence": {
+        "block_id": "s2-p002",
+        "quote": "After the public launch of ChatGPT in November 2022, job postings for occupations that involve lots of structured and repetitive tasks, likely replaceable by generative AI, decreased by 13%.",
+        "attributed_to": "Suraj Srinivasan"
+      },
+      "claim_id": "s2-c001",
+      "source_id": "s2",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "full",
+        "reason": "The quote directly supports the claim that job postings for structured and repetitive tasks decreased by 13% after the launch of ChatGPT.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": [
+        "value_kind relative_change → unknown (the quote doesn't say points or relative)"
+      ]
+    },
+    {
+      "statement": "Employer demand for jobs that require more analytical, technical, or creative work grew 20% after the public launch of ChatGPT in November 2022.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "grew 20%",
+        "low": 20.0,
+        "high": 20.0,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "other",
+        "of_what": "employer demand for jobs that require more analytical, technical, or creative work",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "jobs that require more analytical, technical, or creative work",
+        "geography": "",
+        "timeframe": {
+          "raw": "After the public launch of ChatGPT in November 2022",
+          "start": 2022,
+          "end": null
+        },
+        "metric": "employer demand"
+      },
+      "evidence": {
+        "block_id": "s2-p002",
+        "quote": "Meanwhile, employer demand for jobs that require more analytical, technical, or creative work—potentially enhanced by artificial intelligence—grew 20%, according to a working paper coauthored by Harvard Business School Professor Suraj Srinivasan.",
+        "attributed_to": "Suraj Srinivasan"
+      },
+      "claim_id": "s2-c002",
+      "source_id": "s2",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches the claim regarding the 20% growth in employer demand for analytical, technical, or creative work.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": [
+        "value_kind relative_change → unknown (the quote doesn't say points or relative)"
+      ]
+    },
+    {
+      "statement": "The research team assessed job postings from 2019 through March 2025 using a large dataset that covers nearly all US vacancies.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": null,
+      "scope": {
+        "population": "",
+        "geography": "US",
+        "timeframe": {
+          "raw": "2019 through March 2025",
+          "start": 2019,
+          "end": 2025
+        },
+        "metric": "job postings"
+      },
+      "evidence": {
+        "block_id": "s2-p003",
+        "quote": "The research team assessed job postings from 2019 through March 2025 using a large dataset that covers nearly all US vacancies.",
+        "attributed_to": ""
+      },
+      "claim_id": "s2-c003",
+      "source_id": "s2",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": null,
+      "support": {
+        "status": "full",
+        "reason": "The block provides exact support for the time frame, dataset scope, and US vacancy coverage.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "The largest reductions were in the finance and technology sectors.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": null,
+      "scope": {
+        "population": "finance and technology sectors",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s2-p004",
+        "quote": "The largest reductions were in the finance and technology sectors.",
+        "attributed_to": ""
+      },
+      "claim_id": "s2-c004",
+      "source_id": "s2",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": null,
+      "support": {
+        "status": "full",
+        "reason": "The quote explicitly states that the largest reductions were in the finance and technology sectors.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "The researchers registered 7% fewer skills in job postings for roles prone to automation.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "7% fewer",
+        "low": 7.0,
+        "high": 7.0,
+        "unit": "percent",
+        "value_kind": "relative_change",
+        "metric_id": "other",
+        "of_what": "skills required for roles prone to automation",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "roles prone to automation",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "skills required"
+      },
+      "evidence": {
+        "block_id": "s2-p008",
+        "quote": "They registered 7% fewer of those skills in job postings and also fewer skills emerging in these occupations.",
+        "attributed_to": ""
+      },
+      "claim_id": "s2-c005",
+      "source_id": "s2",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The text confirms that researchers registered 7% fewer of those skills in job postings for roles prone to automation.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "The research team used OpenAI’s ChatGPT to categorize over 19,000 job tasks across more than 900 occupations.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "over 19,000",
+        "low": 19000.0,
+        "high": 19000.0,
+        "unit": "count",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "job tasks across more than 900 occupations",
+        "baseline": null,
+        "direction": "none"
+      },
+      "scope": {
+        "population": "more than 900 occupations",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "job tasks"
+      },
+      "evidence": {
+        "block_id": "s2-p007",
+        "quote": "The research team used OpenAI’s ChatGPT to categorize over 19,000 job tasks across more than 900 occupations, assessing their potential for automation through generative AI.",
+        "attributed_to": ""
+      },
+      "claim_id": "s2-c006",
+      "source_id": "s2",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote clearly details that OpenAI's ChatGPT was used to categorize over 19,000 job tasks across more than 900 occupations.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "The World Economic Forum projects 170 million new jobs will emerge by 2030, while 92 million will be displaced, equaling a net gain of 78 million positions.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "170 million",
+        "low": 170.0,
+        "high": 170.0,
+        "unit": "count",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "new jobs",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "",
+        "geography": "",
+        "timeframe": {
+          "raw": "by 2030",
+          "start": null,
+          "end": 2030
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p004",
+        "quote": "The World Economic Forum projects 170 million new jobs will emerge by 2030, while 92 million will be displaced, equaling a net gain of 78 million positions.",
+        "attributed_to": "World Economic Forum"
+      },
+      "claim_id": "s3-c001",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote directly supports the claim that the World Economic Forum projects 170 million new jobs and 92 million displaced by 2030.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "McKinsey’s State of AI survey found that 88 percent of organizations now use AI in at least one business function, up from 78 percent a year earlier",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "88 percent",
+        "low": 88.0,
+        "high": 88.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "organizations",
+        "baseline": {
+          "number": 78.0,
+          "period": "a year earlier"
+        },
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "organizations",
+        "geography": "",
+        "timeframe": {
+          "raw": "a year earlier",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p007",
+        "quote": "McKinsey’s State of AI survey found that 88 percent of organizations now use AI in at least one business function, up from 78 percent a year earlier",
+        "attributed_to": "McKinsey"
+      },
+      "claim_id": "s3-c002",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches all percentages, baselines, and attribution provided in the claim.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Between 2019-2024, occupations with lower AI exposure saw 65% job growth, while more exposed occupations still achieved 38% growth.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "65%",
+        "low": 65.0,
+        "high": 65.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "job growth",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "occupations with lower AI exposure",
+        "geography": "",
+        "timeframe": {
+          "raw": "2019-2024",
+          "start": 2019,
+          "end": 2024
+        },
+        "metric": "job growth"
+      },
+      "evidence": {
+        "block_id": "s3-p010",
+        "quote": "Between 2019-2024, occupations with lower AI exposure saw 65% job growth, while more exposed occupations still achieved 38% growth.",
+        "attributed_to": "PwC"
+      },
+      "claim_id": "s3-c005",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote states exact growth figures for lower and more exposed occupations between 2019-2024 as claimed.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Jobs requiring AI skills now command a 56% wage premium, up from just 25% the previous year.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "56%",
+        "low": 56.0,
+        "high": 56.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "wage_growth_rate",
+        "of_what": "wage premium",
+        "baseline": {
+          "number": 25.0,
+          "period": "the previous year"
+        },
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "Jobs requiring AI skills",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "wage premium"
+      },
+      "evidence": {
+        "block_id": "s3-p014",
+        "quote": "Jobs requiring AI skills now command a 56% wage premium, up from just 25% the previous year.",
+        "attributed_to": ""
+      },
+      "claim_id": "s3-c008",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote states the 56% wage premium and the 25% baseline from the previous year.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "While AI and robotics could theoretically automate 57% of U.S. work hours, this measures task potential, not inevitable job elimination.",
+      "question_id": "q1",
+      "modality": "forecast",
+      "certainty": "hedged",
+      "causal": null,
+      "value": {
+        "raw": "57%",
+        "low": 57.0,
+        "high": 57.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "job_exposure_share",
+        "of_what": "U.S. work hours",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "",
+        "geography": "U.S.",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "work hours"
+      },
+      "evidence": {
+        "block_id": "s3-p021",
+        "quote": "While AI and robotics could theoretically automate 57% of U.S. work hours, this measures task potential, not inevitable job elimination.",
+        "attributed_to": "McKinsey"
+      },
+      "claim_id": "s3-c009",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote explicitly supports the 57% figure and context from McKinsey.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "McKinsey identifies that roles with the highest automation potential make up roughly 40% of total U.S. jobs.",
+      "question_id": "q1",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "40%",
+        "low": 40.0,
+        "high": 40.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "job_exposure_share",
+        "of_what": "total U.S. jobs",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "roles with the highest automation potential",
+        "geography": "U.S.",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "total U.S. jobs"
+      },
+      "evidence": {
+        "block_id": "s3-p023",
+        "quote": "McKinsey identifies that roles with the highest automation potential make up roughly 40% of total U.S. jobs.",
+        "attributed_to": "McKinsey"
+      },
+      "claim_id": "s3-c010",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches the McKinsey attribution and the 40% total U.S. jobs figure.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Gartner predicts AI’s impact on global jobs will be neutral through 2026.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": null,
+      "scope": {
+        "population": "global jobs",
+        "geography": "",
+        "timeframe": {
+          "raw": "through 2026",
+          "start": null,
+          "end": 2026
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p030",
+        "quote": "Gartner predicts AI’s impact on global jobs will be neutral through 2026.",
+        "attributed_to": "Gartner"
+      },
+      "claim_id": "s3-c011",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": null,
+      "support": {
+        "status": "full",
+        "reason": "The quote directly supports Gartner's prediction regarding job impact through 2026.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Meanwhile, 75% of knowledge workers are already using AI tools, often without formal company deployment.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "75%",
+        "low": 75.0,
+        "high": 75.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "knowledge workers",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "knowledge workers",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p030",
+        "quote": "Meanwhile, 75% of knowledge workers are already using AI tools, often without formal company deployment.",
+        "attributed_to": ""
+      },
+      "claim_id": "s3-c012",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches the 75% knowledge workers statistic.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "According to Deloitte, 1 in 4 companies currently using generative AI will launch agentic AI pilots by 2025, with adoption reaching 50% by 2027.",
+      "question_id": "other",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "1 in 4",
+        "low": 25.0,
+        "high": 25.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "companies currently using generative AI",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "companies currently using generative AI",
+        "geography": "",
+        "timeframe": {
+          "raw": "by 2025",
+          "start": null,
+          "end": 2025
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p032",
+        "quote": "According to Deloitte, 1 in 4 companies currently using generative AI will launch agentic AI pilots by 2025, with adoption reaching 50% by 2027.",
+        "attributed_to": "Deloitte"
+      },
+      "claim_id": "s3-c013",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote accurately reflects Deloitte's projections regarding pilot launches and 50% adoption.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": [
+        "value 0.25 percent → 25 percent (fraction recorded as a decimal)"
+      ]
+    },
+    {
+      "statement": "Gartner projects that by 2028, AI will create more jobs than it destroys.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": null,
+      "scope": {
+        "population": "",
+        "geography": "",
+        "timeframe": {
+          "raw": "by 2028",
+          "start": null,
+          "end": 2028
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p032",
+        "quote": "Gartner projects that by 2028, AI will create more jobs than it destroys.",
+        "attributed_to": "Gartner"
+      },
+      "claim_id": "s3-c014",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": null,
+      "support": {
+        "status": "full",
+        "reason": "The quote states Gartner's projection that AI will create more jobs than it destroys by 2028.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Looking toward 2030 and beyond, Gartner survey data suggests that 0% of IT work will be done by humans without AI, 75% will be done by humans augmented with AI, and 25% will be done by AI alone.",
+      "question_id": "other",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "0%",
+        "low": 0.0,
+        "high": 0.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "IT work",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "",
+        "geography": "",
+        "timeframe": {
+          "raw": "2030 and beyond",
+          "start": 2030,
+          "end": null
+        },
+        "metric": "IT work"
+      },
+      "evidence": {
+        "block_id": "s3-p034",
+        "quote": "Looking toward 2030 and beyond, Gartner survey data suggests that 0% of IT work will be done by humans without AI, 75% will be done by humans augmented with AI, and 25% will be done by AI alone.",
+        "attributed_to": "Gartner"
+      },
+      "claim_id": "s3-c015",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches the specific percentages and survey data provided by Gartner for IT work.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "The World Economic Forum projects that 39% of key job skills will change by 2030, requiring fundamental workforce transformation at every level.",
+      "question_id": "q5",
+      "modality": "forecast",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "39%",
+        "low": 39.0,
+        "high": 39.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "key job skills",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "",
+        "geography": "",
+        "timeframe": {
+          "raw": "by 2030",
+          "start": null,
+          "end": 2030
+        },
+        "metric": "key job skills"
+      },
+      "evidence": {
+        "block_id": "s3-p034",
+        "quote": "The World Economic Forum projects that 39% of key job skills will change by 2030, requiring fundamental workforce transformation at every level.",
+        "attributed_to": "World Economic Forum"
+      },
+      "claim_id": "s3-c016",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote directly supports the World Economic Forum's projection of 39% job skill changes.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Jobs requiring AI skills are growing 7.5% even as total job postings fell 11.3% last year.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "7.5%",
+        "low": 7.5,
+        "high": 7.5,
+        "unit": "percent",
+        "value_kind": "unknown",
+        "metric_id": "other",
+        "of_what": "Jobs requiring AI skills",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "",
+        "geography": "",
+        "timeframe": {
+          "raw": "last year",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p037",
+        "quote": "Jobs requiring AI skills are growing 7.5% even as total job postings fell 11.3% last year.",
+        "attributed_to": ""
+      },
+      "claim_id": "s3-c017",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "downgraded_ambiguous",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches the growth rate and fall in total job postings as stated.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": [
+        "value_kind level → unknown (the quote doesn't say points or relative)"
+      ]
+    },
+    {
+      "statement": "While 77% of companies say they intend to launch upskilling initiatives and 85% of employers plan to prioritize workforce upskilling according to WEF data, participation in adult-learning programs is flat or falling in many countries.",
+      "question_id": "q7",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "77%",
+        "low": 77.0,
+        "high": 77.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "companies",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "companies",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p039",
+        "quote": "While 77% of companies say they intend to launch upskilling initiatives and 85% of employers plan to prioritize workforce upskilling according to WEF data, participation in adult-learning programs is flat or falling in many countries.",
+        "attributed_to": ""
+      },
+      "claim_id": "s3-c018",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote directly reflects the WEF data regarding company intentions and upskilling initiatives.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": [
+        "attributed_to 'World Economic Forum' cleared (not in quote or block)"
+      ]
+    },
+    {
+      "statement": "McKinsey’s analysis shows that more than 70% of skills sought by employers today are used in both automatable and non-automatable work",
+      "question_id": "q1",
+      "modality": "observed",
+      "certainty": "reported",
+      "causal": null,
+      "value": {
+        "raw": "more than 70%",
+        "low": 70.0,
+        "high": 70.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "skills sought by employers today",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "",
+        "geography": "",
+        "timeframe": {
+          "raw": "today",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s3-p042",
+        "quote": "McKinsey’s analysis shows that more than 70% of skills sought by employers today are used in both automatable and non-automatable work",
+        "attributed_to": "McKinsey"
+      },
+      "claim_id": "s3-c019",
+      "source_id": "s3",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote supports McKinsey's analysis regarding the 70% skill overlap.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Of the 37.1 million U.S. workers in the top quartile of occupational AI exposure, 26.5 million also have above-median adaptive capacity.",
+      "question_id": "q4",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "26.5 million",
+        "low": 26.5,
+        "high": 26.5,
+        "unit": "count",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "U.S. workers in the top quartile of occupational AI exposure who also have above-median adaptive capacity",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "U.S. workers in the top quartile of occupational AI exposure",
+        "geography": "U.S.",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s4-p008",
+        "quote": "Of the 37.1 million U.S. workers in the top quartile of occupational AI exposure, 26.5 million also have above-median adaptive capacity, meaning they are among those best positioned to make a job transition if displacement occurs.",
+        "attributed_to": ""
+      },
+      "claim_id": "s4-c001",
+      "source_id": "s4",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote directly supports the exact numbers and populations stated in the claim.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "6.1 million workers will likely contend with both high AI exposure and low adaptive capacity.",
+      "question_id": "q4",
+      "modality": "forecast",
+      "certainty": "hedged",
+      "causal": null,
+      "value": {
+        "raw": "6.1 million",
+        "low": 6.1,
+        "high": 6.1,
+        "unit": "count",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "workers",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "workforce in the sample",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s4-p008",
+        "quote": "However, the analysis also documents that some 6.1 million workers (4.2% of the workforce in the sample) will likely contend with both high AI exposure and low adaptive capacity.",
+        "attributed_to": ""
+      },
+      "claim_id": "s4-c002",
+      "source_id": "s4",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches the statement regarding the 6.1 million workers and their expected condition.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "4.2% of the workforce in the sample will likely contend with both high AI exposure and low adaptive capacity.",
+      "question_id": "q4",
+      "modality": "forecast",
+      "certainty": "hedged",
+      "causal": null,
+      "value": {
+        "raw": "4.2%",
+        "low": 4.2,
+        "high": 4.2,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "workforce in the sample",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "workforce in the sample",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s4-p008",
+        "quote": "However, the analysis also documents that some 6.1 million workers (4.2% of the workforce in the sample) will likely contend with both high AI exposure and low adaptive capacity.",
+        "attributed_to": ""
+      },
+      "claim_id": "s4-c003",
+      "source_id": "s4",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The quote directly supports the 4.2% workforce share figure and its context.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "About 86% of workers facing high AI exposure and low adaptive capacity are women.",
+      "question_id": "q4",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "86%",
+        "low": 86.0,
+        "high": 86.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "workers",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "workers who will likely contend with both high AI exposure and low adaptive capacity",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s4-p008",
+        "quote": "These workers tend to be concentrated in clerical and administrative roles, and about 86% are women (gender shares are calculated using Lightcast data).",
+        "attributed_to": ""
+      },
+      "claim_id": "s4-c004",
+      "source_id": "s4",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote explicitly states that about 86% of these workers are women.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Workers aged 55 to 64 who experienced job loss during the Great Recession were about 16 percentage points less likely than those aged 35 to 44 to find employment afterward.",
+      "question_id": "q4",
+      "modality": "observed",
+      "certainty": "hedged",
+      "causal": null,
+      "value": {
+        "raw": "16 percentage points",
+        "low": 16.0,
+        "high": 16.0,
+        "unit": "percentage_points",
+        "value_kind": "absolute_change",
+        "metric_id": "other",
+        "of_what": "likelihood to find employment afterward",
+        "baseline": null,
+        "direction": "decrease"
+      },
+      "scope": {
+        "population": "workers aged 55 to 64 compared to those aged 35 to 44",
+        "geography": "",
+        "timeframe": {
+          "raw": "Great Recession",
+          "start": null,
+          "end": null
+        },
+        "metric": "likelihood to find employment afterward"
+      },
+      "evidence": {
+        "block_id": "s4-p015",
+        "quote": "Farber (2017) shows that workers aged 55 to 64 who experienced job loss during the Great Recession were about 16 percentage points less likely than those aged 35 to 44 to find employment afterward.",
+        "attributed_to": "Farber (2017)"
+      },
+      "claim_id": "s4-c005",
+      "source_id": "s4",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The source text and quote fully support the finding from Farber (2017) regarding employment likelihood by age group.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": [
+        "certainty asserted → hedged (hedge words in quote)"
+      ]
+    },
+    {
+      "statement": "Roughly 6.1 million workers face both high exposure to LLMs and low adaptive capacity to manage a job transition.",
+      "question_id": "q4",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "6.1 million",
+        "low": 6.1,
+        "high": 6.1,
+        "unit": "count",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "workers",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "workers",
+        "geography": "",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": ""
+      },
+      "evidence": {
+        "block_id": "s4-p026",
+        "quote": "By contrast, roughly 6.1 million workers (see Appendix) face both high exposure to LLMs and low adaptive capacity to manage a job transition.",
+        "attributed_to": ""
+      },
+      "claim_id": "s4-c006",
+      "source_id": "s4",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote matches the statement about roughly 6.1 million workers facing high LLM exposure and low adaptive capacity.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "The share of workers in highly exposed but low-adaptive-capacity occupations ranges from 2.4% to 6.9% in the nation's metro areas.",
+      "question_id": "q1",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "2.4% to 6.9%",
+        "low": 6.9,
+        "high": 6.9,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "job_exposure_share",
+        "of_what": "workers in highly exposed but low-adaptive-capacity occupations",
+        "baseline": {
+          "number": 2.4,
+          "period": ""
+        },
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "workers",
+        "geography": "nation's metro areas",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "share of workers in highly exposed but low-adaptive-capacity occupations"
+      },
+      "evidence": {
+        "block_id": "s4-p029",
+        "quote": "Conversely, the share of workers in highly exposed but low-adaptive-capacity occupations ranges from 2.4% to 6.9% in the nation’s metro areas, with a national average of 3.9%.",
+        "attributed_to": ""
+      },
+      "claim_id": "s4-c007",
+      "source_id": "s4",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "rewritten_from_quote",
+      "support": {
+        "status": "full",
+        "reason": "The quote explicitly supports the range of 2.4% to 6.9% for the share of workers in these occupations across the nation's metro areas.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": [
+        "value level 2.4 percent → level 6.9 with baseline 2.4 (literal reading of the quote)"
+      ]
+    },
+    {
+      "statement": "The national average share of workers in highly exposed but low-adaptive-capacity occupations is 3.9% in the nation's metro areas.",
+      "question_id": "q1",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "3.9%",
+        "low": 3.9,
+        "high": 3.9,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "job_exposure_share",
+        "of_what": "workers in highly exposed but low-adaptive-capacity occupations",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "workers",
+        "geography": "nation's metro areas",
+        "timeframe": {
+          "raw": "",
+          "start": null,
+          "end": null
+        },
+        "metric": "share of workers in highly exposed but low-adaptive-capacity occupations"
+      },
+      "evidence": {
+        "block_id": "s4-p029",
+        "quote": "Conversely, the share of workers in highly exposed but low-adaptive-capacity occupations ranges from 2.4% to 6.9% in the nation’s metro areas, with a national average of 3.9%.",
+        "attributed_to": ""
+      },
+      "claim_id": "s4-c008",
+      "source_id": "s4",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The quote explicitly states the national average of 3.9% for this metric in the nation's metro areas.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "The unemployment rate among college graduates has increased, reaching 5.8% in March.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "5.8%",
+        "low": 5.8,
+        "high": 5.8,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "college graduates",
+        "baseline": null,
+        "direction": "increase"
+      },
+      "scope": {
+        "population": "college graduates",
+        "geography": "",
+        "timeframe": {
+          "raw": "March",
+          "start": null,
+          "end": null
+        },
+        "metric": "unemployment rate"
+      },
+      "evidence": {
+        "block_id": "s5-p008",
+        "quote": "For starters, the unemployment rate among college graduates has increased, reaching 5.8% in March — the highest in more than four years.",
+        "attributed_to": ""
+      },
+      "claim_id": "s5-c001",
+      "source_id": "s5",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The text directly states that the unemployment rate among college graduates has increased to 5.8% in March.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Less than 10% of firms in the overall economy indicate they are using AI regularly.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "less than 10%",
+        "low": 10.0,
+        "high": 10.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "firms in the overall economy",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "firms",
+        "geography": "overall economy",
+        "timeframe": {
+          "raw": "as of mid-2025",
+          "start": null,
+          "end": 2025
+        },
+        "metric": "firms indicating they are using AI regularly"
+      },
+      "evidence": {
+        "block_id": "s5-p014",
+        "quote": "Indeed, BTOS data shows that as of mid-2025, less than 10% of firms in the overall economy indicate they are using AI regularly, with the figure rising to just over 20% in the professional, scientific and technical industries.",
+        "attributed_to": "BTOS"
+      },
+      "claim_id": "s5-c002",
+      "source_id": "s5",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent",
+      "support": {
+        "status": "full",
+        "reason": "The text explicitly matches the claim that less than 10% of firms in the overall economy indicate they are using AI regularly as of mid-2025 according to BTOS data.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    },
+    {
+      "statement": "Just over 20% of firms in the professional, scientific and technical industries indicate they are using AI regularly.",
+      "question_id": "other",
+      "modality": "observed",
+      "certainty": "asserted",
+      "causal": null,
+      "value": {
+        "raw": "just over 20%",
+        "low": 20.0,
+        "high": 20.0,
+        "unit": "percent",
+        "value_kind": "level",
+        "metric_id": "other",
+        "of_what": "firms",
+        "baseline": null,
+        "direction": "unknown"
+      },
+      "scope": {
+        "population": "firms",
+        "geography": "",
+        "timeframe": {
+          "raw": "as of mid-2025",
+          "start": null,
+          "end": 2025
+        },
+        "metric": "firms indicating they are using AI regularly"
+      },
+      "evidence": {
+        "block_id": "s5-p014",
+        "quote": "Indeed, BTOS data shows that as of mid-2025, less than 10% of firms in the overall economy indicate they are using AI regularly, with the figure rising to just over 20% in the professional, scientific and technical industries.",
+        "attributed_to": "BTOS"
+      },
+      "claim_id": "s5-c003",
+      "source_id": "s5",
+      "grounding": {
+        "method": "exact",
+        "score": 100.0
+      },
+      "number_check": "consistent_unpatterned",
+      "support": {
+        "status": "full",
+        "reason": "The text directly supports the claim that just over 20% of firms in the professional, scientific and technical industries indicate regular AI usage as of mid-2025.",
+        "unsupported_parts": [],
+        "model": "gemini-flash-lite-latest"
+      },
+      "fixes": []
+    }
+  ]
+}
